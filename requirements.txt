@@ -1,4 +1,4 @@
-pandas
-openpyxl
-numpy
-pytest
+pandas==1.5.3
+openpyxl==3.1.2
+numpy==1.24.4
+pytest==7.4.2
