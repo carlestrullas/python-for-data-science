@@ -1,0 +1,2001 @@
+OrderID;Date;CustomerID;Product;Category;Quantity;UnitPrice;Total;PaymentMethod;Country
+1;2023-09-28 00:00:00;C6191;Tablet;Electrònica;5;430,91;2154,55;Transferència;Espanya
+2;2023-08-03 00:00:00;C5426;Impressora;Oficina;2;259,53;519,06;Transferència;França
+3;2023-04-10 00:00:00;C9322;Auriculars;Accessoris;5;102,66;513,3;PayPal;Portugal
+4;2023-12-10 00:00:00;C7949;Cadira oficina;Oficina;2;64,94;129,88;Targeta;Itàlia
+5;2023-10-04 00:00:00;C2184;Ratolí;Accessoris;4;10,05;40,2;Transferència;Portugal
+6;2023-08-24 00:00:00;C9666;Impressora;Oficina;5;156,48;782,4;PayPal;Països Baixos
+7;2023-07-07 00:00:00;C1189;Impressora;Oficina;2;264,15;528,3;PayPal;França
+8;2023-12-30 00:00:00;C8734;Ratolí;Accessoris;3;16,34;49,02;PayPal;Espanya
+9;2023-05-11 00:00:00;C4556;Portàtil;Electrònica;1;1488,26;1488,26;Transferència;França
+10;2023-11-25 00:00:00;C6393;Teclat;Accessoris;5;78,79;393,95;Targeta;Itàlia
+11;2023-01-14 00:00:00;C9433;Auriculars;Accessoris;4;190,8;763,2;Targeta;França
+12;2023-02-22 00:00:00;C8041;Portàtil;Electrònica;2;1069,79;2139,58;Transferència;Portugal
+13;2023-09-21 00:00:00;C9226;USB;Accessoris;4;35,79;143,16;PayPal;França
+14;2023-02-19 00:00:00;C4943;Monitor;Electrònica;4;554,66;2218,64;Targeta;França
+15;2023-09-17 00:00:00;C8989;Ratolí;Accessoris;2;62,88;125,76;PayPal;Espanya
+16;2023-08-06 00:00:00;C6675;Auriculars;Accessoris;2;25,64;51,28;Targeta;Països Baixos
+17;2023-09-27 00:00:00;C8629;Monitor;Electrònica;4;569,75;2279;PayPal;França
+18;2023-07-09 00:00:00;C7439;Auriculars;Accessoris;1;55,28;55,28;PayPal;Alemanya
+19;2023-12-04 00:00:00;C1878;Portàtil;Electrònica;5;1391,17;6955,85;Transferència;Itàlia
+20;2023-08-05 00:00:00;C5859;Tablet;Electrònica;2;771,55;1543,1;Transferència;França
+21;2023-02-10 00:00:00;C6276;Portàtil;Electrònica;5;1224,92;6124,6;Targeta;França
+22;2023-12-11 00:00:00;C9006;Ratolí;Accessoris;1;66,15;66,15;Targeta;Itàlia
+23;2023-05-16 00:00:00;C6258;USB;Accessoris;1;24,05;24,05;PayPal;Països Baixos
+24;2023-10-16 00:00:00;C6892;Monitor;Electrònica;3;199,42;598,26;Transferència;Espanya
+25;2023-02-10 00:00:00;C4099;Tablet;Electrònica;2;844,73;1689,46;Targeta;Portugal
+26;2023-02-02 00:00:00;C8215;Mòbil;Electrònica;4;1063,1;4252,4;Transferència;França
+27;2023-04-09 00:00:00;C3731;Teclat;Accessoris;5;53,94;269,7;PayPal;França
+28;2023-02-04 00:00:00;C6056;Tablet;Electrònica;3;628,17;1884,51;Transferència;Portugal
+29;2023-09-14 00:00:00;C2028;Auriculars;Accessoris;3;88,93;266,79;Targeta;Alemanya
+30;2023-07-26 00:00:00;C6134;Portàtil;Electrònica;3;1192,89;3578,67;Targeta;Itàlia
+31;2023-06-28 00:00:00;C1863;Impressora;Oficina;4;88,81;355,24;Transferència;França
+32;2023-04-06 00:00:00;C7019;Cadira oficina;Oficina;4;212,74;850,96;Targeta;Itàlia
+33;2023-05-23 00:00:00;C4242;Monitor;Electrònica;5;553,78;2768,9;PayPal;Alemanya
+34;2023-06-09 00:00:00;C4157;Impressora;Oficina;5;121,07;605,35;Targeta;Països Baixos
+35;2023-02-14 00:00:00;C3693;USB;Accessoris;2;44,62;89,24;PayPal;Alemanya
+36;2023-02-13 00:00:00;C6450;Tablet;Electrònica;4;492,4;1969,6;PayPal;Itàlia
+37;2023-08-19 00:00:00;C8392;Monitor;Electrònica;4;262,17;1048,68;PayPal;Itàlia
+38;2023-05-01 00:00:00;C6864;Monitor;Electrònica;3;236,07;708,21;Targeta;França
+39;2023-05-17 00:00:00;C5413;Tablet;Electrònica;3;378,59;1135,77;Transferència;Alemanya
+40;2023-08-22 00:00:00;C1663;Portàtil;Electrònica;3;955,48;2866,44;Targeta;França
+41;2023-06-29 00:00:00;C6232;Portàtil;Electrònica;1;1460,04;1460,04;PayPal;Alemanya
+42;2023-02-21 00:00:00;C2291;Impressora;Oficina;2;72,71;145,42;Transferència;Espanya
+43;2023-04-23 00:00:00;C2636;Impressora;Oficina;2;138,12;276,24;Transferència;Itàlia
+44;2023-07-06 00:00:00;C5737;Ratolí;Accessoris;1;29,94;29,94;Targeta;França
+45;2023-08-12 00:00:00;C8392;Auriculars;Accessoris;5;93,99;469,95;Transferència;Espanya
+46;2023-02-22 00:00:00;C2707;Mòbil;Electrònica;2;834,35;1668,7;Transferència;Alemanya
+47;2023-07-22 00:00:00;C5218;Portàtil;Electrònica;4;1113,45;4453,8;Targeta;Espanya
+48;2023-04-08 00:00:00;C1197;Ratolí;Accessoris;5;26,95;134,75;PayPal;França
+49;2023-07-20 00:00:00;C5282;Tablet;Electrònica;1;449,12;449,12;PayPal;França
+50;2023-09-16 00:00:00;C1659;USB;Accessoris;5;13,39;66,95;PayPal;Alemanya
+51;2023-12-12 00:00:00;C2986;Cadira oficina;Oficina;4;138,23;552,92;Targeta;Països Baixos
+52;2023-12-18 00:00:00;C2734;Portàtil;Electrònica;4;1366,65;5466,6;PayPal;Espanya
+53;2023-05-08 00:00:00;C7694;USB;Accessoris;1;12,85;12,85;Transferència;Països Baixos
+54;2023-09-24 00:00:00;C9155;Auriculars;Accessoris;1;188,61;188,61;Targeta;Espanya
+55;2023-05-31 00:00:00;C6534;USB;Accessoris;2;38,08;76,16;Transferència;França
+56;2023-09-20 00:00:00;C7287;USB;Accessoris;3;44,48;133,44;Targeta;Espanya
+57;2023-03-01 00:00:00;C3049;Mòbil;Electrònica;1;1017,22;1017,22;PayPal;Alemanya
+58;2023-02-06 00:00:00;C8158;Mòbil;Electrònica;4;1196,25;4785;Transferència;França
+59;2023-05-27 00:00:00;C3255;Teclat;Accessoris;3;50,6;151,8;Targeta;Alemanya
+60;2023-04-26 00:00:00;C2648;Tablet;Electrònica;1;822,83;822,83;PayPal;Països Baixos
+61;2023-09-11 00:00:00;C3557;Impressora;Oficina;4;106,57;426,28;Targeta;Portugal
+62;2023-12-15 00:00:00;C3961;Portàtil;Electrònica;1;1458,09;1458,09;PayPal;Espanya
+63;2023-07-13 00:00:00;C3869;Auriculars;Accessoris;2;48,95;97,9;PayPal;Espanya
+64;2023-06-18 00:00:00;C9352;Monitor;Electrònica;5;324,21;1621,05;PayPal;Alemanya
+65;2023-10-31 00:00:00;C4987;USB;Accessoris;5;5,81;29,05;PayPal;Itàlia
+66;2023-05-08 00:00:00;C5555;Cadira oficina;Oficina;3;147,95;443,85;PayPal;França
+67;2023-02-20 00:00:00;C6895;Teclat;Accessoris;5;68,43;342,15;PayPal;Espanya
+68;2023-10-04 00:00:00;C5893;Cadira oficina;Oficina;2;211,47;422,94;PayPal;Països Baixos
+69;2023-11-13 00:00:00;C8683;Cadira oficina;Oficina;1;214,82;214,82;Transferència;Portugal
+70;2023-01-17 00:00:00;C8339;Teclat;Accessoris;1;17,55;17,55;Targeta;França
+71;2023-02-15 00:00:00;C4444;Tablet;Electrònica;5;855,34;4276,7;Targeta;Alemanya
+72;2023-08-21 00:00:00;C2060;USB;Accessoris;4;44,76;179,04;PayPal;Alemanya
+73;2023-10-29 00:00:00;C1606;Teclat;Accessoris;1;112,47;112,47;PayPal;França
+74;2023-04-26 00:00:00;C1190;Impressora;Oficina;1;387,27;387,27;PayPal;França
+75;2023-09-13 00:00:00;C4394;Tablet;Electrònica;1;379,27;379,27;Transferència;Espanya
+76;2023-08-11 00:00:00;C7709;Cadira oficina;Oficina;1;100,68;100,68;Targeta;Alemanya
+77;2023-10-15 00:00:00;C5014;Auriculars;Accessoris;2;145,29;290,58;Transferència;França
+78;2023-05-07 00:00:00;C1154;Tablet;Electrònica;2;892,54;1785,08;PayPal;Itàlia
+79;2023-09-30 00:00:00;C9096;Ratolí;Accessoris;2;30,67;61,34;PayPal;Espanya
+80;2023-06-19 00:00:00;C3806;Cadira oficina;Oficina;5;92,79;463,95;Transferència;Espanya
+81;2023-01-13 00:00:00;C7971;Mòbil;Electrònica;2;619,78;1239,56;PayPal;França
+82;2023-02-05 00:00:00;C5780;Impressora;Oficina;1;228,97;228,97;Transferència;Alemanya
+83;2023-05-23 00:00:00;C6919;Tablet;Electrònica;4;295,71;1182,84;Targeta;Itàlia
+84;2023-06-02 00:00:00;C4769;Cadira oficina;Oficina;3;198,79;596,37;PayPal;Espanya
+85;2023-05-30 00:00:00;C7457;Auriculars;Accessoris;5;117,68;588,4;Transferència;França
+86;2023-06-29 00:00:00;C5777;Teclat;Accessoris;1;105,34;105,34;PayPal;Alemanya
+87;2023-04-11 00:00:00;C4124;Impressora;Oficina;3;337,91;1013,73;Targeta;Itàlia
+88;2023-01-05 00:00:00;C6222;Monitor;Electrònica;4;235,77;943,08;PayPal;França
+89;2023-12-16 00:00:00;C5142;Tablet;Electrònica;5;214,01;1070,05;PayPal;Espanya
+90;2023-05-24 00:00:00;C5465;Mòbil;Electrònica;4;899,51;3598,04;PayPal;Espanya
+91;2023-05-25 00:00:00;C9311;Portàtil;Electrònica;3;1161,41;3484,23;Transferència;Itàlia
+92;2023-02-27 00:00:00;C9932;Portàtil;Electrònica;4;989,58;3958,32;Transferència;Països Baixos
+93;2023-05-09 00:00:00;C2081;USB;Accessoris;1;13,3;13,3;Targeta;Països Baixos
+94;2023-04-06 00:00:00;C8805;Teclat;Accessoris;2;111,1;222,2;Targeta;Països Baixos
+95;2023-08-25 00:00:00;C4343;Tablet;Electrònica;1;220,4;220,4;PayPal;Itàlia
+96;2023-10-05 00:00:00;C8004;Ratolí;Accessoris;5;46,17;230,85;PayPal;Espanya
+97;2023-06-03 00:00:00;C2679;Cadira oficina;Oficina;4;160,7;642,8;PayPal;Portugal
+98;2023-10-12 00:00:00;C6188;Mòbil;Electrònica;1;358,65;358,65;Targeta;Itàlia
+99;2023-07-23 00:00:00;C7617;Impressora;Oficina;4;82,95;331,8;Transferència;Països Baixos
+100;2023-10-16 00:00:00;C8421;Monitor;Electrònica;4;345,81;1383,24;Transferència;Espanya
+101;2023-01-10 00:00:00;C3849;Teclat;Accessoris;2;60,55;121,1;Targeta;Portugal
+102;2023-09-07 00:00:00;C3489;Ratolí;Accessoris;2;28,26;56,52;PayPal;Països Baixos
+103;2023-01-04 00:00:00;C3839;Tablet;Electrònica;5;525,78;2628,9;Targeta;Itàlia
+104;2023-06-09 00:00:00;C1851;Teclat;Accessoris;2;114,11;228,22;Targeta;França
+105;2023-06-12 00:00:00;C3427;Cadira oficina;Oficina;2;198,11;396,22;Targeta;Itàlia
+106;2023-06-28 00:00:00;C6732;Tablet;Electrònica;5;246,38;1231,9;Transferència;França
+107;2023-06-17 00:00:00;C4913;Ratolí;Accessoris;1;53,82;53,82;PayPal;França
+108;2023-01-12 00:00:00;C6726;Impressora;Oficina;5;122,34;611,7;PayPal;Portugal
+109;2023-08-30 00:00:00;C3082;Teclat;Accessoris;5;54,61;273,05;PayPal;Itàlia
+110;2023-09-21 00:00:00;C7748;Ratolí;Accessoris;2;33,56;67,12;PayPal;Itàlia
+111;2023-04-25 00:00:00;C9808;Ratolí;Accessoris;2;69,14;138,28;PayPal;França
+112;2023-04-24 00:00:00;C1412;Cadira oficina;Oficina;2;179,05;358,1;Targeta;Països Baixos
+113;2023-10-04 00:00:00;C8164;Cadira oficina;Oficina;1;69,4;69,4;Transferència;Països Baixos
+114;2023-12-23 00:00:00;C3504;Teclat;Accessoris;2;44,61;89,22;PayPal;Itàlia
+115;2023-06-26 00:00:00;C2122;USB;Accessoris;3;30,58;91,74;Transferència;Itàlia
+116;2023-04-06 00:00:00;C7806;Monitor;Electrònica;2;306,31;612,62;Transferència;Portugal
+117;2023-09-25 00:00:00;C4440;Mòbil;Electrònica;5;1130,76;5653,8;PayPal;França
+118;2023-12-21 00:00:00;C5968;Impressora;Oficina;1;287,95;287,95;Targeta;França
+119;2023-03-03 00:00:00;C9787;Tablet;Electrònica;1;433,3;433,3;Transferència;Alemanya
+120;2023-07-06 00:00:00;C8186;Teclat;Accessoris;5;101,78;508,9;Transferència;Portugal
+121;2023-08-21 00:00:00;C9082;Teclat;Accessoris;4;55,87;223,48;Targeta;Alemanya
+122;2023-07-25 00:00:00;C3782;Tablet;Electrònica;4;218,47;873,88;Targeta;Portugal
+123;2023-05-24 00:00:00;C5980;USB;Accessoris;3;47,78;143,34;PayPal;Països Baixos
+124;2023-01-25 00:00:00;C6588;Teclat;Accessoris;4;24,63;98,52;Transferència;Itàlia
+125;2023-02-08 00:00:00;C3156;Auriculars;Accessoris;1;155,43;155,43;Targeta;Espanya
+126;2023-08-11 00:00:00;C5729;Teclat;Accessoris;2;112,75;225,5;Transferència;Espanya
+127;2023-08-23 00:00:00;C9010;Tablet;Electrònica;5;481,15;2405,75;Transferència;Països Baixos
+128;2023-01-09 00:00:00;C8241;Cadira oficina;Oficina;4;88,1;352,4;Transferència;Espanya
+129;2023-09-10 00:00:00;C2542;Ratolí;Accessoris;1;68,59;68,59;PayPal;Alemanya
+130;2023-10-10 00:00:00;C3681;Monitor;Electrònica;2;313,05;626,1;Transferència;Portugal
+131;2023-06-14 00:00:00;C6541;Cadira oficina;Oficina;5;95,19;475,95;Transferència;Portugal
+132;2023-11-17 00:00:00;C2365;Monitor;Electrònica;5;593,32;2966,6;Targeta;Països Baixos
+133;2023-10-28 00:00:00;C4141;Cadira oficina;Oficina;1;255,07;255,07;PayPal;Itàlia
+134;2023-12-30 00:00:00;C6301;USB;Accessoris;3;36,87;110,61;PayPal;Portugal
+135;2023-12-12 00:00:00;C5268;Ratolí;Accessoris;2;59,36;118,72;Transferència;França
+136;2023-05-06 00:00:00;C7619;Teclat;Accessoris;4;16,19;64,76;PayPal;França
+137;2023-01-01 00:00:00;C7530;Auriculars;Accessoris;1;158,1;158,1;Targeta;França
+138;2023-07-10 00:00:00;C2531;Teclat;Accessoris;1;76,25;76,25;Targeta;Països Baixos
+139;2023-04-27 00:00:00;C1133;Monitor;Electrònica;1;242,86;242,86;PayPal;Itàlia
+140;2023-06-09 00:00:00;C7316;Tablet;Electrònica;5;751,58;3757,9;Transferència;Espanya
+141;2023-03-21 00:00:00;C6348;Tablet;Electrònica;5;182,37;911,85;Transferència;Països Baixos
+142;2023-01-20 00:00:00;C7190;Teclat;Accessoris;3;41,56;124,68;Transferència;Espanya
+143;2023-02-23 00:00:00;C9053;Portàtil;Electrònica;1;1240,58;1240,58;Transferència;Alemanya
+144;2023-01-12 00:00:00;C2353;Teclat;Accessoris;1;55,34;55,34;Transferència;Alemanya
+145;2023-06-05 00:00:00;C5468;Portàtil;Electrònica;4;1465,29;5861,16;Targeta;Itàlia
+146;2023-06-13 00:00:00;C4719;Monitor;Electrònica;4;238,69;954,76;Transferència;Països Baixos
+147;2023-01-28 00:00:00;C5964;Auriculars;Accessoris;2;83,6;167,2;PayPal;Països Baixos
+148;2023-05-25 00:00:00;C6320;Portàtil;Electrònica;3;1482,08;4446,24;PayPal;Espanya
+149;2023-08-08 00:00:00;C1924;Cadira oficina;Oficina;4;134,29;537,16;Transferència;Alemanya
+150;2023-09-10 00:00:00;C6713;Portàtil;Electrònica;3;893,23;2679,69;Transferència;França
+151;2023-10-30 00:00:00;C1009;Cadira oficina;Oficina;5;159,99;799,95;PayPal;França
+152;2023-09-08 00:00:00;C6124;Teclat;Accessoris;2;112,94;225,88;Transferència;Països Baixos
+153;2023-03-06 00:00:00;C3193;Tablet;Electrònica;1;169,78;169,78;Transferència;Alemanya
+154;2023-09-24 00:00:00;C8449;Tablet;Electrònica;1;890,46;890,46;Targeta;Portugal
+155;2023-10-10 00:00:00;C5784;Auriculars;Accessoris;3;88,56;265,68;Transferència;Espanya
+156;2023-04-15 00:00:00;C8266;USB;Accessoris;2;42,72;85,44;Transferència;Espanya
+157;2023-11-07 00:00:00;C3000;Tablet;Electrònica;5;250,39;1251,95;Transferència;Itàlia
+158;2023-12-24 00:00:00;C2460;Impressora;Oficina;5;237,02;1185,1;Transferència;Alemanya
+159;2023-06-14 00:00:00;C5809;Impressora;Oficina;5;254,8;1274;Transferència;Itàlia
+160;2023-03-26 00:00:00;C8245;Monitor;Electrònica;1;524,82;524,82;Targeta;Portugal
+161;2023-02-20 00:00:00;C5780;Cadira oficina;Oficina;1;109,21;109,21;Transferència;Alemanya
+162;2023-10-15 00:00:00;C4419;Tablet;Electrònica;1;604,63;604,63;PayPal;Alemanya
+163;2023-09-07 00:00:00;C9865;Auriculars;Accessoris;2;68,36;136,72;Targeta;Espanya
+164;2023-11-02 00:00:00;C5363;Portàtil;Electrònica;3;1133,35;3400,05;Transferència;Itàlia
+165;2023-08-10 00:00:00;C5858;Tablet;Electrònica;4;762,29;3049,16;PayPal;Portugal
+166;2023-12-07 00:00:00;C5673;USB;Accessoris;5;23,16;115,8;PayPal;Alemanya
+167;2023-08-14 00:00:00;C7949;Teclat;Accessoris;4;99,53;398,12;PayPal;Països Baixos
+168;2023-10-13 00:00:00;C8002;Portàtil;Electrònica;2;1225,66;2451,32;Targeta;França
+169;2023-11-04 00:00:00;C5261;Impressora;Oficina;2;81,85;163,7;PayPal;Itàlia
+170;2023-01-30 00:00:00;C5854;Auriculars;Accessoris;4;101,16;404,64;Transferència;Itàlia
+171;2023-05-13 00:00:00;C5892;Auriculars;Accessoris;1;114,25;114,25;PayPal;Itàlia
+172;2023-11-26 00:00:00;C3832;Impressora;Oficina;1;101,48;101,48;Transferència;Espanya
+173;2023-02-03 00:00:00;C8941;Ratolí;Accessoris;5;28,08;140,4;Targeta;Alemanya
+174;2023-05-06 00:00:00;C4818;Monitor;Electrònica;5;346,31;1731,55;Targeta;Països Baixos
+175;2023-04-21 00:00:00;C1760;Impressora;Oficina;3;252,88;758,64;Targeta;Països Baixos
+176;2023-01-08 00:00:00;C9472;Cadira oficina;Oficina;3;170,43;511,29;Transferència;Alemanya
+177;2023-06-04 00:00:00;C5188;USB;Accessoris;3;45,36;136,08;Transferència;França
+178;2023-05-02 00:00:00;C8570;Teclat;Accessoris;5;117,18;585,9;Transferència;Itàlia
+179;2023-04-02 00:00:00;C5777;Ratolí;Accessoris;2;67,53;135,06;Transferència;Països Baixos
+180;2023-11-22 00:00:00;C7376;Tablet;Electrònica;5;282,76;1413,8;PayPal;Itàlia
+181;2023-03-19 00:00:00;C8240;Ratolí;Accessoris;2;34,92;69,84;Targeta;Espanya
+182;2023-08-02 00:00:00;C7493;Impressora;Oficina;1;82,3;82,3;Transferència;Països Baixos
+183;2023-12-03 00:00:00;C2276;Impressora;Oficina;5;104,94;524,7;Transferència;Alemanya
+184;2023-01-28 00:00:00;C9150;Ratolí;Accessoris;2;79,04;158,08;Transferència;Espanya
+185;2023-12-31 00:00:00;C7809;Teclat;Accessoris;2;70,78;141,56;Transferència;Alemanya
+186;2023-01-07 00:00:00;C6122;Impressora;Oficina;3;62,84;188,52;Transferència;Portugal
+187;2023-08-27 00:00:00;C2531;Monitor;Electrònica;3;547,6;1642,8;PayPal;Itàlia
+188;2023-10-21 00:00:00;C7882;Impressora;Oficina;2;87,51;175,02;Transferència;Espanya
+189;2023-04-29 00:00:00;C9905;Portàtil;Electrònica;1;1078,01;1078,01;Transferència;Itàlia
+190;2023-08-19 00:00:00;C7229;Monitor;Electrònica;1;381,98;381,98;Transferència;Espanya
+191;2023-01-25 00:00:00;C7288;Portàtil;Electrònica;4;1029,25;4117;PayPal;Espanya
+192;2023-03-09 00:00:00;C8561;Mòbil;Electrònica;1;542,93;542,93;Targeta;Espanya
+193;2023-05-26 00:00:00;C7371;USB;Accessoris;5;40,51;202,55;Transferència;Països Baixos
+194;2023-04-21 00:00:00;C8943;Portàtil;Electrònica;2;1175,97;2351,94;PayPal;Països Baixos
+195;2023-03-24 00:00:00;C3472;USB;Accessoris;4;31,39;125,56;Transferència;Itàlia
+196;2023-10-09 00:00:00;C2761;Monitor;Electrònica;4;268,72;1074,88;Targeta;Països Baixos
+197;2023-12-31 00:00:00;C4812;Mòbil;Electrònica;3;444,35;1333,05;Transferència;Espanya
+198;2023-05-30 00:00:00;C2733;Tablet;Electrònica;5;850,27;4251,35;PayPal;França
+199;2023-12-16 00:00:00;C7986;Monitor;Electrònica;4;282,68;1130,72;Transferència;Espanya
+200;2023-09-04 00:00:00;C9434;Mòbil;Electrònica;1;287,89;287,89;Transferència;França
+201;2023-02-05 00:00:00;C6342;Monitor;Electrònica;5;109,12;545,6;Targeta;Alemanya
+202;2023-08-08 00:00:00;C9195;USB;Accessoris;4;45,35;181,4;Transferència;França
+203;2023-04-04 00:00:00;C3551;Portàtil;Electrònica;1;803,71;803,71;Transferència;Itàlia
+204;2023-07-13 00:00:00;C1846;USB;Accessoris;1;37,53;37,53;PayPal;Espanya
+205;2023-06-22 00:00:00;C7469;Teclat;Accessoris;2;71,18;142,36;Transferència;Itàlia
+206;2023-10-02 00:00:00;C9915;Teclat;Accessoris;4;116,64;466,56;Targeta;Portugal
+207;2023-05-20 00:00:00;C3048;Cadira oficina;Oficina;1;181,83;181,83;Transferència;Països Baixos
+208;2023-05-19 00:00:00;C7988;USB;Accessoris;5;32,48;162,4;Transferència;Espanya
+209;2023-06-27 00:00:00;C1009;Auriculars;Accessoris;1;115,87;115,87;Transferència;Itàlia
+210;2023-06-21 00:00:00;C8041;Cadira oficina;Oficina;2;191,66;383,32;PayPal;Espanya
+211;2023-03-25 00:00:00;C9512;Mòbil;Electrònica;2;522,35;1044,7;Targeta;Itàlia
+212;2023-09-30 00:00:00;C3824;Teclat;Accessoris;1;29,58;29,58;PayPal;Itàlia
+213;2023-04-04 00:00:00;C8984;Auriculars;Accessoris;3;127,21;381,63;PayPal;Països Baixos
+214;2023-08-24 00:00:00;C2908;Tablet;Electrònica;4;788,05;3152,2;Transferència;Alemanya
+215;2023-03-17 00:00:00;C9162;Cadira oficina;Oficina;1;235,41;235,41;Transferència;Espanya
+216;2023-11-16 00:00:00;C6468;Mòbil;Electrònica;4;266,5;1066;PayPal;Espanya
+217;2023-08-17 00:00:00;C7413;Cadira oficina;Oficina;1;93,55;93,55;Targeta;França
+218;2023-08-01 00:00:00;C3898;Mòbil;Electrònica;3;999,54;2998,62;PayPal;Països Baixos
+219;2023-03-03 00:00:00;C5227;Teclat;Accessoris;2;84,85;169,7;PayPal;Espanya
+220;2023-03-30 00:00:00;C7943;Monitor;Electrònica;2;258,1;516,2;Transferència;Itàlia
+221;2023-01-23 00:00:00;C5670;Teclat;Accessoris;1;63,58;63,58;PayPal;Països Baixos
+222;2023-05-25 00:00:00;C2248;Auriculars;Accessoris;1;110,49;110,49;Targeta;Alemanya
+223;2023-11-05 00:00:00;C4687;Portàtil;Electrònica;2;1074,04;2148,08;Targeta;Alemanya
+224;2023-07-17 00:00:00;C6765;Ratolí;Accessoris;3;26,03;78,09;PayPal;Portugal
+225;2023-02-11 00:00:00;C6567;Teclat;Accessoris;3;49,95;149,85;Transferència;Països Baixos
+226;2023-10-16 00:00:00;C9669;Teclat;Accessoris;5;32,51;162,55;Transferència;Portugal
+227;2023-06-06 00:00:00;C2120;Cadira oficina;Oficina;4;274,53;1098,12;Transferència;Itàlia
+228;2023-10-16 00:00:00;C6373;Cadira oficina;Oficina;3;229,68;689,04;Targeta;Portugal
+229;2023-01-10 00:00:00;C5612;Impressora;Oficina;2;121,59;243,18;Targeta;Portugal
+230;2023-04-28 00:00:00;C7028;Cadira oficina;Oficina;1;270,42;270,42;Targeta;Alemanya
+231;2023-12-31 00:00:00;C7359;Monitor;Electrònica;4;155,32;621,28;Transferència;Espanya
+232;2023-05-16 00:00:00;C3371;Mòbil;Electrònica;5;803,96;4019,8;Transferència;Portugal
+233;2023-04-05 00:00:00;C3674;Ratolí;Accessoris;2;60,56;121,12;Targeta;França
+234;2023-10-09 00:00:00;C3116;Mòbil;Electrònica;4;893,95;3575,8;Transferència;Alemanya
+235;2023-12-26 00:00:00;C7166;Mòbil;Electrònica;2;1026,8;2053,6;Targeta;Països Baixos
+236;2023-08-06 00:00:00;C8783;Cadira oficina;Oficina;3;170,88;512,64;PayPal;Portugal
+237;2023-04-21 00:00:00;C1827;Auriculars;Accessoris;1;111,06;111,06;Transferència;Països Baixos
+238;2023-12-22 00:00:00;C4876;Monitor;Electrònica;4;396,48;1585,92;Targeta;Espanya
+239;2023-04-02 00:00:00;C7024;Mòbil;Electrònica;2;907,24;1814,48;Targeta;Portugal
+240;2023-10-23 00:00:00;C4368;Portàtil;Electrònica;5;1096,89;5484,45;Targeta;Països Baixos
+241;2023-10-29 00:00:00;C6732;Tablet;Electrònica;1;844,18;844,18;PayPal;Països Baixos
+242;2023-07-01 00:00:00;C4030;USB;Accessoris;4;49,32;197,28;Transferència;Portugal
+243;2023-05-29 00:00:00;C8112;Auriculars;Accessoris;3;185,75;557,25;PayPal;Itàlia
+244;2023-11-09 00:00:00;C5212;Cadira oficina;Oficina;2;238,62;477,24;PayPal;Portugal
+245;2023-03-04 00:00:00;C1536;Monitor;Electrònica;3;401,86;1205,58;PayPal;França
+246;2023-07-29 00:00:00;C9666;Impressora;Oficina;2;352,23;704,46;Transferència;França
+247;2023-05-08 00:00:00;C5971;Cadira oficina;Oficina;1;237;237;Transferència;França
+248;2023-06-29 00:00:00;C4572;Teclat;Accessoris;1;110,84;110,84;Targeta;Alemanya
+249;2023-10-12 00:00:00;C5757;USB;Accessoris;1;46,17;46,17;PayPal;Països Baixos
+250;2023-02-18 00:00:00;C1966;Impressora;Oficina;2;127,03;254,06;PayPal;Alemanya
+251;2023-06-26 00:00:00;C5243;Teclat;Accessoris;1;117,43;117,43;Targeta;Alemanya
+252;2023-03-04 00:00:00;C7704;Teclat;Accessoris;4;58,54;234,16;Targeta;Portugal
+253;2023-08-03 00:00:00;C3482;Portàtil;Electrònica;5;1009,72;5048,6;PayPal;Espanya
+254;2023-11-14 00:00:00;C3079;Mòbil;Electrònica;3;409,91;1229,73;Transferència;Portugal
+255;2023-10-13 00:00:00;C8311;USB;Accessoris;1;26,07;26,07;Transferència;Portugal
+256;2023-09-14 00:00:00;C6490;Tablet;Electrònica;2;573,63;1147,26;Transferència;Alemanya
+257;2023-04-23 00:00:00;C6797;Monitor;Electrònica;2;326,64;653,28;Targeta;Espanya
+258;2023-09-21 00:00:00;C9038;Cadira oficina;Oficina;4;243,69;974,76;PayPal;Espanya
+259;2023-06-11 00:00:00;C4451;Monitor;Electrònica;2;476,62;953,24;Transferència;Països Baixos
+260;2023-10-15 00:00:00;C4462;Tablet;Electrònica;4;750,56;3002,24;Transferència;Espanya
+261;2023-11-09 00:00:00;C6954;Teclat;Accessoris;1;84,19;84,19;Transferència;Alemanya
+262;2023-09-12 00:00:00;C9519;Tablet;Electrònica;3;323,31;969,93;Transferència;Espanya
+263;2023-03-08 00:00:00;C8218;Mòbil;Electrònica;5;304,11;1520,55;PayPal;Espanya
+264;2023-10-18 00:00:00;C3143;Auriculars;Accessoris;2;137,49;274,98;PayPal;Portugal
+265;2023-06-14 00:00:00;C7612;Cadira oficina;Oficina;3;297,29;891,87;Targeta;Països Baixos
+266;2023-01-07 00:00:00;C5425;Portàtil;Electrònica;2;1084,47;2168,94;Targeta;Portugal
+267;2023-05-27 00:00:00;C4695;Mòbil;Electrònica;5;285,51;1427,55;Targeta;Alemanya
+268;2023-10-12 00:00:00;C5177;Monitor;Electrònica;4;190,72;762,88;Transferència;Itàlia
+269;2023-01-11 00:00:00;C5841;Cadira oficina;Oficina;5;274,24;1371,2;PayPal;Països Baixos
+270;2023-04-29 00:00:00;C5491;Monitor;Electrònica;3;512,55;1537,65;Targeta;Països Baixos
+271;2023-09-13 00:00:00;C8083;Auriculars;Accessoris;5;169,52;847,6;Transferència;Portugal
+272;2023-12-08 00:00:00;C2387;Monitor;Electrònica;2;209,76;419,52;Targeta;Països Baixos
+273;2023-06-07 00:00:00;C3679;Tablet;Electrònica;2;255,08;510,16;Transferència;França
+274;2023-04-25 00:00:00;C3573;Cadira oficina;Oficina;1;296,49;296,49;Transferència;Itàlia
+275;2023-08-25 00:00:00;C2304;Mòbil;Electrònica;2;941,69;1883,38;PayPal;Espanya
+276;2023-01-04 00:00:00;C7809;Tablet;Electrònica;3;343,42;1030,26;Transferència;Espanya
+277;2023-04-08 00:00:00;C9996;Tablet;Electrònica;5;544,27;2721,35;Transferència;Portugal
+278;2023-05-08 00:00:00;C6475;Monitor;Electrònica;2;109,2;218,4;Targeta;Portugal
+279;2023-01-17 00:00:00;C6796;Ratolí;Accessoris;2;44,87;89,74;Transferència;Alemanya
+280;2023-03-17 00:00:00;C2622;Teclat;Accessoris;2;83,4;166,8;PayPal;Itàlia
+281;2023-01-27 00:00:00;C8992;Portàtil;Electrònica;5;874,61;4373,05;Targeta;Itàlia
+282;2023-06-17 00:00:00;C9801;Portàtil;Electrònica;3;986,55;2959,65;Targeta;Itàlia
+283;2023-11-05 00:00:00;C9646;Portàtil;Electrònica;1;1220,36;1220,36;PayPal;França
+284;2023-07-09 00:00:00;C3681;Teclat;Accessoris;1;75,2;75,2;Transferència;Itàlia
+285;2023-11-06 00:00:00;C2386;Auriculars;Accessoris;2;95,97;191,94;Targeta;Portugal
+286;2023-10-19 00:00:00;C6490;Cadira oficina;Oficina;5;104,25;521,25;Transferència;Països Baixos
+287;2023-09-24 00:00:00;C6415;Mòbil;Electrònica;5;445,35;2226,75;PayPal;Països Baixos
+288;2023-04-23 00:00:00;C9378;Auriculars;Accessoris;4;98,69;394,76;Targeta;Espanya
+289;2023-11-06 00:00:00;C5150;Auriculars;Accessoris;3;73,48;220,44;Transferència;Portugal
+290;2023-11-08 00:00:00;C6408;Auriculars;Accessoris;5;139,46;697,3;Targeta;Itàlia
+291;2023-08-15 00:00:00;C8101;Auriculars;Accessoris;4;68,58;274,32;PayPal;Espanya
+292;2023-07-20 00:00:00;C1153;USB;Accessoris;3;47,99;143,97;Targeta;Espanya
+293;2023-07-20 00:00:00;C3343;Teclat;Accessoris;1;64,79;64,79;Transferència;Països Baixos
+294;2023-03-02 00:00:00;C2639;USB;Accessoris;1;37,77;37,77;Targeta;Alemanya
+295;2023-05-11 00:00:00;C2252;Teclat;Accessoris;3;60,66;181,98;PayPal;Espanya
+296;2023-04-12 00:00:00;C8009;Impressora;Oficina;3;50,82;152,46;Transferència;França
+297;2023-02-13 00:00:00;C5090;Monitor;Electrònica;5;151,55;757,75;Targeta;Itàlia
+298;2023-11-26 00:00:00;C4640;Tablet;Electrònica;1;871,57;871,57;PayPal;Països Baixos
+299;2023-11-14 00:00:00;C9407;Ratolí;Accessoris;4;41,22;164,88;PayPal;Itàlia
+300;2023-03-22 00:00:00;C2750;Teclat;Accessoris;5;94,63;473,15;PayPal;Itàlia
+301;2023-03-30 00:00:00;C6387;Portàtil;Electrònica;1;1306,87;1306,87;PayPal;Itàlia
+302;2023-12-31 00:00:00;C9238;Ratolí;Accessoris;2;25,48;50,96;Transferència;Itàlia
+303;2023-10-09 00:00:00;C8124;Auriculars;Accessoris;1;27,95;27,95;Targeta;Països Baixos
+304;2023-01-07 00:00:00;C5232;Ratolí;Accessoris;5;43,12;215,6;Transferència;Alemanya
+305;2023-11-11 00:00:00;C2500;Portàtil;Electrònica;2;934,82;1869,64;Transferència;França
+306;2023-04-13 00:00:00;C6392;USB;Accessoris;4;26,34;105,36;PayPal;Espanya
+307;2023-04-18 00:00:00;C8980;Ratolí;Accessoris;3;55,51;166,53;PayPal;França
+308;2023-06-20 00:00:00;C3983;Ratolí;Accessoris;5;15,39;76,95;PayPal;França
+309;2023-02-08 00:00:00;C8694;Mòbil;Electrònica;4;641,03;2564,12;Targeta;França
+310;2023-12-15 00:00:00;C1920;Impressora;Oficina;4;331,39;1325,56;PayPal;Països Baixos
+311;2023-01-16 00:00:00;C9684;Mòbil;Electrònica;1;937,86;937,86;Transferència;Portugal
+312;2023-11-07 00:00:00;C9930;Ratolí;Accessoris;2;53,11;106,22;Targeta;Països Baixos
+313;2023-09-04 00:00:00;C4810;Cadira oficina;Oficina;3;268,82;806,46;PayPal;Itàlia
+314;2023-01-29 00:00:00;C3032;Impressora;Oficina;4;74,51;298,04;Transferència;França
+315;2023-08-24 00:00:00;C1271;Auriculars;Accessoris;5;92,35;461,75;Transferència;Itàlia
+316;2023-09-23 00:00:00;C8069;USB;Accessoris;1;44,32;44,32;Transferència;Països Baixos
+317;2023-03-06 00:00:00;C4760;Mòbil;Electrònica;4;617,77;2471,08;Transferència;Portugal
+318;2023-11-20 00:00:00;C1145;Auriculars;Accessoris;2;39,89;79,78;Targeta;França
+319;2023-07-12 00:00:00;C9173;Portàtil;Electrònica;1;963,53;963,53;PayPal;Itàlia
+320;2023-12-10 00:00:00;C2828;Portàtil;Electrònica;1;831,57;831,57;Targeta;França
+321;2023-07-17 00:00:00;C1806;Impressora;Oficina;3;325,22;975,66;Transferència;Països Baixos
+322;2023-03-03 00:00:00;C2868;Tablet;Electrònica;3;809,34;2428,02;Targeta;Espanya
+323;2023-09-17 00:00:00;C6690;Monitor;Electrònica;4;594,59;2378,36;PayPal;Itàlia
+324;2023-03-04 00:00:00;C6429;Ratolí;Accessoris;5;38,11;190,55;Targeta;França
+325;2023-11-26 00:00:00;C8274;USB;Accessoris;5;32,35;161,75;PayPal;Espanya
+326;2023-08-29 00:00:00;C7402;Ratolí;Accessoris;2;22,36;44,72;PayPal;Portugal
+327;2023-09-18 00:00:00;C9245;Cadira oficina;Oficina;5;258,29;1291,45;Transferència;Portugal
+328;2023-01-09 00:00:00;C2913;Cadira oficina;Oficina;1;292,58;292,58;Transferència;Itàlia
+329;2023-06-27 00:00:00;C8312;Auriculars;Accessoris;3;114,51;343,53;Transferència;Espanya
+330;2023-09-26 00:00:00;C8287;Cadira oficina;Oficina;3;96,94;290,82;Targeta;Portugal
+331;2023-11-25 00:00:00;C5675;Impressora;Oficina;1;311,76;311,76;PayPal;Itàlia
+332;2023-09-24 00:00:00;C2640;Portàtil;Electrònica;2;1206,06;2412,12;Transferència;Espanya
+333;2023-01-29 00:00:00;C2218;Cadira oficina;Oficina;3;153,88;461,64;PayPal;Espanya
+334;2023-06-19 00:00:00;C1954;Cadira oficina;Oficina;4;289,36;1157,44;Transferència;Països Baixos
+335;2023-02-07 00:00:00;C6370;USB;Accessoris;4;17,66;70,64;Transferència;Itàlia
+336;2023-02-06 00:00:00;C4020;Impressora;Oficina;2;303,2;606,4;Transferència;Països Baixos
+337;2023-03-22 00:00:00;C6233;Mòbil;Electrònica;5;1094,48;5472,4;Targeta;Països Baixos
+338;2023-04-25 00:00:00;C3745;Tablet;Electrònica;5;521,36;2606,8;Transferència;Països Baixos
+339;2023-02-09 00:00:00;C4930;USB;Accessoris;2;30,71;61,42;Transferència;Alemanya
+340;2023-09-19 00:00:00;C5311;Ratolí;Accessoris;1;70,51;70,51;Transferència;Portugal
+341;2023-12-19 00:00:00;C2704;Teclat;Accessoris;4;98,73;394,92;Transferència;Alemanya
+342;2023-12-11 00:00:00;C5286;Impressora;Oficina;5;166,9;834,5;Transferència;Portugal
+343;2023-01-07 00:00:00;C1556;Monitor;Electrònica;4;449,5;1798;Targeta;Alemanya
+344;2023-01-31 00:00:00;C8561;Ratolí;Accessoris;3;71,03;213,09;Transferència;Alemanya
+345;2023-06-07 00:00:00;C4998;Ratolí;Accessoris;5;67,4;337;PayPal;Portugal
+346;2023-07-25 00:00:00;C9780;Teclat;Accessoris;2;15,12;30,24;Targeta;Països Baixos
+347;2023-08-12 00:00:00;C2136;Portàtil;Electrònica;2;1155,23;2310,46;Targeta;Portugal
+348;2023-07-07 00:00:00;C5543;Impressora;Oficina;2;245,95;491,9;Targeta;Alemanya
+349;2023-11-22 00:00:00;C6352;USB;Accessoris;3;29,3;87,9;Targeta;Alemanya
+350;2023-03-01 00:00:00;C3382;Auriculars;Accessoris;4;193,34;773,36;PayPal;Alemanya
+351;2023-10-05 00:00:00;C8059;USB;Accessoris;5;46,94;234,7;PayPal;Països Baixos
+352;2023-11-20 00:00:00;C2040;Cadira oficina;Oficina;2;225,09;450,18;PayPal;Alemanya
+353;2023-07-12 00:00:00;C9213;Portàtil;Electrònica;1;1339,69;1339,69;Targeta;França
+354;2023-07-29 00:00:00;C3353;USB;Accessoris;3;32,94;98,82;PayPal;Alemanya
+355;2023-07-23 00:00:00;C9954;Ratolí;Accessoris;5;79,31;396,55;PayPal;Portugal
+356;2023-01-07 00:00:00;C9220;Auriculars;Accessoris;5;43,42;217,1;PayPal;Espanya
+357;2023-02-27 00:00:00;C4356;Mòbil;Electrònica;3;222,12;666,36;Transferència;Espanya
+358;2023-02-08 00:00:00;C4342;Portàtil;Electrònica;3;1461,01;4383,03;PayPal;Portugal
+359;2023-03-16 00:00:00;C8027;Ratolí;Accessoris;5;65,64;328,2;Transferència;Alemanya
+360;2023-01-22 00:00:00;C6658;Impressora;Oficina;4;343,98;1375,92;Transferència;Portugal
+361;2023-04-02 00:00:00;C1988;USB;Accessoris;4;44,06;176,24;Transferència;Portugal
+362;2023-03-25 00:00:00;C2682;Ratolí;Accessoris;5;76,05;380,25;Targeta;França
+363;2023-09-14 00:00:00;C1933;Monitor;Electrònica;3;237,11;711,33;PayPal;França
+364;2023-06-12 00:00:00;C4056;Impressora;Oficina;5;130,48;652,4;Transferència;Alemanya
+365;2023-10-01 00:00:00;C6390;Portàtil;Electrònica;4;1256,17;5024,68;Targeta;França
+366;2023-03-13 00:00:00;C6179;Tablet;Electrònica;3;503,65;1510,95;PayPal;França
+367;2023-04-03 00:00:00;C4380;Monitor;Electrònica;1;192,76;192,76;PayPal;Portugal
+368;2023-06-23 00:00:00;C4633;Cadira oficina;Oficina;3;96,88;290,64;Targeta;Alemanya
+369;2023-12-15 00:00:00;C1959;Auriculars;Accessoris;3;156,98;470,94;Transferència;Espanya
+370;2023-02-15 00:00:00;C1526;Tablet;Electrònica;4;370,63;1482,52;Transferència;Països Baixos
+371;2023-08-24 00:00:00;C2875;Tablet;Electrònica;1;511,14;511,14;PayPal;Espanya
+372;2023-11-15 00:00:00;C6109;Auriculars;Accessoris;1;97,46;97,46;Transferència;Espanya
+373;2023-12-10 00:00:00;C1583;Tablet;Electrònica;2;394,44;788,88;Targeta;Espanya
+374;2023-07-28 00:00:00;C5167;USB;Accessoris;5;18,97;94,85;PayPal;Països Baixos
+375;2023-04-05 00:00:00;C9357;Cadira oficina;Oficina;2;171,5;343;Targeta;Països Baixos
+376;2023-08-05 00:00:00;C3043;Cadira oficina;Oficina;5;130;650;PayPal;Països Baixos
+377;2023-08-02 00:00:00;C4762;Tablet;Electrònica;3;734,89;2204,67;Targeta;Espanya
+378;2023-03-17 00:00:00;C4117;USB;Accessoris;1;9,72;9,72;Transferència;França
+379;2023-05-28 00:00:00;C3720;Ratolí;Accessoris;4;19,97;79,88;PayPal;Portugal
+380;2023-12-19 00:00:00;C1001;Portàtil;Electrònica;2;1191,75;2383,5;Targeta;Països Baixos
+381;2023-03-18 00:00:00;C8833;Impressora;Oficina;1;236,98;236,98;Transferència;França
+382;2023-06-15 00:00:00;C8014;Mòbil;Electrònica;2;596,92;1193,84;Transferència;Itàlia
+383;2023-05-23 00:00:00;C4041;Monitor;Electrònica;2;200,43;400,86;Transferència;França
+384;2023-11-01 00:00:00;C2895;Impressora;Oficina;4;64,41;257,64;Transferència;Espanya
+385;2023-05-03 00:00:00;C2925;Impressora;Oficina;3;272,75;818,25;Transferència;França
+386;2023-12-25 00:00:00;C1552;Ratolí;Accessoris;1;51,63;51,63;Targeta;Espanya
+387;2023-12-14 00:00:00;C4389;Teclat;Accessoris;2;89,45;178,9;PayPal;França
+388;2023-01-07 00:00:00;C1458;Cadira oficina;Oficina;3;248,02;744,06;Transferència;Espanya
+389;2023-11-10 00:00:00;C1021;USB;Accessoris;4;45,27;181,08;Transferència;Espanya
+390;2023-05-07 00:00:00;C5904;Cadira oficina;Oficina;3;168,56;505,68;Transferència;Alemanya
+391;2023-01-12 00:00:00;C2560;Cadira oficina;Oficina;3;99,36;298,08;PayPal;Països Baixos
+392;2023-05-27 00:00:00;C4638;Mòbil;Electrònica;2;1071,78;2143,56;Targeta;França
+393;2023-08-09 00:00:00;C3356;USB;Accessoris;5;26,16;130,8;PayPal;Portugal
+394;2023-10-27 00:00:00;C4665;USB;Accessoris;3;34,64;103,92;Transferència;França
+395;2023-05-30 00:00:00;C5644;Ratolí;Accessoris;3;11,46;34,38;PayPal;Itàlia
+396;2023-02-28 00:00:00;C9946;Cadira oficina;Oficina;1;299,12;299,12;PayPal;Itàlia
+397;2023-07-26 00:00:00;C1352;Auriculars;Accessoris;5;142,44;712,2;Targeta;Països Baixos
+398;2023-12-16 00:00:00;C1158;Portàtil;Electrònica;1;1388,32;1388,32;Transferència;França
+399;2023-10-20 00:00:00;C4453;Tablet;Electrònica;4;461,93;1847,72;Targeta;Països Baixos
+400;2023-06-26 00:00:00;C5703;Cadira oficina;Oficina;2;297,04;594,08;PayPal;Països Baixos
+401;2023-04-27 00:00:00;C6631;Portàtil;Electrònica;2;1211,64;2423,28;Targeta;Portugal
+402;2023-09-19 00:00:00;C2394;Cadira oficina;Oficina;2;205,49;410,98;Transferència;Països Baixos
+403;2023-09-25 00:00:00;C4714;USB;Accessoris;5;17,77;88,85;PayPal;França
+404;2023-08-13 00:00:00;C4591;Teclat;Accessoris;5;80,41;402,05;PayPal;França
+405;2023-01-14 00:00:00;C7477;USB;Accessoris;2;23,24;46,48;Transferència;França
+406;2023-11-21 00:00:00;C5648;USB;Accessoris;5;28,07;140,35;PayPal;Portugal
+407;2023-04-21 00:00:00;C1013;Portàtil;Electrònica;4;973,06;3892,24;Targeta;Itàlia
+408;2023-03-25 00:00:00;C9321;Monitor;Electrònica;1;357,41;357,41;PayPal;Itàlia
+409;2023-12-11 00:00:00;C9219;Mòbil;Electrònica;1;295,26;295,26;Transferència;França
+410;2023-09-18 00:00:00;C6543;Tablet;Electrònica;5;343,6;1718;Transferència;Itàlia
+411;2023-10-28 00:00:00;C8062;Mòbil;Electrònica;4;798,71;3194,84;Transferència;França
+412;2023-01-10 00:00:00;C1629;Cadira oficina;Oficina;3;168,91;506,73;Transferència;Alemanya
+413;2023-04-03 00:00:00;C6897;Auriculars;Accessoris;2;50,56;101,12;PayPal;Itàlia
+414;2023-09-14 00:00:00;C7276;Ratolí;Accessoris;1;56,86;56,86;Transferència;Itàlia
+415;2023-01-01 00:00:00;C1575;Monitor;Electrònica;3;224,36;673,08;Targeta;Alemanya
+416;2023-05-01 00:00:00;C4178;Cadira oficina;Oficina;4;146,22;584,88;PayPal;Itàlia
+417;2023-07-23 00:00:00;C4568;Monitor;Electrònica;5;468,2;2341;Transferència;Portugal
+418;2023-07-26 00:00:00;C2925;Auriculars;Accessoris;4;146,97;587,88;PayPal;Itàlia
+419;2023-11-30 00:00:00;C1968;Mòbil;Electrònica;5;405,84;2029,2;Transferència;França
+420;2023-10-09 00:00:00;C7262;Mòbil;Electrònica;4;731,17;2924,68;PayPal;França
+421;2023-09-02 00:00:00;C6178;Tablet;Electrònica;5;318,53;1592,65;PayPal;Itàlia
+422;2023-06-28 00:00:00;C2229;Ratolí;Accessoris;1;32,13;32,13;Targeta;Espanya
+423;2023-06-30 00:00:00;C3289;Ratolí;Accessoris;4;58,17;232,68;Targeta;Espanya
+424;2023-05-06 00:00:00;C8473;USB;Accessoris;3;48,43;145,29;Transferència;Espanya
+425;2023-06-27 00:00:00;C8595;Auriculars;Accessoris;3;195,16;585,48;PayPal;Portugal
+426;2023-11-04 00:00:00;C2969;Tablet;Electrònica;5;549,18;2745,9;PayPal;Portugal
+427;2023-12-07 00:00:00;C9320;Mòbil;Electrònica;2;401,85;803,7;PayPal;França
+428;2023-12-18 00:00:00;C5612;Mòbil;Electrònica;5;930,83;4654,15;Transferència;Portugal
+429;2023-07-12 00:00:00;C6238;Impressora;Oficina;2;387,17;774,34;PayPal;Portugal
+430;2023-04-24 00:00:00;C8705;Portàtil;Electrònica;2;1461,23;2922,46;Transferència;Països Baixos
+431;2023-03-17 00:00:00;C1986;Tablet;Electrònica;1;801,68;801,68;Transferència;Països Baixos
+432;2023-10-16 00:00:00;C4072;Impressora;Oficina;4;375,83;1503,32;Transferència;Itàlia
+433;2023-10-31 00:00:00;C9125;Mòbil;Electrònica;5;415,68;2078,4;Transferència;Espanya
+434;2023-07-11 00:00:00;C9133;Ratolí;Accessoris;2;56,05;112,1;Targeta;Portugal
+435;2023-06-18 00:00:00;C6208;Portàtil;Electrònica;1;1022,68;1022,68;Targeta;Alemanya
+436;2023-09-02 00:00:00;C4230;Teclat;Accessoris;1;106,43;106,43;PayPal;Itàlia
+437;2023-04-08 00:00:00;C4173;Cadira oficina;Oficina;4;237,23;948,92;PayPal;Portugal
+438;2023-03-23 00:00:00;C2000;Impressora;Oficina;3;164,46;493,38;PayPal;Països Baixos
+439;2023-11-27 00:00:00;C4712;USB;Accessoris;5;19,27;96,35;Transferència;Portugal
+440;2023-08-01 00:00:00;C4726;Tablet;Electrònica;1;240,16;240,16;Targeta;Itàlia
+441;2023-07-18 00:00:00;C3190;Cadira oficina;Oficina;2;211,25;422,5;PayPal;Països Baixos
+442;2023-04-03 00:00:00;C6592;Impressora;Oficina;4;293,41;1173,64;Transferència;Portugal
+443;2023-10-18 00:00:00;C7059;Auriculars;Accessoris;1;127,37;127,37;Transferència;Itàlia
+444;2023-12-21 00:00:00;C8117;Ratolí;Accessoris;3;11,03;33,09;Transferència;França
+445;2023-01-03 00:00:00;C7228;Cadira oficina;Oficina;1;208,68;208,68;PayPal;Itàlia
+446;2023-04-27 00:00:00;C2177;Portàtil;Electrònica;2;1404,33;2808,66;Targeta;Portugal
+447;2023-10-31 00:00:00;C9234;USB;Accessoris;5;9,9;49,5;PayPal;França
+448;2023-12-30 00:00:00;C7570;Monitor;Electrònica;2;482,44;964,88;Targeta;França
+449;2023-12-02 00:00:00;C6243;Cadira oficina;Oficina;3;64,38;193,14;Transferència;Alemanya
+450;2023-07-22 00:00:00;C5146;Teclat;Accessoris;4;115,24;460,96;Targeta;Itàlia
+451;2023-05-21 00:00:00;C5882;Monitor;Electrònica;5;130,13;650,65;Targeta;Espanya
+452;2023-02-21 00:00:00;C4610;Portàtil;Electrònica;5;870,99;4354,95;Transferència;Alemanya
+453;2023-10-18 00:00:00;C8311;Teclat;Accessoris;4;112,61;450,44;Targeta;Països Baixos
+454;2023-01-02 00:00:00;C7787;Mòbil;Electrònica;2;289,63;579,26;Targeta;Portugal
+455;2023-09-20 00:00:00;C8052;Auriculars;Accessoris;3;168,17;504,51;PayPal;Itàlia
+456;2023-10-25 00:00:00;C6047;USB;Accessoris;1;13,31;13,31;PayPal;Alemanya
+457;2023-09-20 00:00:00;C6291;Ratolí;Accessoris;4;77,4;309,6;Targeta;Itàlia
+458;2023-02-16 00:00:00;C7284;Portàtil;Electrònica;2;830,39;1660,78;Transferència;Portugal
+459;2023-08-02 00:00:00;C4097;Tablet;Electrònica;5;601,21;3006,05;Targeta;França
+460;2023-05-01 00:00:00;C7295;Mòbil;Electrònica;2;412,04;824,08;PayPal;Portugal
+461;2023-12-13 00:00:00;C2316;Monitor;Electrònica;2;276,71;553,42;Targeta;Itàlia
+462;2023-04-10 00:00:00;C8227;USB;Accessoris;3;18,59;55,77;PayPal;Països Baixos
+463;2023-05-26 00:00:00;C6010;Monitor;Electrònica;1;435,71;435,71;Targeta;Itàlia
+464;2023-08-30 00:00:00;C1482;Mòbil;Electrònica;1;823,86;823,86;Targeta;Alemanya
+465;2023-04-29 00:00:00;C9853;Impressora;Oficina;1;354,24;354,24;PayPal;Portugal
+466;2023-06-09 00:00:00;C9841;Cadira oficina;Oficina;3;65,67;197,01;Transferència;Portugal
+467;2023-09-11 00:00:00;C6016;Mòbil;Electrònica;5;456,88;2284,4;PayPal;Itàlia
+468;2023-09-20 00:00:00;C7780;Tablet;Electrònica;3;890,84;2672,52;PayPal;Itàlia
+469;2023-10-07 00:00:00;C3349;USB;Accessoris;1;37,29;37,29;Transferència;Països Baixos
+470;2023-04-12 00:00:00;C7764;Teclat;Accessoris;2;25,93;51,86;PayPal;Països Baixos
+471;2023-12-19 00:00:00;C8843;Mòbil;Electrònica;5;279,42;1397,1;PayPal;Països Baixos
+472;2023-03-11 00:00:00;C3472;Mòbil;Electrònica;1;391,87;391,87;PayPal;Espanya
+473;2023-02-18 00:00:00;C4713;USB;Accessoris;5;32,77;163,85;Targeta;Països Baixos
+474;2023-01-27 00:00:00;C5255;Tablet;Electrònica;4;652,2;2608,8;PayPal;Portugal
+475;2023-03-08 00:00:00;C8979;Mòbil;Electrònica;2;740,01;1480,02;PayPal;Portugal
+476;2023-12-08 00:00:00;C6249;Portàtil;Electrònica;3;1027,03;3081,09;Targeta;Països Baixos
+477;2023-04-12 00:00:00;C4874;Mòbil;Electrònica;2;1194,14;2388,28;PayPal;Alemanya
+478;2023-09-21 00:00:00;C1661;Mòbil;Electrònica;4;930,65;3722,6;Targeta;Espanya
+479;2023-11-29 00:00:00;C4374;Monitor;Electrònica;4;381,15;1524,6;PayPal;Països Baixos
+480;2023-06-07 00:00:00;C1632;Impressora;Oficina;2;120,33;240,66;Transferència;Alemanya
+481;2023-05-25 00:00:00;C4719;Monitor;Electrònica;4;510,9;2043,6;Transferència;Portugal
+482;2023-10-06 00:00:00;C5443;Monitor;Electrònica;5;497,72;2488,6;PayPal;Espanya
+483;2023-12-26 00:00:00;C9555;Teclat;Accessoris;5;117,29;586,45;PayPal;Espanya
+484;2023-03-25 00:00:00;C5037;Mòbil;Electrònica;5;443,66;2218,3;Transferència;Països Baixos
+485;2023-09-29 00:00:00;C3785;Teclat;Accessoris;1;41,99;41,99;Targeta;Itàlia
+486;2023-05-31 00:00:00;C7257;Portàtil;Electrònica;4;844,18;3376,72;Targeta;França
+487;2023-12-07 00:00:00;C3817;Auriculars;Accessoris;1;81,5;81,5;Targeta;França
+488;2023-11-27 00:00:00;C6299;Monitor;Electrònica;1;568,48;568,48;Targeta;Espanya
+489;2023-07-15 00:00:00;C5406;Mòbil;Electrònica;2;479,7;959,4;Transferència;Països Baixos
+490;2023-05-23 00:00:00;C5437;Impressora;Oficina;3;106,62;319,86;PayPal;Itàlia
+491;2023-01-12 00:00:00;C1560;Teclat;Accessoris;4;74,49;297,96;PayPal;Itàlia
+492;2023-10-18 00:00:00;C8629;Portàtil;Electrònica;2;881,46;1762,92;Targeta;Alemanya
+493;2023-01-14 00:00:00;C9264;Portàtil;Electrònica;4;1364,15;5456,6;Transferència;Portugal
+494;2023-03-07 00:00:00;C8002;Auriculars;Accessoris;3;78,06;234,18;Targeta;Alemanya
+495;2023-07-25 00:00:00;C6907;Portàtil;Electrònica;2;1286,47;2572,94;Transferència;Espanya
+496;2023-01-25 00:00:00;C9984;Ratolí;Accessoris;2;50,11;100,22;Transferència;Portugal
+497;2023-06-13 00:00:00;C9286;Impressora;Oficina;1;217,77;217,77;Targeta;Espanya
+498;2023-01-25 00:00:00;C6772;Impressora;Oficina;5;220,47;1102,35;PayPal;Itàlia
+499;2023-01-25 00:00:00;C8340;USB;Accessoris;5;21,54;107,7;PayPal;França
+500;2023-05-21 00:00:00;C9734;USB;Accessoris;4;29,73;118,92;Transferència;Espanya
+501;2023-11-12 00:00:00;C3494;Teclat;Accessoris;2;68,14;136,28;PayPal;Alemanya
+502;2023-02-12 00:00:00;C5349;Mòbil;Electrònica;5;840,83;4204,15;PayPal;Països Baixos
+503;2023-10-14 00:00:00;C8154;Portàtil;Electrònica;3;1221,79;3665,37;Targeta;Portugal
+504;2023-09-23 00:00:00;C7488;Monitor;Electrònica;2;382,22;764,44;Targeta;Espanya
+505;2023-06-27 00:00:00;C6175;Tablet;Electrònica;3;193,62;580,86;PayPal;França
+506;2023-04-09 00:00:00;C6448;USB;Accessoris;3;18,38;55,14;Transferència;Portugal
+507;2023-09-20 00:00:00;C9591;Auriculars;Accessoris;3;160,89;482,67;Targeta;Alemanya
+508;2023-09-17 00:00:00;C2638;Mòbil;Electrònica;4;262,29;1049,16;Transferència;Itàlia
+509;2023-12-25 00:00:00;C2403;Monitor;Electrònica;5;214,45;1072,25;PayPal;França
+510;2023-05-04 00:00:00;C5517;Auriculars;Accessoris;4;75,13;300,52;Transferència;Espanya
+511;2023-04-26 00:00:00;C8870;Monitor;Electrònica;5;313,04;1565,2;Targeta;Itàlia
+512;2023-01-07 00:00:00;C2549;Impressora;Oficina;5;207,42;1037,1;Transferència;Espanya
+513;2023-03-27 00:00:00;C4716;Ratolí;Accessoris;5;22,38;111,9;Transferència;Itàlia
+514;2023-03-03 00:00:00;C8898;Tablet;Electrònica;2;158,27;316,54;PayPal;França
+515;2023-05-18 00:00:00;C8638;Cadira oficina;Oficina;5;160,46;802,3;Transferència;França
+516;2023-03-06 00:00:00;C7356;Impressora;Oficina;5;97,99;489,95;Transferència;Alemanya
+517;2023-08-01 00:00:00;C3385;Tablet;Electrònica;5;775,73;3878,65;Transferència;Espanya
+518;2023-07-07 00:00:00;C5798;Tablet;Electrònica;4;198,46;793,84;PayPal;Països Baixos
+519;2023-10-09 00:00:00;C6827;Tablet;Electrònica;5;524,5;2622,5;Targeta;Portugal
+520;2023-03-23 00:00:00;C5839;Auriculars;Accessoris;4;175,64;702,56;PayPal;Alemanya
+521;2023-02-11 00:00:00;C7164;Impressora;Oficina;5;333,74;1668,7;Transferència;Països Baixos
+522;2023-04-15 00:00:00;C1016;Mòbil;Electrònica;1;1156,22;1156,22;Transferència;Alemanya
+523;2023-05-09 00:00:00;C1571;USB;Accessoris;1;34,64;34,64;Transferència;Espanya
+524;2023-01-10 00:00:00;C9433;Teclat;Accessoris;1;23,02;23,02;Transferència;França
+525;2023-08-20 00:00:00;C9980;Mòbil;Electrònica;4;238,43;953,72;Targeta;Països Baixos
+526;2023-09-21 00:00:00;C7869;Monitor;Electrònica;2;512,57;1025,14;PayPal;Itàlia
+527;2023-12-09 00:00:00;C8340;USB;Accessoris;1;33,65;33,65;Transferència;Països Baixos
+528;2023-03-28 00:00:00;C5940;Ratolí;Accessoris;4;20,51;82,04;PayPal;Espanya
+529;2023-04-19 00:00:00;C9599;Impressora;Oficina;3;63,31;189,93;PayPal;Itàlia
+530;2023-05-13 00:00:00;C1147;Portàtil;Electrònica;1;873,76;873,76;Transferència;França
+531;2023-08-16 00:00:00;C5531;Impressora;Oficina;2;308,13;616,26;Targeta;Portugal
+532;2023-01-28 00:00:00;C9754;Impressora;Oficina;3;321,13;963,39;Targeta;Espanya
+533;2023-09-18 00:00:00;C7493;Cadira oficina;Oficina;5;101,79;508,95;PayPal;Itàlia
+534;2023-02-07 00:00:00;C7511;Cadira oficina;Oficina;2;259,33;518,66;PayPal;Itàlia
+535;2023-11-25 00:00:00;C4009;Ratolí;Accessoris;1;77,75;77,75;Transferència;Països Baixos
+536;2023-02-18 00:00:00;C2827;Ratolí;Accessoris;3;56,71;170,13;Targeta;Portugal
+537;2023-06-18 00:00:00;C9569;Cadira oficina;Oficina;1;207,6;207,6;PayPal;França
+538;2023-09-23 00:00:00;C3196;Impressora;Oficina;2;217,39;434,78;Targeta;Països Baixos
+539;2023-09-15 00:00:00;C1780;Mòbil;Electrònica;3;325,23;975,69;PayPal;França
+540;2023-08-14 00:00:00;C9714;Portàtil;Electrònica;4;1207,7;4830,8;Targeta;Espanya
+541;2023-07-02 00:00:00;C6784;Portàtil;Electrònica;1;830,61;830,61;PayPal;Portugal
+542;2023-04-24 00:00:00;C3461;Ratolí;Accessoris;4;36,32;145,28;Targeta;Portugal
+543;2023-10-15 00:00:00;C1685;Tablet;Electrònica;4;846,24;3384,96;Transferència;Portugal
+544;2023-05-02 00:00:00;C6341;Impressora;Oficina;5;54,45;272,25;Transferència;Itàlia
+545;2023-09-25 00:00:00;C2256;Tablet;Electrònica;1;796,03;796,03;Transferència;Portugal
+546;2023-05-29 00:00:00;C1301;Mòbil;Electrònica;5;744,02;3720,1;PayPal;Alemanya
+547;2023-08-12 00:00:00;C9789;Tablet;Electrònica;4;696,37;2785,48;Transferència;França
+548;2023-01-22 00:00:00;C8003;Tablet;Electrònica;1;714,89;714,89;Targeta;Itàlia
+549;2023-09-15 00:00:00;C5558;Portàtil;Electrònica;2;830,22;1660,44;PayPal;Països Baixos
+550;2023-04-05 00:00:00;C5082;Monitor;Electrònica;2;145,94;291,88;PayPal;Portugal
+551;2023-10-05 00:00:00;C4754;USB;Accessoris;4;11,78;47,12;PayPal;Països Baixos
+552;2023-07-03 00:00:00;C9706;Monitor;Electrònica;1;479,09;479,09;Transferència;França
+553;2023-01-23 00:00:00;C3460;Mòbil;Electrònica;3;497,55;1492,65;Targeta;Alemanya
+554;2023-10-08 00:00:00;C8295;Teclat;Accessoris;4;24,84;99,36;Targeta;Països Baixos
+555;2023-07-05 00:00:00;C4727;Impressora;Oficina;2;201,83;403,66;PayPal;Espanya
+556;2023-09-18 00:00:00;C1514;Monitor;Electrònica;4;505,88;2023,52;Transferència;França
+557;2023-08-12 00:00:00;C9033;Ratolí;Accessoris;3;79,43;238,29;Targeta;Països Baixos
+558;2023-10-29 00:00:00;C3159;Impressora;Oficina;2;121,41;242,82;PayPal;Alemanya
+559;2023-03-27 00:00:00;C3649;Tablet;Electrònica;4;737,84;2951,36;PayPal;Països Baixos
+560;2023-07-28 00:00:00;C2037;Portàtil;Electrònica;4;1387,97;5551,88;Transferència;Portugal
+561;2023-01-20 00:00:00;C3634;Mòbil;Electrònica;5;949,55;4747,75;Targeta;Alemanya
+562;2023-04-11 00:00:00;C1697;Monitor;Electrònica;3;478,13;1434,39;PayPal;Espanya
+563;2023-05-12 00:00:00;C2929;Tablet;Electrònica;5;426,23;2131,15;Targeta;França
+564;2023-06-03 00:00:00;C2828;Monitor;Electrònica;3;543,1;1629,3;Targeta;Itàlia
+565;2023-07-21 00:00:00;C6891;Portàtil;Electrònica;5;1264,13;6320,65;Transferència;França
+566;2023-01-20 00:00:00;C3563;Impressora;Oficina;5;113,46;567,3;PayPal;Espanya
+567;2023-08-04 00:00:00;C5431;Impressora;Oficina;3;228,54;685,62;PayPal;França
+568;2023-09-11 00:00:00;C1161;Cadira oficina;Oficina;4;114,11;456,44;Targeta;Alemanya
+569;2023-06-08 00:00:00;C4390;Monitor;Electrònica;3;399,68;1199,04;Transferència;Espanya
+570;2023-03-17 00:00:00;C1541;USB;Accessoris;5;8,47;42,35;PayPal;Alemanya
+571;2023-12-22 00:00:00;C9623;Auriculars;Accessoris;5;196,75;983,75;Targeta;Espanya
+572;2023-07-02 00:00:00;C2169;Tablet;Electrònica;1;430,1;430,1;PayPal;Països Baixos
+573;2023-09-08 00:00:00;C9667;Cadira oficina;Oficina;1;149,14;149,14;PayPal;Itàlia
+574;2023-11-09 00:00:00;C2019;Portàtil;Electrònica;3;1314,96;3944,88;Targeta;Països Baixos
+575;2023-07-17 00:00:00;C2283;Teclat;Accessoris;1;46,44;46,44;PayPal;Alemanya
+576;2023-07-17 00:00:00;C3125;Auriculars;Accessoris;3;109,31;327,93;PayPal;Portugal
+577;2023-03-31 00:00:00;C4471;Ratolí;Accessoris;1;62,31;62,31;PayPal;Països Baixos
+578;2023-03-02 00:00:00;C9329;Tablet;Electrònica;4;302,2;1208,8;Targeta;Portugal
+579;2023-04-17 00:00:00;C7397;Auriculars;Accessoris;5;80,21;401,05;Targeta;Països Baixos
+580;2023-12-31 00:00:00;C3610;Tablet;Electrònica;1;589,86;589,86;Targeta;Països Baixos
+581;2023-02-04 00:00:00;C6017;USB;Accessoris;2;47,33;94,66;Transferència;Alemanya
+582;2023-11-16 00:00:00;C7052;Portàtil;Electrònica;5;1410,91;7054,55;Transferència;Espanya
+583;2023-03-15 00:00:00;C9895;Portàtil;Electrònica;5;1136,63;5683,15;PayPal;Espanya
+584;2023-09-17 00:00:00;C8462;Cadira oficina;Oficina;2;175,91;351,82;Transferència;França
+585;2023-10-07 00:00:00;C4384;Mòbil;Electrònica;1;696,46;696,46;PayPal;França
+586;2023-07-01 00:00:00;C1685;Monitor;Electrònica;1;103,51;103,51;Transferència;Portugal
+587;2023-02-26 00:00:00;C8710;USB;Accessoris;4;32,46;129,84;Transferència;Itàlia
+588;2023-02-05 00:00:00;C7868;Tablet;Electrònica;1;841,97;841,97;PayPal;Portugal
+589;2023-04-16 00:00:00;C5998;Tablet;Electrònica;4;201,72;806,88;PayPal;Alemanya
+590;2023-09-27 00:00:00;C1631;Impressora;Oficina;4;136,44;545,76;Targeta;França
+591;2023-08-05 00:00:00;C1204;Ratolí;Accessoris;2;78,24;156,48;PayPal;França
+592;2023-10-28 00:00:00;C6347;Auriculars;Accessoris;1;68,27;68,27;PayPal;Espanya
+593;2023-12-04 00:00:00;C3297;Monitor;Electrònica;4;116,81;467,24;Targeta;França
+594;2023-07-15 00:00:00;C1689;Portàtil;Electrònica;5;1193,39;5966,95;Targeta;França
+595;2023-06-09 00:00:00;C8927;Ratolí;Accessoris;2;38,78;77,56;PayPal;Portugal
+596;2023-06-03 00:00:00;C3539;Ratolí;Accessoris;5;48,38;241,9;Transferència;Alemanya
+597;2023-06-14 00:00:00;C3361;Ratolí;Accessoris;1;65,14;65,14;PayPal;Alemanya
+598;2023-05-11 00:00:00;C4670;Cadira oficina;Oficina;5;295,09;1475,45;Transferència;França
+599;2023-12-11 00:00:00;C7588;Teclat;Accessoris;1;35,8;35,8;Transferència;Països Baixos
+600;2023-04-27 00:00:00;C8875;Ratolí;Accessoris;2;17,99;35,98;Targeta;Itàlia
+601;2023-11-23 00:00:00;C1597;Mòbil;Electrònica;1;617,99;617,99;Targeta;Portugal
+602;2023-06-01 00:00:00;C1572;Mòbil;Electrònica;1;761,22;761,22;PayPal;França
+603;2023-02-12 00:00:00;C7566;Teclat;Accessoris;2;105,31;210,62;Transferència;Països Baixos
+604;2023-04-08 00:00:00;C2517;Auriculars;Accessoris;1;147,41;147,41;Transferència;França
+605;2023-11-26 00:00:00;C2537;Ratolí;Accessoris;1;42,08;42,08;Transferència;França
+606;2023-03-07 00:00:00;C7985;Mòbil;Electrònica;1;864,19;864,19;Targeta;Països Baixos
+607;2023-05-05 00:00:00;C4750;Tablet;Electrònica;3;496,72;1490,16;Targeta;Portugal
+608;2023-02-28 00:00:00;C1610;Tablet;Electrònica;4;559,07;2236,28;Transferència;Alemanya
+609;2023-02-01 00:00:00;C3324;Cadira oficina;Oficina;1;72,47;72,47;PayPal;Portugal
+610;2023-08-02 00:00:00;C6774;Mòbil;Electrònica;4;364,71;1458,84;Targeta;Alemanya
+611;2023-03-20 00:00:00;C2749;Mòbil;Electrònica;5;404,88;2024,4;Transferència;Portugal
+612;2023-06-17 00:00:00;C3105;Impressora;Oficina;3;106,57;319,71;Targeta;Itàlia
+613;2023-03-07 00:00:00;C6879;Auriculars;Accessoris;1;155,13;155,13;PayPal;Països Baixos
+614;2023-04-07 00:00:00;C2577;Tablet;Electrònica;4;497,95;1991,8;Targeta;Països Baixos
+615;2023-10-06 00:00:00;C7744;Tablet;Electrònica;4;523,36;2093,44;Targeta;Itàlia
+616;2023-07-16 00:00:00;C3551;Ratolí;Accessoris;3;37,82;113,46;Targeta;Itàlia
+617;2023-10-24 00:00:00;C9676;Impressora;Oficina;4;115,35;461,4;Targeta;Països Baixos
+618;2023-02-16 00:00:00;C9078;USB;Accessoris;1;33,56;33,56;Transferència;Alemanya
+619;2023-02-11 00:00:00;C7971;Monitor;Electrònica;2;557,55;1115,1;Transferència;Espanya
+620;2023-09-20 00:00:00;C5943;Ratolí;Accessoris;4;58,71;234,84;Transferència;Països Baixos
+621;2023-10-10 00:00:00;C2898;Mòbil;Electrònica;3;1057,18;3171,54;Targeta;Portugal
+622;2023-08-08 00:00:00;C4200;Teclat;Accessoris;1;118,27;118,27;Transferència;Espanya
+623;2023-06-25 00:00:00;C4690;USB;Accessoris;5;6,5;32,5;Targeta;Itàlia
+624;2023-02-01 00:00:00;C8183;Tablet;Electrònica;3;384,87;1154,61;Targeta;França
+625;2023-01-21 00:00:00;C1669;Ratolí;Accessoris;5;79,19;395,95;PayPal;França
+626;2023-04-12 00:00:00;C2529;Cadira oficina;Oficina;4;212,32;849,28;PayPal;França
+627;2023-11-21 00:00:00;C7274;Mòbil;Electrònica;3;627,49;1882,47;Targeta;Itàlia
+628;2023-06-03 00:00:00;C7788;USB;Accessoris;1;28,73;28,73;PayPal;Espanya
+629;2023-09-22 00:00:00;C1645;Monitor;Electrònica;4;586,73;2346,92;Targeta;Alemanya
+630;2023-12-30 00:00:00;C3504;Impressora;Oficina;4;298,58;1194,32;Transferència;França
+631;2023-05-11 00:00:00;C1587;Tablet;Electrònica;2;418,35;836,7;Targeta;Països Baixos
+632;2023-10-04 00:00:00;C7299;Portàtil;Electrònica;2;1034,65;2069,3;Transferència;Alemanya
+633;2023-06-12 00:00:00;C2715;USB;Accessoris;1;42,17;42,17;Transferència;Portugal
+634;2023-12-04 00:00:00;C6433;Ratolí;Accessoris;3;73,38;220,14;Targeta;Països Baixos
+635;2023-11-21 00:00:00;C7763;Ratolí;Accessoris;1;52,96;52,96;PayPal;Països Baixos
+636;2023-10-16 00:00:00;C9915;Tablet;Electrònica;3;503,47;1510,41;PayPal;Espanya
+637;2023-03-07 00:00:00;C5578;Mòbil;Electrònica;2;939,29;1878,58;Targeta;Alemanya
+638;2023-02-16 00:00:00;C2958;Monitor;Electrònica;4;443,16;1772,64;Targeta;Espanya
+639;2023-05-04 00:00:00;C7144;Impressora;Oficina;4;108,5;434;Transferència;Itàlia
+640;2023-01-04 00:00:00;C1441;Cadira oficina;Oficina;3;260,89;782,67;Targeta;Portugal
+641;2023-08-15 00:00:00;C1948;Ratolí;Accessoris;5;45,89;229,45;Targeta;Països Baixos
+642;2023-02-08 00:00:00;C1392;Auriculars;Accessoris;4;137,57;550,28;Targeta;Països Baixos
+643;2023-07-26 00:00:00;C2138;Monitor;Electrònica;5;494,22;2471,1;Transferència;Portugal
+644;2023-08-07 00:00:00;C3454;Monitor;Electrònica;3;553,6;1660,8;PayPal;Països Baixos
+645;2023-02-15 00:00:00;C3597;USB;Accessoris;2;12,61;25,22;PayPal;Espanya
+646;2023-11-24 00:00:00;C6661;USB;Accessoris;5;15,2;76;PayPal;Alemanya
+647;2023-03-25 00:00:00;C9472;Mòbil;Electrònica;3;1002,35;3007,05;PayPal;França
+648;2023-04-12 00:00:00;C2750;Impressora;Oficina;2;197,51;395,02;PayPal;Portugal
+649;2023-03-24 00:00:00;C8789;Auriculars;Accessoris;1;42,94;42,94;PayPal;Itàlia
+650;2023-10-02 00:00:00;C8880;Portàtil;Electrònica;2;1437,54;2875,08;Targeta;França
+651;2023-11-23 00:00:00;C8230;Cadira oficina;Oficina;5;261,47;1307,35;PayPal;Països Baixos
+652;2023-05-01 00:00:00;C2531;Portàtil;Electrònica;4;1191,43;4765,72;PayPal;Itàlia
+653;2023-04-30 00:00:00;C1933;Portàtil;Electrònica;4;1244,56;4978,24;Targeta;Alemanya
+654;2023-10-13 00:00:00;C1264;Mòbil;Electrònica;4;320,25;1281;PayPal;Països Baixos
+655;2023-03-30 00:00:00;C2762;Ratolí;Accessoris;4;10,87;43,48;Targeta;Espanya
+656;2023-07-15 00:00:00;C9259;Ratolí;Accessoris;1;25,84;25,84;Targeta;Itàlia
+657;2023-12-27 00:00:00;C8804;Impressora;Oficina;2;357,03;714,06;Targeta;França
+658;2023-04-30 00:00:00;C4198;Auriculars;Accessoris;1;126,78;126,78;PayPal;Itàlia
+659;2023-03-03 00:00:00;C3479;Mòbil;Electrònica;5;826,18;4130,9;Targeta;Països Baixos
+660;2023-09-24 00:00:00;C2492;Portàtil;Electrònica;3;824,27;2472,81;PayPal;Alemanya
+661;2023-10-31 00:00:00;C8851;Auriculars;Accessoris;5;113,86;569,3;Targeta;Portugal
+662;2023-07-20 00:00:00;C4516;Monitor;Electrònica;5;157,47;787,35;Targeta;Alemanya
+663;2023-08-04 00:00:00;C8468;Ratolí;Accessoris;3;12,29;36,87;Transferència;Espanya
+664;2023-03-17 00:00:00;C7317;Mòbil;Electrònica;4;894,45;3577,8;Targeta;Espanya
+665;2023-05-27 00:00:00;C7748;Cadira oficina;Oficina;1;245,73;245,73;PayPal;Països Baixos
+666;2023-11-03 00:00:00;C4740;Auriculars;Accessoris;5;50,7;253,5;Transferència;França
+667;2023-01-28 00:00:00;C1771;Portàtil;Electrònica;4;1247,72;4990,88;Targeta;Espanya
+668;2023-03-08 00:00:00;C1193;Monitor;Electrònica;5;292,26;1461,3;Transferència;Espanya
+669;2023-12-27 00:00:00;C5005;USB;Accessoris;3;17,22;51,66;Targeta;Espanya
+670;2023-07-29 00:00:00;C7716;Mòbil;Electrònica;1;270,93;270,93;Transferència;Països Baixos
+671;2023-10-10 00:00:00;C8815;Cadira oficina;Oficina;2;173,4;346,8;Transferència;Alemanya
+672;2023-04-03 00:00:00;C3800;Monitor;Electrònica;2;219,43;438,86;Transferència;Portugal
+673;2023-08-25 00:00:00;C6808;Auriculars;Accessoris;3;132,05;396,15;Transferència;França
+674;2023-10-29 00:00:00;C5976;Impressora;Oficina;1;230,8;230,8;Targeta;Alemanya
+675;2023-12-19 00:00:00;C5697;Auriculars;Accessoris;3;59,43;178,29;PayPal;Itàlia
+676;2023-07-11 00:00:00;C6482;Mòbil;Electrònica;5;662,85;3314,25;Targeta;Itàlia
+677;2023-09-22 00:00:00;C6463;Monitor;Electrònica;1;122,19;122,19;Transferència;Espanya
+678;2023-01-17 00:00:00;C1855;Monitor;Electrònica;1;143,55;143,55;Transferència;Itàlia
+679;2023-07-02 00:00:00;C4112;Impressora;Oficina;3;236,06;708,18;Transferència;Itàlia
+680;2023-05-27 00:00:00;C6002;Mòbil;Electrònica;3;229,67;689,01;Transferència;Portugal
+681;2023-01-01 00:00:00;C9210;Ratolí;Accessoris;5;19,2;96;Targeta;Itàlia
+682;2023-04-19 00:00:00;C7588;Mòbil;Electrònica;5;611,02;3055,1;Targeta;Espanya
+683;2023-03-31 00:00:00;C7246;Monitor;Electrònica;5;254,69;1273,45;PayPal;Països Baixos
+684;2023-01-08 00:00:00;C9365;Mòbil;Electrònica;5;1154,03;5770,15;Targeta;Espanya
+685;2023-08-03 00:00:00;C4760;Portàtil;Electrònica;5;835,79;4178,95;Targeta;Itàlia
+686;2023-05-26 00:00:00;C5033;Teclat;Accessoris;2;78,4;156,8;PayPal;França
+687;2023-05-07 00:00:00;C9611;Mòbil;Electrònica;1;865,29;865,29;PayPal;Països Baixos
+688;2023-08-27 00:00:00;C1935;Auriculars;Accessoris;3;86,43;259,29;Transferència;França
+689;2023-11-28 00:00:00;C8922;Tablet;Electrònica;1;713,38;713,38;PayPal;Espanya
+690;2023-10-12 00:00:00;C5200;Cadira oficina;Oficina;2;145,15;290,3;PayPal;França
+691;2023-11-27 00:00:00;C5658;Mòbil;Electrònica;3;846,45;2539,35;Transferència;Portugal
+692;2023-02-08 00:00:00;C1770;Impressora;Oficina;1;369,65;369,65;Targeta;Portugal
+693;2023-04-27 00:00:00;C2628;Impressora;Oficina;3;303,39;910,17;Targeta;Itàlia
+694;2023-03-22 00:00:00;C5008;Portàtil;Electrònica;2;846,51;1693,02;PayPal;Alemanya
+695;2023-08-23 00:00:00;C2856;Monitor;Electrònica;3;311,02;933,06;PayPal;Països Baixos
+696;2023-12-23 00:00:00;C5669;Mòbil;Electrònica;2;284,39;568,78;Targeta;Itàlia
+697;2023-10-06 00:00:00;C2431;Auriculars;Accessoris;1;120,56;120,56;PayPal;Itàlia
+698;2023-10-04 00:00:00;C2130;Portàtil;Electrònica;4;1256,6;5026,4;PayPal;Espanya
+699;2023-03-14 00:00:00;C5020;Ratolí;Accessoris;3;40,1;120,3;Targeta;França
+700;2023-12-30 00:00:00;C2823;Tablet;Electrònica;4;796,31;3185,24;Transferència;Alemanya
+701;2023-06-21 00:00:00;C7990;Impressora;Oficina;4;337,85;1351,4;Targeta;Portugal
+702;2023-02-17 00:00:00;C2141;Portàtil;Electrònica;3;1331,55;3994,65;Targeta;Portugal
+703;2023-06-16 00:00:00;C4361;Portàtil;Electrònica;1;1293,91;1293,91;PayPal;Portugal
+704;2023-01-07 00:00:00;C4267;USB;Accessoris;5;12,51;62,55;Targeta;Espanya
+705;2023-07-12 00:00:00;C3606;Tablet;Electrònica;1;183,58;183,58;PayPal;Espanya
+706;2023-07-21 00:00:00;C8611;Teclat;Accessoris;5;31,22;156,1;Targeta;Països Baixos
+707;2023-05-06 00:00:00;C2829;Portàtil;Electrònica;3;1065,24;3195,72;Transferència;Alemanya
+708;2023-06-25 00:00:00;C4699;Portàtil;Electrònica;2;1393;2786;Targeta;Itàlia
+709;2023-01-31 00:00:00;C6744;Tablet;Electrònica;1;585,17;585,17;Targeta;Itàlia
+710;2023-12-10 00:00:00;C1442;Ratolí;Accessoris;5;19,84;99,2;Transferència;Països Baixos
+711;2023-09-17 00:00:00;C8833;Auriculars;Accessoris;5;115,74;578,7;Transferència;Espanya
+712;2023-08-22 00:00:00;C3309;Teclat;Accessoris;3;19,09;57,27;Targeta;Espanya
+713;2023-01-30 00:00:00;C5009;Cadira oficina;Oficina;5;241,49;1207,45;Targeta;Països Baixos
+714;2023-02-06 00:00:00;C7313;Portàtil;Electrònica;5;1430,06;7150,3;PayPal;Portugal
+715;2023-03-28 00:00:00;C7789;Monitor;Electrònica;3;287,4;862,2;Transferència;Països Baixos
+716;2023-07-20 00:00:00;C3416;Tablet;Electrònica;4;602,21;2408,84;PayPal;Espanya
+717;2023-05-06 00:00:00;C6619;Auriculars;Accessoris;3;35,88;107,64;Targeta;Alemanya
+718;2023-03-10 00:00:00;C4236;Tablet;Electrònica;4;173,2;692,8;Transferència;Itàlia
+719;2023-06-11 00:00:00;C9556;Ratolí;Accessoris;5;43,45;217,25;Targeta;Espanya
+720;2023-12-09 00:00:00;C1946;Mòbil;Electrònica;3;961,9;2885,7;Targeta;Itàlia
+721;2023-04-19 00:00:00;C8730;Portàtil;Electrònica;2;1049,33;2098,66;PayPal;Itàlia
+722;2023-01-21 00:00:00;C9491;Impressora;Oficina;5;112,01;560,05;Targeta;Països Baixos
+723;2023-04-02 00:00:00;C7626;Tablet;Electrònica;4;773,02;3092,08;Targeta;Països Baixos
+724;2023-05-19 00:00:00;C7652;Ratolí;Accessoris;2;20,54;41,08;Transferència;Alemanya
+725;2023-12-04 00:00:00;C3151;Impressora;Oficina;4;397,85;1591,4;Targeta;Portugal
+726;2023-10-02 00:00:00;C3567;Auriculars;Accessoris;2;78,65;157,3;Transferència;Països Baixos
+727;2023-04-11 00:00:00;C4730;Mòbil;Electrònica;1;239,46;239,46;Targeta;Portugal
+728;2023-04-27 00:00:00;C9458;USB;Accessoris;3;10,96;32,88;Transferència;França
+729;2023-09-03 00:00:00;C7538;Portàtil;Electrònica;4;1047,42;4189,68;PayPal;Portugal
+730;2023-07-03 00:00:00;C2960;Monitor;Electrònica;5;374,66;1873,3;PayPal;Alemanya
+731;2023-03-11 00:00:00;C1882;Auriculars;Accessoris;4;177,88;711,52;PayPal;Itàlia
+732;2023-08-24 00:00:00;C7963;Cadira oficina;Oficina;4;171,04;684,16;Transferència;França
+733;2023-08-16 00:00:00;C8269;USB;Accessoris;2;43,86;87,72;Transferència;Itàlia
+734;2023-07-22 00:00:00;C3808;Mòbil;Electrònica;3;722,44;2167,32;PayPal;Alemanya
+735;2023-06-28 00:00:00;C7068;Portàtil;Electrònica;1;1053,59;1053,59;PayPal;Portugal
+736;2023-04-02 00:00:00;C2970;Cadira oficina;Oficina;2;295,38;590,76;Targeta;Espanya
+737;2023-12-31 00:00:00;C5258;USB;Accessoris;4;32,1;128,4;Transferència;Itàlia
+738;2023-11-24 00:00:00;C1115;Tablet;Electrònica;1;300,36;300,36;PayPal;Països Baixos
+739;2023-08-13 00:00:00;C4935;USB;Accessoris;1;5,14;5,14;Targeta;Països Baixos
+740;2023-11-21 00:00:00;C8661;Portàtil;Electrònica;3;968,27;2904,81;Transferència;Itàlia
+741;2023-01-22 00:00:00;C4420;Tablet;Electrònica;2;315,56;631,12;Targeta;Alemanya
+742;2023-02-23 00:00:00;C3953;Auriculars;Accessoris;3;25,5;76,5;Transferència;Espanya
+743;2023-07-23 00:00:00;C7337;Monitor;Electrònica;5;167,22;836,1;Transferència;Portugal
+744;2023-07-03 00:00:00;C5152;Tablet;Electrònica;3;400,06;1200,18;Transferència;Itàlia
+745;2023-01-19 00:00:00;C8537;Mòbil;Electrònica;3;993,39;2980,17;Transferència;França
+746;2023-11-23 00:00:00;C9733;Teclat;Accessoris;1;86,07;86,07;Transferència;Espanya
+747;2023-10-19 00:00:00;C1024;Teclat;Accessoris;1;16,5;16,5;PayPal;Espanya
+748;2023-05-21 00:00:00;C9068;Mòbil;Electrònica;5;832,91;4164,55;Targeta;Països Baixos
+749;2023-05-07 00:00:00;C9448;Impressora;Oficina;1;337,67;337,67;Transferència;Portugal
+750;2023-07-10 00:00:00;C4175;Teclat;Accessoris;2;103,82;207,64;PayPal;França
+751;2023-09-17 00:00:00;C9605;Teclat;Accessoris;2;56,91;113,82;Targeta;Països Baixos
+752;2023-12-21 00:00:00;C4655;Impressora;Oficina;3;58,57;175,71;PayPal;Alemanya
+753;2023-06-22 00:00:00;C6409;Ratolí;Accessoris;4;17,77;71,08;Targeta;Alemanya
+754;2023-05-03 00:00:00;C9549;Portàtil;Electrònica;3;804,26;2412,78;Targeta;França
+755;2023-06-11 00:00:00;C8913;Cadira oficina;Oficina;1;131,9;131,9;Transferència;França
+756;2023-11-18 00:00:00;C2497;USB;Accessoris;4;15,9;63,6;PayPal;Països Baixos
+757;2023-10-17 00:00:00;C3951;Impressora;Oficina;4;191,01;764,04;PayPal;França
+758;2023-04-28 00:00:00;C3780;Teclat;Accessoris;3;45,71;137,13;PayPal;Portugal
+759;2023-08-21 00:00:00;C6789;Ratolí;Accessoris;1;50,83;50,83;Targeta;França
+760;2023-02-22 00:00:00;C8480;Cadira oficina;Oficina;5;294,96;1474,8;Targeta;Itàlia
+761;2023-07-02 00:00:00;C8190;Mòbil;Electrònica;1;959,61;959,61;PayPal;Portugal
+762;2023-01-10 00:00:00;C8651;Ratolí;Accessoris;2;70,69;141,38;Transferència;Països Baixos
+763;2023-05-28 00:00:00;C1159;Mòbil;Electrònica;4;824,78;3299,12;Transferència;Alemanya
+764;2023-02-22 00:00:00;C7846;Portàtil;Electrònica;2;1168,39;2336,78;Targeta;Alemanya
+765;2023-09-21 00:00:00;C6585;Mòbil;Electrònica;3;319,95;959,85;PayPal;Portugal
+766;2023-12-04 00:00:00;C8927;Monitor;Electrònica;2;300,72;601,44;Transferència;Itàlia
+767;2023-12-27 00:00:00;C8758;Teclat;Accessoris;3;81,1;243,3;PayPal;França
+768;2023-12-15 00:00:00;C2809;Mòbil;Electrònica;1;302,75;302,75;Targeta;Països Baixos
+769;2023-12-09 00:00:00;C7056;Auriculars;Accessoris;1;69,71;69,71;Transferència;Portugal
+770;2023-11-16 00:00:00;C6276;Monitor;Electrònica;4;270,19;1080,76;Targeta;Itàlia
+771;2023-03-06 00:00:00;C6738;Monitor;Electrònica;1;565,44;565,44;PayPal;Portugal
+772;2023-06-11 00:00:00;C5523;Impressora;Oficina;3;144,64;433,92;PayPal;Portugal
+773;2023-11-03 00:00:00;C3224;USB;Accessoris;2;30,73;61,46;Transferència;Alemanya
+774;2023-06-28 00:00:00;C9662;Ratolí;Accessoris;4;36,41;145,64;Targeta;Espanya
+775;2023-11-12 00:00:00;C8094;Impressora;Oficina;1;222,83;222,83;Targeta;Portugal
+776;2023-08-23 00:00:00;C4607;Portàtil;Electrònica;5;803,05;4015,25;PayPal;Portugal
+777;2023-10-08 00:00:00;C6832;Mòbil;Electrònica;1;961,04;961,04;Targeta;Alemanya
+778;2023-07-30 00:00:00;C2316;Mòbil;Electrònica;3;305,36;916,08;Transferència;Alemanya
+779;2023-10-31 00:00:00;C3587;Monitor;Electrònica;5;124,09;620,45;Transferència;França
+780;2023-10-30 00:00:00;C2519;USB;Accessoris;3;43,96;131,88;PayPal;Països Baixos
+781;2023-08-24 00:00:00;C5968;Portàtil;Electrònica;3;946,22;2838,66;Targeta;Països Baixos
+782;2023-01-13 00:00:00;C3257;Portàtil;Electrònica;1;836,65;836,65;Targeta;Països Baixos
+783;2023-01-31 00:00:00;C5424;Cadira oficina;Oficina;4;192,5;770;Transferència;Itàlia
+784;2023-04-10 00:00:00;C2772;Cadira oficina;Oficina;1;268,74;268,74;Transferència;Itàlia
+785;2023-10-01 00:00:00;C8170;Mòbil;Electrònica;4;495,3;1981,2;Targeta;Països Baixos
+786;2023-05-29 00:00:00;C1539;Portàtil;Electrònica;4;1020,94;4083,76;Transferència;Països Baixos
+787;2023-12-22 00:00:00;C1234;Portàtil;Electrònica;1;1299,24;1299,24;Transferència;Portugal
+788;2023-02-18 00:00:00;C5213;Ratolí;Accessoris;1;35,75;35,75;PayPal;França
+789;2023-02-13 00:00:00;C8982;Ratolí;Accessoris;5;64,74;323,7;Targeta;Alemanya
+790;2023-06-14 00:00:00;C4173;Mòbil;Electrònica;5;1035,48;5177,4;Targeta;Alemanya
+791;2023-12-22 00:00:00;C5493;Impressora;Oficina;1;168,07;168,07;Transferència;Portugal
+792;2023-04-21 00:00:00;C3661;Auriculars;Accessoris;1;94,46;94,46;Targeta;Portugal
+793;2023-01-24 00:00:00;C9931;Teclat;Accessoris;4;70,75;283;Transferència;Espanya
+794;2023-08-18 00:00:00;C4923;Mòbil;Electrònica;2;241,66;483,32;PayPal;Espanya
+795;2023-04-14 00:00:00;C3745;Teclat;Accessoris;1;62,77;62,77;Targeta;Alemanya
+796;2023-06-19 00:00:00;C6818;Monitor;Electrònica;5;528,56;2642,8;PayPal;Alemanya
+797;2023-06-11 00:00:00;C5063;Monitor;Electrònica;1;291,29;291,29;Transferència;Alemanya
+798;2023-02-02 00:00:00;C7198;Auriculars;Accessoris;1;79,78;79,78;Transferència;Alemanya
+799;2023-11-09 00:00:00;C4709;Cadira oficina;Oficina;4;184,31;737,24;Transferència;Espanya
+800;2023-05-15 00:00:00;C8395;Monitor;Electrònica;3;385,32;1155,96;Targeta;Alemanya
+801;2023-06-09 00:00:00;C5426;Impressora;Oficina;1;346,47;346,47;PayPal;Itàlia
+802;2023-02-14 00:00:00;C9835;USB;Accessoris;1;42,34;42,34;Transferència;Alemanya
+803;2023-06-06 00:00:00;C6345;Portàtil;Electrònica;5;1429,62;7148,1;PayPal;Alemanya
+804;2023-08-06 00:00:00;C9707;USB;Accessoris;4;26,78;107,12;Transferència;Portugal
+805;2023-04-29 00:00:00;C7683;Impressora;Oficina;1;385,23;385,23;PayPal;Portugal
+806;2023-02-28 00:00:00;C8659;Teclat;Accessoris;1;96,58;96,58;Transferència;França
+807;2023-01-26 00:00:00;C8468;Teclat;Accessoris;1;80,07;80,07;Targeta;Espanya
+808;2023-06-30 00:00:00;C7599;Impressora;Oficina;5;146,68;733,4;Transferència;Alemanya
+809;2023-11-17 00:00:00;C2072;Ratolí;Accessoris;4;54,52;218,08;Targeta;Alemanya
+810;2023-02-26 00:00:00;C3606;Monitor;Electrònica;4;573,7;2294,8;Transferència;França
+811;2023-10-09 00:00:00;C8763;Monitor;Electrònica;2;130,31;260,62;PayPal;Espanya
+812;2023-09-05 00:00:00;C6685;Cadira oficina;Oficina;3;211,42;634,26;Transferència;Alemanya
+813;2023-08-14 00:00:00;C3783;Monitor;Electrònica;3;307,82;923,46;Targeta;França
+814;2023-02-15 00:00:00;C8557;Ratolí;Accessoris;5;45,04;225,2;Targeta;Alemanya
+815;2023-03-19 00:00:00;C2932;Portàtil;Electrònica;2;992,29;1984,58;Targeta;Espanya
+816;2023-01-06 00:00:00;C2116;Portàtil;Electrònica;3;1121,02;3363,06;PayPal;Portugal
+817;2023-08-23 00:00:00;C9811;Auriculars;Accessoris;5;106,64;533,2;Transferència;Portugal
+818;2023-11-29 00:00:00;C5958;USB;Accessoris;3;42,96;128,88;PayPal;Alemanya
+819;2023-09-29 00:00:00;C3743;USB;Accessoris;1;15,89;15,89;Targeta;Espanya
+820;2023-11-28 00:00:00;C6258;Cadira oficina;Oficina;2;230,81;461,62;Transferència;França
+821;2023-01-19 00:00:00;C7102;Mòbil;Electrònica;2;658,96;1317,92;Transferència;Espanya
+822;2023-06-03 00:00:00;C1619;Impressora;Oficina;2;75,58;151,16;Transferència;França
+823;2023-05-05 00:00:00;C2296;Teclat;Accessoris;3;98,22;294,66;Targeta;França
+824;2023-12-02 00:00:00;C7593;Cadira oficina;Oficina;5;290,43;1452,15;PayPal;Països Baixos
+825;2023-12-28 00:00:00;C9199;Ratolí;Accessoris;5;77,69;388,45;Transferència;Països Baixos
+826;2023-04-04 00:00:00;C7976;Ratolí;Accessoris;4;64,12;256,48;Targeta;Alemanya
+827;2023-07-06 00:00:00;C4667;Mòbil;Electrònica;1;658,23;658,23;Transferència;Alemanya
+828;2023-03-27 00:00:00;C3468;Portàtil;Electrònica;5;1195,56;5977,8;Transferència;Alemanya
+829;2023-06-05 00:00:00;C5009;Auriculars;Accessoris;5;21,63;108,15;PayPal;França
+830;2023-08-04 00:00:00;C3217;Ratolí;Accessoris;5;66,33;331,65;PayPal;França
+831;2023-02-24 00:00:00;C6722;Teclat;Accessoris;2;48,78;97,56;Transferència;França
+832;2023-12-15 00:00:00;C8618;Impressora;Oficina;3;138,84;416,52;PayPal;Itàlia
+833;2023-01-10 00:00:00;C3787;Mòbil;Electrònica;5;1094,64;5473,2;Transferència;Portugal
+834;2023-02-03 00:00:00;C3176;Mòbil;Electrònica;3;488,88;1466,64;PayPal;Espanya
+835;2023-11-23 00:00:00;C4824;Monitor;Electrònica;5;122,46;612,3;Targeta;Espanya
+836;2023-04-27 00:00:00;C8778;Impressora;Oficina;4;272,41;1089,64;PayPal;Espanya
+837;2023-12-12 00:00:00;C3765;Ratolí;Accessoris;3;76,57;229,71;Targeta;França
+838;2023-04-26 00:00:00;C5956;Ratolí;Accessoris;5;53,54;267,7;Transferència;Espanya
+839;2023-03-23 00:00:00;C4008;Impressora;Oficina;3;247,43;742,29;Transferència;Espanya
+840;2023-06-03 00:00:00;C4699;Impressora;Oficina;2;134,14;268,28;PayPal;Portugal
+841;2023-07-22 00:00:00;C5200;Tablet;Electrònica;3;170,64;511,92;PayPal;Alemanya
+842;2023-10-05 00:00:00;C2772;Monitor;Electrònica;1;214,35;214,35;Targeta;Alemanya
+843;2023-07-16 00:00:00;C8423;Teclat;Accessoris;4;38,61;154,44;Transferència;Països Baixos
+844;2023-05-29 00:00:00;C7242;Tablet;Electrònica;3;477,46;1432,38;Transferència;Itàlia
+845;2023-04-19 00:00:00;C1699;Tablet;Electrònica;3;394,75;1184,25;PayPal;Portugal
+846;2023-02-09 00:00:00;C8812;Auriculars;Accessoris;2;97,42;194,84;Targeta;Itàlia
+847;2023-10-06 00:00:00;C9275;Monitor;Electrònica;4;309,72;1238,88;Targeta;Espanya
+848;2023-04-19 00:00:00;C5316;Cadira oficina;Oficina;4;179,41;717,64;PayPal;Països Baixos
+849;2023-04-22 00:00:00;C1614;Monitor;Electrònica;3;227,65;682,95;Targeta;Alemanya
+850;2023-11-20 00:00:00;C1270;Cadira oficina;Oficina;1;67,87;67,87;Targeta;Portugal
+851;2023-07-14 00:00:00;C4607;Portàtil;Electrònica;1;1415,65;1415,65;Targeta;Alemanya
+852;2023-11-19 00:00:00;C1289;Portàtil;Electrònica;4;1046,82;4187,28;PayPal;Itàlia
+853;2023-09-05 00:00:00;C7771;Cadira oficina;Oficina;5;270,21;1351,05;PayPal;Itàlia
+854;2023-12-17 00:00:00;C9445;Impressora;Oficina;5;198,83;994,15;PayPal;França
+855;2023-11-09 00:00:00;C4832;Monitor;Electrònica;1;373,35;373,35;PayPal;Països Baixos
+856;2023-11-09 00:00:00;C7534;Cadira oficina;Oficina;5;74,72;373,6;Transferència;França
+857;2023-11-13 00:00:00;C5307;Mòbil;Electrònica;5;403,58;2017,9;PayPal;Itàlia
+858;2023-12-08 00:00:00;C6934;Portàtil;Electrònica;3;961,29;2883,87;Transferència;Països Baixos
+859;2023-02-07 00:00:00;C5082;Mòbil;Electrònica;4;391,12;1564,48;Transferència;Països Baixos
+860;2023-12-09 00:00:00;C2849;Tablet;Electrònica;1;647,29;647,29;PayPal;Espanya
+861;2023-01-25 00:00:00;C1205;Ratolí;Accessoris;5;31,21;156,05;Transferència;Espanya
+862;2023-02-16 00:00:00;C4811;Mòbil;Electrònica;3;325,36;976,08;Targeta;Alemanya
+863;2023-11-06 00:00:00;C3708;Monitor;Electrònica;5;592,43;2962,15;Transferència;Itàlia
+864;2023-10-14 00:00:00;C4273;Tablet;Electrònica;3;262,2;786,6;Targeta;Espanya
+865;2023-09-12 00:00:00;C9712;Monitor;Electrònica;2;110,34;220,68;PayPal;Espanya
+866;2023-08-02 00:00:00;C3832;Impressora;Oficina;2;144,1;288,2;PayPal;Itàlia
+867;2023-04-21 00:00:00;C1152;Auriculars;Accessoris;4;128,28;513,12;PayPal;Països Baixos
+868;2023-04-12 00:00:00;C3800;Mòbil;Electrònica;5;329,94;1649,7;PayPal;Espanya
+869;2023-02-20 00:00:00;C2104;Portàtil;Electrònica;1;1159,7;1159,7;Targeta;Espanya
+870;2023-04-14 00:00:00;C4854;Tablet;Electrònica;2;849,69;1699,38;PayPal;França
+871;2023-07-17 00:00:00;C4072;Cadira oficina;Oficina;3;231,44;694,32;Targeta;Alemanya
+872;2023-06-16 00:00:00;C1508;Monitor;Electrònica;2;161,02;322,04;Targeta;Portugal
+873;2023-09-08 00:00:00;C1680;Auriculars;Accessoris;1;175,1;175,1;Transferència;Itàlia
+874;2023-03-11 00:00:00;C5357;Tablet;Electrònica;5;296,43;1482,15;Targeta;Països Baixos
+875;2023-01-03 00:00:00;C4408;Portàtil;Electrònica;5;1265,6;6328;Transferència;Portugal
+876;2023-06-24 00:00:00;C3230;Impressora;Oficina;4;295,41;1181,64;PayPal;Alemanya
+877;2023-09-28 00:00:00;C4171;Auriculars;Accessoris;1;118,88;118,88;Transferència;Espanya
+878;2023-12-05 00:00:00;C9234;Monitor;Electrònica;4;493,1;1972,4;Transferència;Alemanya
+879;2023-10-16 00:00:00;C2293;Portàtil;Electrònica;2;1387,3;2774,6;Targeta;Alemanya
+880;2023-08-04 00:00:00;C3972;USB;Accessoris;4;42,95;171,8;Targeta;Països Baixos
+881;2023-06-17 00:00:00;C3240;Monitor;Electrònica;1;508,56;508,56;Targeta;Països Baixos
+882;2023-08-28 00:00:00;C2855;Tablet;Electrònica;5;381,63;1908,15;Transferència;Itàlia
+883;2023-07-23 00:00:00;C4663;Teclat;Accessoris;3;90,01;270,03;Targeta;Països Baixos
+884;2023-03-30 00:00:00;C4731;Monitor;Electrònica;2;165,86;331,72;Targeta;Països Baixos
+885;2023-05-31 00:00:00;C4093;Tablet;Electrònica;4;657,86;2631,44;Targeta;Espanya
+886;2023-11-24 00:00:00;C4277;Mòbil;Electrònica;5;872,7;4363,5;PayPal;Països Baixos
+887;2023-04-24 00:00:00;C8951;Cadira oficina;Oficina;3;209,97;629,91;Targeta;Portugal
+888;2023-07-29 00:00:00;C5595;Monitor;Electrònica;3;590,95;1772,85;Targeta;Itàlia
+889;2023-04-23 00:00:00;C6131;Monitor;Electrònica;4;437,01;1748,04;PayPal;Portugal
+890;2023-10-10 00:00:00;C1139;Monitor;Electrònica;3;243,82;731,46;PayPal;Espanya
+891;2023-01-05 00:00:00;C7043;Impressora;Oficina;1;267,45;267,45;Targeta;Portugal
+892;2023-02-02 00:00:00;C1049;Cadira oficina;Oficina;3;157,09;471,27;Targeta;Itàlia
+893;2023-08-02 00:00:00;C7340;USB;Accessoris;3;24,47;73,41;Targeta;Itàlia
+894;2023-10-16 00:00:00;C4765;Teclat;Accessoris;4;22,57;90,28;Transferència;Alemanya
+895;2023-05-08 00:00:00;C6941;Impressora;Oficina;3;306,72;920,16;Targeta;Itàlia
+896;2023-01-29 00:00:00;C6911;Auriculars;Accessoris;4;128,2;512,8;Targeta;Alemanya
+897;2023-12-27 00:00:00;C7361;Auriculars;Accessoris;2;69,74;139,48;Targeta;Països Baixos
+898;2023-01-17 00:00:00;C1517;Teclat;Accessoris;2;62,26;124,52;PayPal;Espanya
+899;2023-11-14 00:00:00;C2988;Portàtil;Electrònica;4;1183,45;4733,8;PayPal;Països Baixos
+900;2023-08-07 00:00:00;C6808;Tablet;Electrònica;4;292,36;1169,44;Targeta;Itàlia
+901;2023-09-23 00:00:00;C7241;Cadira oficina;Oficina;3;155,43;466,29;PayPal;Espanya
+902;2023-05-04 00:00:00;C7309;Cadira oficina;Oficina;2;175,93;351,86;PayPal;Itàlia
+903;2023-10-22 00:00:00;C2518;Monitor;Electrònica;3;584,27;1752,81;Targeta;Espanya
+904;2023-02-10 00:00:00;C3195;Auriculars;Accessoris;3;191,26;573,78;Transferència;Itàlia
+905;2023-11-18 00:00:00;C3849;Cadira oficina;Oficina;4;203,77;815,08;Transferència;Itàlia
+906;2023-09-23 00:00:00;C8519;Mòbil;Electrònica;3;903,79;2711,37;Transferència;Portugal
+907;2023-04-10 00:00:00;C6178;Ratolí;Accessoris;1;52,7;52,7;Targeta;Itàlia
+908;2023-03-06 00:00:00;C3642;Monitor;Electrònica;5;398,83;1994,15;Targeta;França
+909;2023-11-05 00:00:00;C5757;Ratolí;Accessoris;2;17,41;34,82;Transferència;Espanya
+910;2023-09-05 00:00:00;C2813;Tablet;Electrònica;5;854,29;4271,45;Targeta;Portugal
+911;2023-10-11 00:00:00;C5396;Cadira oficina;Oficina;1;210,05;210,05;Transferència;Països Baixos
+912;2023-05-17 00:00:00;C8331;Cadira oficina;Oficina;1;199,9;199,9;Targeta;Alemanya
+913;2023-03-14 00:00:00;C3093;Monitor;Electrònica;2;569,83;1139,66;PayPal;Alemanya
+914;2023-11-26 00:00:00;C1369;USB;Accessoris;1;13,48;13,48;Transferència;Espanya
+915;2023-09-01 00:00:00;C8674;Teclat;Accessoris;2;93;186;Transferència;Itàlia
+916;2023-09-28 00:00:00;C4676;Impressora;Oficina;1;79,51;79,51;PayPal;Portugal
+917;2023-09-05 00:00:00;C1859;Monitor;Electrònica;3;356,36;1069,08;PayPal;Itàlia
+918;2023-02-10 00:00:00;C5017;USB;Accessoris;1;32,6;32,6;PayPal;Espanya
+919;2023-09-02 00:00:00;C9342;Auriculars;Accessoris;1;148,53;148,53;PayPal;Alemanya
+920;2023-02-16 00:00:00;C6119;Ratolí;Accessoris;4;13,5;54;Targeta;França
+921;2023-03-10 00:00:00;C3346;Ratolí;Accessoris;1;27,39;27,39;PayPal;Països Baixos
+922;2023-03-02 00:00:00;C6041;Impressora;Oficina;3;136,65;409,95;Transferència;Països Baixos
+923;2023-06-10 00:00:00;C5426;Auriculars;Accessoris;2;151,89;303,78;Targeta;França
+924;2023-12-04 00:00:00;C5370;Ratolí;Accessoris;2;51,64;103,28;Targeta;Espanya
+925;2023-06-23 00:00:00;C2993;Auriculars;Accessoris;5;108,83;544,15;Targeta;Alemanya
+926;2023-08-26 00:00:00;C1690;Impressora;Oficina;3;229,76;689,28;PayPal;Alemanya
+927;2023-03-14 00:00:00;C8786;Impressora;Oficina;1;319,76;319,76;Transferència;Alemanya
+928;2023-10-11 00:00:00;C3912;Impressora;Oficina;1;238,42;238,42;PayPal;Països Baixos
+929;2023-12-04 00:00:00;C4258;USB;Accessoris;1;45,29;45,29;Transferència;Països Baixos
+930;2023-02-27 00:00:00;C5458;Ratolí;Accessoris;5;41,8;209;Targeta;Països Baixos
+931;2023-06-17 00:00:00;C6738;Ratolí;Accessoris;2;54,66;109,32;PayPal;Alemanya
+932;2023-01-18 00:00:00;C9033;Ratolí;Accessoris;4;75,54;302,16;Transferència;Alemanya
+933;2023-07-05 00:00:00;C8352;Mòbil;Electrònica;3;700,08;2100,24;PayPal;Itàlia
+934;2023-12-29 00:00:00;C9003;Impressora;Oficina;5;120,38;601,9;Targeta;Itàlia
+935;2023-11-07 00:00:00;C4074;Auriculars;Accessoris;1;57,81;57,81;Transferència;Portugal
+936;2023-05-01 00:00:00;C8552;Ratolí;Accessoris;2;38,68;77,36;Targeta;Itàlia
+937;2023-05-13 00:00:00;C3032;Mòbil;Electrònica;5;1124,03;5620,15;PayPal;Països Baixos
+938;2023-08-30 00:00:00;C3668;Ratolí;Accessoris;5;23;115;Transferència;Portugal
+939;2023-10-18 00:00:00;C6059;Monitor;Electrònica;3;513,24;1539,72;Targeta;Itàlia
+940;2023-05-20 00:00:00;C3330;Teclat;Accessoris;4;45,36;181,44;Transferència;Portugal
+941;2023-10-04 00:00:00;C1060;Monitor;Electrònica;1;357,5;357,5;Transferència;Portugal
+942;2023-12-10 00:00:00;C7296;Tablet;Electrònica;4;415,34;1661,36;Transferència;Alemanya
+943;2023-02-05 00:00:00;C7121;Auriculars;Accessoris;5;169,06;845,3;PayPal;França
+944;2023-10-22 00:00:00;C8024;Auriculars;Accessoris;2;87,23;174,46;Targeta;Països Baixos
+945;2023-01-06 00:00:00;C3594;Monitor;Electrònica;1;151,28;151,28;Targeta;Alemanya
+946;2023-04-28 00:00:00;C1086;Cadira oficina;Oficina;1;143,73;143,73;Transferència;Alemanya
+947;2023-11-09 00:00:00;C3773;Tablet;Electrònica;3;778,43;2335,29;PayPal;Portugal
+948;2023-03-28 00:00:00;C3700;Teclat;Accessoris;5;46,07;230,35;PayPal;Espanya
+949;2023-04-22 00:00:00;C7038;USB;Accessoris;4;37,49;149,96;Targeta;Països Baixos
+950;2023-05-14 00:00:00;C5757;USB;Accessoris;5;24,33;121,65;Transferència;Alemanya
+951;2023-05-06 00:00:00;C8081;Auriculars;Accessoris;1;117,45;117,45;PayPal;Portugal
+952;2023-05-18 00:00:00;C9306;Teclat;Accessoris;2;107,57;215,14;Transferència;França
+953;2023-08-22 00:00:00;C8178;Auriculars;Accessoris;1;60,03;60,03;PayPal;Alemanya
+954;2023-04-28 00:00:00;C4453;Portàtil;Electrònica;3;971,75;2915,25;PayPal;Alemanya
+955;2023-05-17 00:00:00;C4360;Teclat;Accessoris;3;115,79;347,37;Targeta;França
+956;2023-07-14 00:00:00;C7318;Cadira oficina;Oficina;3;162,95;488,85;PayPal;Països Baixos
+957;2023-12-20 00:00:00;C6618;Impressora;Oficina;5;313,76;1568,8;Targeta;França
+958;2023-04-03 00:00:00;C1238;Monitor;Electrònica;1;373,34;373,34;Targeta;Països Baixos
+959;2023-09-02 00:00:00;C5927;Auriculars;Accessoris;1;40,77;40,77;Targeta;Itàlia
+960;2023-01-17 00:00:00;C6388;USB;Accessoris;2;46,99;93,98;PayPal;França
+961;2023-01-07 00:00:00;C1816;Impressora;Oficina;1;187,15;187,15;Transferència;França
+962;2023-08-29 00:00:00;C4645;Monitor;Electrònica;1;575,72;575,72;Transferència;Portugal
+963;2023-09-08 00:00:00;C2788;Portàtil;Electrònica;1;1354,93;1354,93;Transferència;Països Baixos
+964;2023-04-27 00:00:00;C4893;Monitor;Electrònica;5;304,06;1520,3;PayPal;Portugal
+965;2023-04-03 00:00:00;C1504;Auriculars;Accessoris;1;150,22;150,22;Transferència;Alemanya
+966;2023-12-30 00:00:00;C7773;Auriculars;Accessoris;1;177,35;177,35;Targeta;Alemanya
+967;2023-12-05 00:00:00;C1658;Portàtil;Electrònica;5;1354,09;6770,45;Transferència;Països Baixos
+968;2023-09-28 00:00:00;C5994;Monitor;Electrònica;5;527,49;2637,45;PayPal;Països Baixos
+969;2023-08-20 00:00:00;C7801;Ratolí;Accessoris;1;10,94;10,94;PayPal;Països Baixos
+970;2023-08-12 00:00:00;C4719;Mòbil;Electrònica;2;1101,77;2203,54;Targeta;Portugal
+971;2023-08-27 00:00:00;C7328;Mòbil;Electrònica;4;1077,35;4309,4;Targeta;Espanya
+972;2023-04-26 00:00:00;C5780;Mòbil;Electrònica;4;943,08;3772,32;PayPal;Països Baixos
+973;2023-02-14 00:00:00;C9181;Auriculars;Accessoris;5;101,09;505,45;Transferència;Espanya
+974;2023-05-03 00:00:00;C1002;Auriculars;Accessoris;5;98,03;490,15;Transferència;Portugal
+975;2023-03-03 00:00:00;C6626;Mòbil;Electrònica;3;550,52;1651,56;PayPal;França
+976;2023-05-02 00:00:00;C7239;Impressora;Oficina;3;179,32;537,96;Transferència;França
+977;2023-03-03 00:00:00;C1670;Impressora;Oficina;3;52,93;158,79;Targeta;Alemanya
+978;2023-07-26 00:00:00;C6167;Impressora;Oficina;5;331,57;1657,85;Targeta;Espanya
+979;2023-09-07 00:00:00;C7457;Mòbil;Electrònica;1;266,46;266,46;PayPal;Itàlia
+980;2023-11-14 00:00:00;C3854;Mòbil;Electrònica;5;981,96;4909,8;PayPal;Espanya
+981;2023-07-28 00:00:00;C6330;USB;Accessoris;4;35,49;141,96;PayPal;Països Baixos
+982;2023-02-28 00:00:00;C5678;Portàtil;Electrònica;5;1234,33;6171,65;Transferència;Itàlia
+983;2023-08-03 00:00:00;C1990;Monitor;Electrònica;4;431,24;1724,96;PayPal;França
+984;2023-10-19 00:00:00;C1489;Auriculars;Accessoris;2;127,49;254,98;Transferència;Països Baixos
+985;2023-11-28 00:00:00;C4516;Monitor;Electrònica;2;389,4;778,8;Targeta;Alemanya
+986;2023-11-09 00:00:00;C8404;Cadira oficina;Oficina;3;231,94;695,82;PayPal;Espanya
+987;2023-05-18 00:00:00;C4278;Monitor;Electrònica;4;207,46;829,84;PayPal;Països Baixos
+988;2023-01-02 00:00:00;C7539;Impressora;Oficina;2;245,27;490,54;Targeta;França
+989;2023-11-14 00:00:00;C1383;Portàtil;Electrònica;2;1110,7;2221,4;Targeta;Itàlia
+990;2023-08-27 00:00:00;C5290;USB;Accessoris;1;29,72;29,72;Targeta;Portugal
+991;2023-05-09 00:00:00;C7111;Mòbil;Electrònica;5;1139,07;5695,35;PayPal;França
+992;2023-04-20 00:00:00;C1922;Teclat;Accessoris;2;35,05;70,1;Transferència;Espanya
+993;2023-07-26 00:00:00;C8647;Cadira oficina;Oficina;2;202,87;405,74;PayPal;França
+994;2023-12-23 00:00:00;C7483;Impressora;Oficina;4;316,3;1265,2;PayPal;Portugal
+995;2023-09-14 00:00:00;C4748;Cadira oficina;Oficina;4;148,4;593,6;PayPal;Itàlia
+996;2023-04-06 00:00:00;C6710;Tablet;Electrònica;5;344,68;1723,4;Targeta;Alemanya
+997;2023-06-25 00:00:00;C3103;Ratolí;Accessoris;2;49,01;98,02;Targeta;Portugal
+998;2023-04-14 00:00:00;C5172;Monitor;Electrònica;5;200,53;1002,65;Transferència;Espanya
+999;2023-09-21 00:00:00;C3378;Auriculars;Accessoris;2;168,57;337,14;Transferència;Països Baixos
+1000;2023-09-13 00:00:00;C6669;Monitor;Electrònica;5;506,36;2531,8;PayPal;Portugal
+1001;2023-05-20 00:00:00;C9490;USB;Accessoris;4;9,27;37,08;Targeta;Països Baixos
+1002;2023-03-02 00:00:00;C2474;Portàtil;Electrònica;3;1453,5;4360,5;Transferència;Espanya
+1003;2023-12-17 00:00:00;C7396;USB;Accessoris;3;49,89;149,67;PayPal;Alemanya
+1004;2023-07-06 00:00:00;C3964;Ratolí;Accessoris;3;32,27;96,81;PayPal;Itàlia
+1005;2023-10-31 00:00:00;C7644;Tablet;Electrònica;3;737,8;2213,4;Transferència;Països Baixos
+1006;2023-12-22 00:00:00;C7047;Ratolí;Accessoris;2;26,24;52,48;Targeta;Portugal
+1007;2023-12-21 00:00:00;C9706;Ratolí;Accessoris;3;19,29;57,87;Targeta;França
+1008;2023-05-05 00:00:00;C1067;Monitor;Electrònica;5;412,31;2061,55;Targeta;Itàlia
+1009;2023-06-20 00:00:00;C4521;Mòbil;Electrònica;3;1190,68;3572,04;Targeta;Països Baixos
+1010;2023-06-02 00:00:00;C6395;Impressora;Oficina;3;297,59;892,77;Transferència;Espanya
+1011;2023-04-20 00:00:00;C7838;Teclat;Accessoris;3;74,8;224,4;Transferència;Països Baixos
+1012;2023-02-20 00:00:00;C6780;Cadira oficina;Oficina;3;208,45;625,35;Targeta;Espanya
+1013;2023-09-03 00:00:00;C6232;Tablet;Electrònica;4;885,84;3543,36;Targeta;Països Baixos
+1014;2023-01-14 00:00:00;C5383;Teclat;Accessoris;1;63,42;63,42;PayPal;Espanya
+1015;2023-06-04 00:00:00;C7837;Ratolí;Accessoris;2;41,83;83,66;PayPal;Portugal
+1016;2023-10-04 00:00:00;C4716;USB;Accessoris;3;21,79;65,37;Transferència;Espanya
+1017;2023-12-11 00:00:00;C3505;Tablet;Electrònica;3;190,79;572,37;Transferència;Portugal
+1018;2023-03-05 00:00:00;C7982;Monitor;Electrònica;1;377,34;377,34;PayPal;França
+1019;2023-08-02 00:00:00;C8086;Teclat;Accessoris;4;77,93;311,72;Targeta;Països Baixos
+1020;2023-04-22 00:00:00;C9566;Portàtil;Electrònica;2;1117,04;2234,08;Targeta;Alemanya
+1021;2023-10-23 00:00:00;C2141;Mòbil;Electrònica;4;371,43;1485,72;Transferència;Itàlia
+1022;2023-06-05 00:00:00;C4255;Teclat;Accessoris;3;87;261;Transferència;Itàlia
+1023;2023-11-18 00:00:00;C9996;Portàtil;Electrònica;5;1467,47;7337,35;PayPal;Alemanya
+1024;2023-10-19 00:00:00;C8605;Impressora;Oficina;2;341,83;683,66;Targeta;Països Baixos
+1025;2023-10-26 00:00:00;C8175;Tablet;Electrònica;4;587,39;2349,56;Targeta;Portugal
+1026;2023-07-28 00:00:00;C5735;Cadira oficina;Oficina;2;75,97;151,94;Targeta;Espanya
+1027;2023-01-07 00:00:00;C1975;Impressora;Oficina;3;265,71;797,13;Targeta;França
+1028;2023-06-30 00:00:00;C8382;USB;Accessoris;3;43,83;131,49;Transferència;Espanya
+1029;2023-06-28 00:00:00;C3259;Ratolí;Accessoris;1;30,06;30,06;Targeta;Espanya
+1030;2023-08-27 00:00:00;C4294;USB;Accessoris;1;14,73;14,73;Transferència;Portugal
+1031;2023-08-10 00:00:00;C7419;Impressora;Oficina;5;390,68;1953,4;PayPal;Països Baixos
+1032;2023-04-29 00:00:00;C4856;Mòbil;Electrònica;5;547,51;2737,55;Transferència;Països Baixos
+1033;2023-01-11 00:00:00;C7065;Impressora;Oficina;5;348,39;1741,95;Transferència;Itàlia
+1034;2023-10-17 00:00:00;C9954;Impressora;Oficina;2;195,68;391,36;Transferència;Espanya
+1035;2023-02-21 00:00:00;C7628;Portàtil;Electrònica;2;1128,38;2256,76;PayPal;Alemanya
+1036;2023-05-06 00:00:00;C9775;Monitor;Electrònica;5;364,94;1824,7;PayPal;Portugal
+1037;2023-04-20 00:00:00;C1191;Monitor;Electrònica;3;319,87;959,61;Targeta;Espanya
+1038;2023-05-18 00:00:00;C5134;Cadira oficina;Oficina;4;131,85;527,4;Targeta;Països Baixos
+1039;2023-05-05 00:00:00;C2036;Auriculars;Accessoris;4;85,81;343,24;PayPal;Portugal
+1040;2023-10-09 00:00:00;C6457;Auriculars;Accessoris;5;31,26;156,3;PayPal;Espanya
+1041;2023-01-31 00:00:00;C8542;Impressora;Oficina;2;169,93;339,86;Targeta;França
+1042;2023-07-11 00:00:00;C2289;Auriculars;Accessoris;5;147,2;736;Targeta;Portugal
+1043;2023-04-22 00:00:00;C6462;Portàtil;Electrònica;3;1153,86;3461,58;Targeta;França
+1044;2023-11-09 00:00:00;C7324;Teclat;Accessoris;2;23,64;47,28;Targeta;Alemanya
+1045;2023-10-05 00:00:00;C6208;Teclat;Accessoris;1;58,95;58,95;Targeta;Itàlia
+1046;2023-04-16 00:00:00;C7094;Monitor;Electrònica;3;387,14;1161,42;Targeta;Portugal
+1047;2023-12-03 00:00:00;C4103;Tablet;Electrònica;5;553,52;2767,6;Transferència;Itàlia
+1048;2023-08-06 00:00:00;C8124;Impressora;Oficina;4;361,33;1445,32;Transferència;Itàlia
+1049;2023-11-28 00:00:00;C4109;Teclat;Accessoris;1;66,39;66,39;PayPal;Alemanya
+1050;2023-08-15 00:00:00;C5143;Portàtil;Electrònica;1;1386,76;1386,76;PayPal;Itàlia
+1051;2023-07-06 00:00:00;C3535;Tablet;Electrònica;4;455,1;1820,4;Targeta;Països Baixos
+1052;2023-08-17 00:00:00;C6509;Impressora;Oficina;1;118,75;118,75;PayPal;Portugal
+1053;2023-07-07 00:00:00;C2881;Cadira oficina;Oficina;1;196,25;196,25;Targeta;Països Baixos
+1054;2023-02-08 00:00:00;C2695;USB;Accessoris;4;44,13;176,52;PayPal;Portugal
+1055;2023-02-22 00:00:00;C6570;Tablet;Electrònica;4;359,56;1438,24;PayPal;França
+1056;2023-09-03 00:00:00;C3785;Cadira oficina;Oficina;5;112,49;562,45;Targeta;Països Baixos
+1057;2023-07-19 00:00:00;C3294;Impressora;Oficina;5;366,12;1830,6;PayPal;Portugal
+1058;2023-01-06 00:00:00;C5482;Portàtil;Electrònica;1;1199,88;1199,88;Transferència;Itàlia
+1059;2023-06-26 00:00:00;C6918;Mòbil;Electrònica;4;1093,99;4375,96;Targeta;Espanya
+1060;2023-07-09 00:00:00;C1307;Tablet;Electrònica;5;579,92;2899,6;Targeta;Espanya
+1061;2023-10-14 00:00:00;C5820;Mòbil;Electrònica;1;872,76;872,76;Targeta;França
+1062;2023-01-13 00:00:00;C3985;Cadira oficina;Oficina;4;269,78;1079,12;Targeta;França
+1063;2023-07-24 00:00:00;C1336;Tablet;Electrònica;4;744,45;2977,8;Targeta;Espanya
+1064;2023-09-30 00:00:00;C4129;Tablet;Electrònica;1;264,04;264,04;PayPal;Països Baixos
+1065;2023-04-19 00:00:00;C8446;Teclat;Accessoris;3;39,89;119,67;Transferència;Espanya
+1066;2023-04-21 00:00:00;C5876;Tablet;Electrònica;3;368,6;1105,8;Targeta;França
+1067;2023-06-05 00:00:00;C6592;Auriculars;Accessoris;1;104,25;104,25;Transferència;França
+1068;2023-09-03 00:00:00;C1721;Auriculars;Accessoris;2;146,45;292,9;PayPal;Països Baixos
+1069;2023-04-06 00:00:00;C1497;Ratolí;Accessoris;5;45,9;229,5;PayPal;França
+1070;2023-09-26 00:00:00;C2647;Ratolí;Accessoris;2;37,85;75,7;Transferència;França
+1071;2023-04-26 00:00:00;C1142;USB;Accessoris;3;20,32;60,96;Targeta;Alemanya
+1072;2023-12-30 00:00:00;C7622;Cadira oficina;Oficina;2;278,55;557,1;Transferència;Espanya
+1073;2023-11-09 00:00:00;C3696;Tablet;Electrònica;4;242,55;970,2;PayPal;Itàlia
+1074;2023-02-13 00:00:00;C3786;Impressora;Oficina;1;343,71;343,71;Targeta;Països Baixos
+1075;2023-10-15 00:00:00;C2806;Auriculars;Accessoris;1;155,67;155,67;Targeta;Portugal
+1076;2023-03-13 00:00:00;C2690;Tablet;Electrònica;5;499,26;2496,3;Targeta;Portugal
+1077;2023-04-17 00:00:00;C4303;Tablet;Electrònica;1;280,12;280,12;PayPal;Alemanya
+1078;2023-05-19 00:00:00;C8850;Impressora;Oficina;3;119,94;359,82;PayPal;Espanya
+1079;2023-08-09 00:00:00;C4924;Tablet;Electrònica;1;638,64;638,64;Transferència;Portugal
+1080;2023-04-12 00:00:00;C9100;Monitor;Electrònica;2;517,53;1035,06;Targeta;Espanya
+1081;2023-11-06 00:00:00;C6831;Monitor;Electrònica;3;474,71;1424,13;Transferència;Portugal
+1082;2023-05-19 00:00:00;C7999;Ratolí;Accessoris;3;64,27;192,81;Transferència;Espanya
+1083;2023-03-04 00:00:00;C2874;Portàtil;Electrònica;3;821,07;2463,21;PayPal;Alemanya
+1084;2023-09-30 00:00:00;C2051;Portàtil;Electrònica;3;1245,97;3737,91;Targeta;Portugal
+1085;2023-09-01 00:00:00;C7320;Impressora;Oficina;5;346,84;1734,2;Transferència;Alemanya
+1086;2023-09-26 00:00:00;C1307;Cadira oficina;Oficina;2;127,59;255,18;PayPal;Espanya
+1087;2023-04-15 00:00:00;C2251;Monitor;Electrònica;1;439,06;439,06;PayPal;Països Baixos
+1088;2023-07-05 00:00:00;C6869;Monitor;Electrònica;3;411,34;1234,02;Transferència;França
+1089;2023-10-11 00:00:00;C5992;Auriculars;Accessoris;3;34,21;102,63;Targeta;Alemanya
+1090;2023-07-27 00:00:00;C7513;Portàtil;Electrònica;1;862,29;862,29;PayPal;Portugal
+1091;2023-05-17 00:00:00;C1183;Cadira oficina;Oficina;4;282,87;1131,48;Transferència;Itàlia
+1092;2023-01-25 00:00:00;C8678;Monitor;Electrònica;5;397,61;1988,05;Transferència;França
+1093;2023-04-28 00:00:00;C2096;Ratolí;Accessoris;2;45,11;90,22;PayPal;Alemanya
+1094;2023-07-30 00:00:00;C9002;Ratolí;Accessoris;2;62,58;125,16;Transferència;Alemanya
+1095;2023-10-10 00:00:00;C1270;Tablet;Electrònica;3;370,7;1112,1;PayPal;Països Baixos
+1096;2023-06-30 00:00:00;C7305;Teclat;Accessoris;1;63,55;63,55;PayPal;Espanya
+1097;2023-12-06 00:00:00;C8299;Teclat;Accessoris;2;104,89;209,78;Transferència;Països Baixos
+1098;2023-09-03 00:00:00;C4672;USB;Accessoris;1;19,12;19,12;PayPal;Països Baixos
+1099;2023-05-29 00:00:00;C6552;Teclat;Accessoris;3;91,62;274,86;PayPal;Itàlia
+1100;2023-10-21 00:00:00;C6884;USB;Accessoris;5;42,01;210,05;PayPal;Itàlia
+1101;2023-10-29 00:00:00;C8192;Monitor;Electrònica;2;346,41;692,82;PayPal;Portugal
+1102;2023-03-11 00:00:00;C3672;Portàtil;Electrònica;1;915,08;915,08;Targeta;Alemanya
+1103;2023-10-30 00:00:00;C9662;USB;Accessoris;4;7,04;28,16;Targeta;Països Baixos
+1104;2023-05-29 00:00:00;C5059;Teclat;Accessoris;2;84,16;168,32;PayPal;Itàlia
+1105;2023-02-09 00:00:00;C8409;Monitor;Electrònica;3;536,51;1609,53;PayPal;Països Baixos
+1106;2023-07-19 00:00:00;C7646;Auriculars;Accessoris;4;120,9;483,6;Targeta;Països Baixos
+1107;2023-08-25 00:00:00;C2716;Tablet;Electrònica;5;340,45;1702,25;Transferència;Portugal
+1108;2023-08-25 00:00:00;C4932;Auriculars;Accessoris;3;103,52;310,56;Transferència;Països Baixos
+1109;2023-08-28 00:00:00;C8616;Mòbil;Electrònica;3;426,28;1278,84;Targeta;Països Baixos
+1110;2023-01-30 00:00:00;C6898;Portàtil;Electrònica;3;1289,79;3869,37;PayPal;Espanya
+1111;2023-03-31 00:00:00;C1890;Tablet;Electrònica;4;549,22;2196,88;Targeta;França
+1112;2023-08-08 00:00:00;C4961;Monitor;Electrònica;5;474,08;2370,4;Targeta;Països Baixos
+1113;2023-07-03 00:00:00;C7686;Ratolí;Accessoris;2;65,55;131,1;PayPal;Portugal
+1114;2023-10-05 00:00:00;C5647;Cadira oficina;Oficina;4;72,66;290,64;Targeta;Itàlia
+1115;2023-11-17 00:00:00;C7837;Teclat;Accessoris;1;118,89;118,89;Targeta;Espanya
+1116;2023-01-22 00:00:00;C9869;Teclat;Accessoris;1;109,26;109,26;Targeta;França
+1117;2023-01-17 00:00:00;C9848;Monitor;Electrònica;1;547,94;547,94;PayPal;Països Baixos
+1118;2023-09-19 00:00:00;C7509;Impressora;Oficina;5;342,11;1710,55;Targeta;Itàlia
+1119;2023-05-23 00:00:00;C4580;Tablet;Electrònica;5;287;1435;PayPal;Portugal
+1120;2023-09-02 00:00:00;C2015;Teclat;Accessoris;1;55,38;55,38;Transferència;França
+1121;2023-02-27 00:00:00;C8984;USB;Accessoris;5;46,96;234,8;Targeta;França
+1122;2023-01-26 00:00:00;C8982;Auriculars;Accessoris;2;95,74;191,48;Transferència;França
+1123;2023-07-17 00:00:00;C3618;Impressora;Oficina;4;216,46;865,84;PayPal;Itàlia
+1124;2023-09-30 00:00:00;C6368;Portàtil;Electrònica;2;1259,49;2518,98;Transferència;França
+1125;2023-02-13 00:00:00;C8566;Teclat;Accessoris;5;90,05;450,25;Transferència;Alemanya
+1126;2023-08-27 00:00:00;C2003;Ratolí;Accessoris;3;52,9;158,7;PayPal;Alemanya
+1127;2023-04-10 00:00:00;C9095;Cadira oficina;Oficina;3;226,4;679,2;PayPal;Alemanya
+1128;2023-12-26 00:00:00;C7524;Monitor;Electrònica;4;570,09;2280,36;PayPal;Portugal
+1129;2023-02-19 00:00:00;C6184;Cadira oficina;Oficina;3;149,63;448,89;Transferència;Països Baixos
+1130;2023-05-21 00:00:00;C2956;Teclat;Accessoris;4;61,63;246,52;PayPal;Països Baixos
+1131;2023-10-23 00:00:00;C9378;USB;Accessoris;4;8,15;32,6;Targeta;Portugal
+1132;2023-12-12 00:00:00;C3284;Cadira oficina;Oficina;4;67;268;Targeta;Espanya
+1133;2023-09-03 00:00:00;C5887;Cadira oficina;Oficina;3;230,43;691,29;PayPal;Espanya
+1134;2023-02-14 00:00:00;C1961;Mòbil;Electrònica;1;1168,67;1168,67;Targeta;França
+1135;2023-04-13 00:00:00;C2001;Impressora;Oficina;4;360,16;1440,64;PayPal;Països Baixos
+1136;2023-10-13 00:00:00;C9849;Teclat;Accessoris;3;48,24;144,72;PayPal;França
+1137;2023-08-09 00:00:00;C1422;Ratolí;Accessoris;5;13,01;65,05;Transferència;Espanya
+1138;2023-06-22 00:00:00;C3710;Monitor;Electrònica;3;465,75;1397,25;PayPal;Països Baixos
+1139;2023-04-18 00:00:00;C4075;Monitor;Electrònica;2;516,46;1032,92;Targeta;Espanya
+1140;2023-05-26 00:00:00;C2447;Auriculars;Accessoris;2;158,26;316,52;Transferència;Itàlia
+1141;2023-08-17 00:00:00;C3671;Impressora;Oficina;1;241,62;241,62;PayPal;Portugal
+1142;2023-04-16 00:00:00;C4722;Tablet;Electrònica;3;813,27;2439,81;Transferència;Portugal
+1143;2023-12-03 00:00:00;C1808;Impressora;Oficina;4;299,5;1198;Transferència;Portugal
+1144;2023-01-22 00:00:00;C2216;Auriculars;Accessoris;3;57,96;173,88;Targeta;Països Baixos
+1145;2023-09-08 00:00:00;C6634;Ratolí;Accessoris;3;38,01;114,03;Targeta;Itàlia
+1146;2023-03-28 00:00:00;C1224;Mòbil;Electrònica;4;1197,62;4790,48;Transferència;Espanya
+1147;2023-08-21 00:00:00;C2814;Portàtil;Electrònica;3;1101,69;3305,07;Targeta;França
+1148;2023-06-24 00:00:00;C3931;Auriculars;Accessoris;5;31,82;159,1;Transferència;Països Baixos
+1149;2023-08-25 00:00:00;C8415;Cadira oficina;Oficina;1;191,15;191,15;PayPal;Itàlia
+1150;2023-03-15 00:00:00;C1717;Auriculars;Accessoris;1;95,27;95,27;PayPal;Països Baixos
+1151;2023-04-04 00:00:00;C7782;Teclat;Accessoris;2;91,04;182,08;Transferència;Espanya
+1152;2023-04-26 00:00:00;C8905;Tablet;Electrònica;3;162,44;487,32;Targeta;Països Baixos
+1153;2023-01-11 00:00:00;C2620;Impressora;Oficina;3;76,88;230,64;Targeta;França
+1154;2023-07-28 00:00:00;C3941;Mòbil;Electrònica;5;1034,95;5174,75;Transferència;Alemanya
+1155;2023-05-01 00:00:00;C7197;Cadira oficina;Oficina;4;268,42;1073,68;Transferència;Alemanya
+1156;2023-08-31 00:00:00;C2553;Teclat;Accessoris;1;37,44;37,44;Transferència;Portugal
+1157;2023-12-12 00:00:00;C7799;Tablet;Electrònica;3;793,47;2380,41;Targeta;Itàlia
+1158;2023-08-27 00:00:00;C7447;Ratolí;Accessoris;4;10,79;43,16;Transferència;Itàlia
+1159;2023-11-29 00:00:00;C6877;Teclat;Accessoris;4;88,26;353,04;PayPal;França
+1160;2023-10-10 00:00:00;C5686;USB;Accessoris;3;29,49;88,47;Transferència;Portugal
+1161;2023-01-12 00:00:00;C1140;Cadira oficina;Oficina;4;125,16;500,64;PayPal;Itàlia
+1162;2023-03-04 00:00:00;C1464;Cadira oficina;Oficina;1;259,77;259,77;Transferència;Països Baixos
+1163;2023-01-08 00:00:00;C6956;Cadira oficina;Oficina;5;114,26;571,3;Targeta;Alemanya
+1164;2023-10-11 00:00:00;C7543;Impressora;Oficina;4;81,47;325,88;Transferència;Espanya
+1165;2023-06-29 00:00:00;C4195;Impressora;Oficina;5;166,2;831;Transferència;Països Baixos
+1166;2023-07-14 00:00:00;C4982;Mòbil;Electrònica;5;959,09;4795,45;Targeta;Espanya
+1167;2023-10-02 00:00:00;C5713;Cadira oficina;Oficina;4;154,7;618,8;Transferència;Portugal
+1168;2023-01-27 00:00:00;C8478;Cadira oficina;Oficina;5;110,06;550,3;Transferència;Itàlia
+1169;2023-10-08 00:00:00;C5933;USB;Accessoris;4;11,93;47,72;PayPal;Espanya
+1170;2023-08-12 00:00:00;C9975;Mòbil;Electrònica;2;546,56;1093,12;PayPal;Països Baixos
+1171;2023-01-30 00:00:00;C1044;Monitor;Electrònica;4;185,65;742,6;Transferència;Itàlia
+1172;2023-05-21 00:00:00;C2909;USB;Accessoris;2;20,19;40,38;Targeta;Itàlia
+1173;2023-11-25 00:00:00;C8910;Monitor;Electrònica;4;229,91;919,64;Targeta;Itàlia
+1174;2023-08-27 00:00:00;C4406;Tablet;Electrònica;4;233,35;933,4;Targeta;Països Baixos
+1175;2023-10-15 00:00:00;C9579;Ratolí;Accessoris;1;67,82;67,82;Targeta;Alemanya
+1176;2023-12-09 00:00:00;C7781;USB;Accessoris;5;9,75;48,75;PayPal;Portugal
+1177;2023-11-20 00:00:00;C6929;Auriculars;Accessoris;2;116,33;232,66;PayPal;Itàlia
+1178;2023-05-27 00:00:00;C9681;Mòbil;Electrònica;4;644,53;2578,12;Transferència;Alemanya
+1179;2023-12-07 00:00:00;C6308;Portàtil;Electrònica;3;1355,67;4067,01;Transferència;França
+1180;2023-10-15 00:00:00;C6953;Mòbil;Electrònica;5;837,9;4189,5;Targeta;Itàlia
+1181;2023-05-10 00:00:00;C7337;USB;Accessoris;2;24,55;49,1;Targeta;França
+1182;2023-12-18 00:00:00;C1143;USB;Accessoris;1;19,86;19,86;Targeta;Portugal
+1183;2023-04-17 00:00:00;C3176;Auriculars;Accessoris;5;136,08;680,4;Targeta;Espanya
+1184;2023-01-04 00:00:00;C4398;Monitor;Electrònica;5;164,59;822,95;PayPal;Espanya
+1185;2023-04-05 00:00:00;C8392;Auriculars;Accessoris;2;22,92;45,84;PayPal;Alemanya
+1186;2023-02-16 00:00:00;C6300;Auriculars;Accessoris;1;108,6;108,6;Transferència;Espanya
+1187;2023-04-16 00:00:00;C7553;Impressora;Oficina;2;317,88;635,76;Transferència;Alemanya
+1188;2023-06-20 00:00:00;C8498;Monitor;Electrònica;2;243,92;487,84;Targeta;Països Baixos
+1189;2023-07-14 00:00:00;C3537;Impressora;Oficina;4;346,41;1385,64;Transferència;Espanya
+1190;2023-11-01 00:00:00;C3077;Impressora;Oficina;2;361,35;722,7;Targeta;Alemanya
+1191;2023-10-08 00:00:00;C5873;Ratolí;Accessoris;4;36,47;145,88;Targeta;Portugal
+1192;2023-11-29 00:00:00;C2015;Tablet;Electrònica;1;669,27;669,27;Transferència;Portugal
+1193;2023-10-30 00:00:00;C2269;Impressora;Oficina;2;311,48;622,96;PayPal;Itàlia
+1194;2023-08-30 00:00:00;C6672;Portàtil;Electrònica;1;891,68;891,68;PayPal;Alemanya
+1195;2023-03-30 00:00:00;C7155;USB;Accessoris;2;49,86;99,72;Targeta;França
+1196;2023-12-12 00:00:00;C9713;Cadira oficina;Oficina;4;139,67;558,68;PayPal;Països Baixos
+1197;2023-06-25 00:00:00;C5883;Ratolí;Accessoris;2;15,71;31,42;Transferència;Espanya
+1198;2023-11-17 00:00:00;C2409;Ratolí;Accessoris;2;43,79;87,58;Transferència;Espanya
+1199;2023-10-12 00:00:00;C9718;Cadira oficina;Oficina;2;219,32;438,64;PayPal;França
+1200;2023-12-06 00:00:00;C3172;Portàtil;Electrònica;4;1423,27;5693,08;Transferència;Portugal
+1201;2023-04-20 00:00:00;C8825;Portàtil;Electrònica;5;817,28;4086,4;PayPal;Països Baixos
+1202;2023-05-08 00:00:00;C5427;USB;Accessoris;2;10,74;21,48;Transferència;França
+1203;2023-06-22 00:00:00;C8189;Ratolí;Accessoris;4;20,55;82,2;Transferència;Portugal
+1204;2023-12-22 00:00:00;C5535;Cadira oficina;Oficina;5;186,11;930,55;PayPal;Països Baixos
+1205;2023-06-13 00:00:00;C8697;Ratolí;Accessoris;1;65,45;65,45;PayPal;Portugal
+1206;2023-05-03 00:00:00;C6060;Auriculars;Accessoris;5;124,62;623,1;PayPal;França
+1207;2023-08-19 00:00:00;C3014;Monitor;Electrònica;3;430,92;1292,76;PayPal;Alemanya
+1208;2023-12-03 00:00:00;C8148;Auriculars;Accessoris;4;27,64;110,56;PayPal;Portugal
+1209;2023-07-18 00:00:00;C4629;USB;Accessoris;5;42,68;213,4;Targeta;Itàlia
+1210;2023-06-18 00:00:00;C7638;Ratolí;Accessoris;4;19,42;77,68;Transferència;Espanya
+1211;2023-04-19 00:00:00;C4866;Tablet;Electrònica;5;524,23;2621,15;Targeta;Portugal
+1212;2023-07-25 00:00:00;C5942;Teclat;Accessoris;3;57,21;171,63;Targeta;Itàlia
+1213;2023-10-14 00:00:00;C9976;USB;Accessoris;5;45,1;225,5;Targeta;Alemanya
+1214;2023-09-08 00:00:00;C8891;Teclat;Accessoris;5;73,21;366,05;Targeta;Alemanya
+1215;2023-10-12 00:00:00;C1325;Tablet;Electrònica;1;574,31;574,31;Targeta;Alemanya
+1216;2023-11-21 00:00:00;C5603;Impressora;Oficina;2;334,29;668,58;Transferència;Espanya
+1217;2023-07-31 00:00:00;C8754;Auriculars;Accessoris;1;60,63;60,63;PayPal;Itàlia
+1218;2023-02-23 00:00:00;C3575;Cadira oficina;Oficina;3;259,13;777,39;Targeta;Alemanya
+1219;2023-07-12 00:00:00;C4966;Impressora;Oficina;3;398,45;1195,35;Transferència;Països Baixos
+1220;2023-12-03 00:00:00;C8493;Teclat;Accessoris;1;49,33;49,33;Transferència;Alemanya
+1221;2023-06-10 00:00:00;C6594;Impressora;Oficina;3;257,31;771,93;Transferència;Països Baixos
+1222;2023-04-19 00:00:00;C4144;Portàtil;Electrònica;4;883,69;3534,76;PayPal;Espanya
+1223;2023-10-02 00:00:00;C8269;USB;Accessoris;3;41,18;123,54;PayPal;Alemanya
+1224;2023-05-21 00:00:00;C7331;Cadira oficina;Oficina;3;82,2;246,6;Transferència;Espanya
+1225;2023-02-21 00:00:00;C3158;Mòbil;Electrònica;4;967,5;3870;Transferència;Espanya
+1226;2023-07-30 00:00:00;C5039;Impressora;Oficina;3;265,99;797,97;PayPal;Alemanya
+1227;2023-12-12 00:00:00;C4823;Mòbil;Electrònica;2;325,55;651,1;PayPal;Itàlia
+1228;2023-03-18 00:00:00;C1923;Mòbil;Electrònica;3;482,26;1446,78;PayPal;Països Baixos
+1229;2023-08-28 00:00:00;C7578;Cadira oficina;Oficina;3;245,16;735,48;Targeta;Espanya
+1230;2023-06-03 00:00:00;C3657;Ratolí;Accessoris;3;50,99;152,97;Transferència;Espanya
+1231;2023-08-18 00:00:00;C9105;Auriculars;Accessoris;4;109,66;438,64;Targeta;Països Baixos
+1232;2023-08-20 00:00:00;C2466;Portàtil;Electrònica;3;907,74;2723,22;Targeta;Itàlia
+1233;2023-12-25 00:00:00;C8833;Portàtil;Electrònica;3;894,98;2684,94;PayPal;França
+1234;2023-02-20 00:00:00;C2652;Monitor;Electrònica;4;485,22;1940,88;PayPal;Alemanya
+1235;2023-03-29 00:00:00;C5815;Tablet;Electrònica;5;547,29;2736,45;PayPal;França
+1236;2023-04-28 00:00:00;C4637;Teclat;Accessoris;1;20,97;20,97;Targeta;Països Baixos
+1237;2023-03-16 00:00:00;C6599;Ratolí;Accessoris;4;33,19;132,76;Transferència;Espanya
+1238;2023-01-11 00:00:00;C8382;Monitor;Electrònica;2;478,13;956,26;PayPal;França
+1239;2023-01-28 00:00:00;C1746;Tablet;Electrònica;2;742,51;1485,02;Transferència;Alemanya
+1240;2023-02-23 00:00:00;C8008;Impressora;Oficina;2;389,26;778,52;Transferència;Alemanya
+1241;2023-10-13 00:00:00;C5443;Impressora;Oficina;3;227,08;681,24;Transferència;Portugal
+1242;2023-04-03 00:00:00;C5780;Monitor;Electrònica;4;598,87;2395,48;Transferència;França
+1243;2023-12-24 00:00:00;C1506;Ratolí;Accessoris;1;18,06;18,06;PayPal;Alemanya
+1244;2023-11-16 00:00:00;C7360;Monitor;Electrònica;4;429,85;1719,4;Targeta;Portugal
+1245;2023-07-29 00:00:00;C2192;Portàtil;Electrònica;1;1458,35;1458,35;Transferència;Espanya
+1246;2023-11-02 00:00:00;C7106;USB;Accessoris;1;13,12;13,12;Transferència;Itàlia
+1247;2023-08-24 00:00:00;C2211;Ratolí;Accessoris;1;33,67;33,67;Targeta;França
+1248;2023-05-12 00:00:00;C9693;Teclat;Accessoris;1;32,08;32,08;Targeta;Itàlia
+1249;2023-03-12 00:00:00;C8345;Cadira oficina;Oficina;1;74,06;74,06;Targeta;Itàlia
+1250;2023-01-08 00:00:00;C1919;Tablet;Electrònica;3;803,93;2411,79;Transferència;Espanya
+1251;2023-09-01 00:00:00;C6930;Ratolí;Accessoris;2;66,21;132,42;PayPal;Alemanya
+1252;2023-05-26 00:00:00;C6275;Ratolí;Accessoris;1;49,61;49,61;Targeta;Portugal
+1253;2023-02-16 00:00:00;C8354;Mòbil;Electrònica;3;496,33;1488,99;PayPal;Itàlia
+1254;2023-01-17 00:00:00;C4622;Mòbil;Electrònica;5;571,55;2857,75;Transferència;Alemanya
+1255;2023-02-08 00:00:00;C4715;Auriculars;Accessoris;2;189,12;378,24;Transferència;França
+1256;2023-03-07 00:00:00;C3155;Mòbil;Electrònica;3;400,77;1202,31;PayPal;Espanya
+1257;2023-01-18 00:00:00;C1692;Cadira oficina;Oficina;4;279,79;1119,16;PayPal;França
+1258;2023-09-14 00:00:00;C1441;USB;Accessoris;5;13,78;68,9;Transferència;França
+1259;2023-08-25 00:00:00;C7533;Monitor;Electrònica;2;593,87;1187,74;PayPal;Espanya
+1260;2023-04-11 00:00:00;C8933;Impressora;Oficina;3;302,72;908,16;Transferència;Espanya
+1261;2023-02-02 00:00:00;C7089;Mòbil;Electrònica;1;1135,94;1135,94;Transferència;Itàlia
+1262;2023-09-03 00:00:00;C1404;Cadira oficina;Oficina;3;254,32;762,96;PayPal;Alemanya
+1263;2023-06-10 00:00:00;C9938;Auriculars;Accessoris;5;22,32;111,6;Transferència;Portugal
+1264;2023-06-29 00:00:00;C6606;Mòbil;Electrònica;2;332,18;664,36;Transferència;Països Baixos
+1265;2023-09-16 00:00:00;C1421;USB;Accessoris;2;22,14;44,28;PayPal;Països Baixos
+1266;2023-12-30 00:00:00;C5675;Ratolí;Accessoris;1;25,14;25,14;PayPal;Alemanya
+1267;2023-04-08 00:00:00;C7748;Ratolí;Accessoris;4;23,96;95,84;Transferència;Alemanya
+1268;2023-06-21 00:00:00;C3181;Teclat;Accessoris;2;22,15;44,3;Transferència;Itàlia
+1269;2023-03-26 00:00:00;C6882;Cadira oficina;Oficina;1;171,87;171,87;Targeta;Portugal
+1270;2023-08-12 00:00:00;C9411;Mòbil;Electrònica;4;1157,95;4631,8;Targeta;Alemanya
+1271;2023-09-22 00:00:00;C5524;Impressora;Oficina;1;55,02;55,02;Transferència;Espanya
+1272;2023-08-03 00:00:00;C6673;Tablet;Electrònica;5;764,71;3823,55;PayPal;Itàlia
+1273;2023-11-26 00:00:00;C4854;USB;Accessoris;3;17,75;53,25;PayPal;Itàlia
+1274;2023-12-05 00:00:00;C3395;Cadira oficina;Oficina;3;210,08;630,24;PayPal;Països Baixos
+1275;2023-01-06 00:00:00;C6515;Mòbil;Electrònica;3;444,16;1332,48;Transferència;Espanya
+1276;2023-12-15 00:00:00;C4138;Portàtil;Electrònica;5;1078,46;5392,3;PayPal;Espanya
+1277;2023-12-06 00:00:00;C5270;Auriculars;Accessoris;2;88,9;177,8;Targeta;Espanya
+1278;2023-02-14 00:00:00;C9022;Auriculars;Accessoris;5;111,03;555,15;Transferència;Alemanya
+1279;2023-01-09 00:00:00;C4899;USB;Accessoris;3;28,42;85,26;PayPal;França
+1280;2023-11-23 00:00:00;C3062;Ratolí;Accessoris;5;28,07;140,35;Transferència;Països Baixos
+1281;2023-10-05 00:00:00;C7256;Mòbil;Electrònica;2;977,81;1955,62;PayPal;Alemanya
+1282;2023-09-23 00:00:00;C2231;Mòbil;Electrònica;1;845,57;845,57;Transferència;Països Baixos
+1283;2023-11-02 00:00:00;C2689;Auriculars;Accessoris;1;171,59;171,59;PayPal;França
+1284;2023-10-06 00:00:00;C6649;Monitor;Electrònica;1;478,38;478,38;PayPal;Alemanya
+1285;2023-11-30 00:00:00;C2819;Cadira oficina;Oficina;3;282,73;848,19;PayPal;Portugal
+1286;2023-11-15 00:00:00;C6560;Teclat;Accessoris;4;23,06;92,24;Targeta;Portugal
+1287;2023-06-09 00:00:00;C5206;Auriculars;Accessoris;3;29,97;89,91;Targeta;Portugal
+1288;2023-08-08 00:00:00;C8235;Tablet;Electrònica;4;460,26;1841,04;PayPal;Portugal
+1289;2023-11-19 00:00:00;C6911;Mòbil;Electrònica;2;377,08;754,16;Transferència;Alemanya
+1290;2023-09-26 00:00:00;C8876;Auriculars;Accessoris;5;76,77;383,85;PayPal;Espanya
+1291;2023-12-04 00:00:00;C5041;USB;Accessoris;2;9,36;18,72;Targeta;Itàlia
+1292;2023-06-24 00:00:00;C5683;Ratolí;Accessoris;2;48,29;96,58;PayPal;Itàlia
+1293;2023-04-21 00:00:00;C2784;USB;Accessoris;2;8,27;16,54;PayPal;Països Baixos
+1294;2023-02-04 00:00:00;C6428;Tablet;Electrònica;3;635,59;1906,77;Transferència;Espanya
+1295;2023-08-04 00:00:00;C5658;Monitor;Electrònica;5;443,65;2218,25;Transferència;Països Baixos
+1296;2023-12-04 00:00:00;C7219;Cadira oficina;Oficina;3;237,52;712,56;Transferència;Espanya
+1297;2023-07-06 00:00:00;C2312;Portàtil;Electrònica;4;1311,61;5246,44;PayPal;Portugal
+1298;2023-06-29 00:00:00;C4197;Teclat;Accessoris;3;102,42;307,26;PayPal;Alemanya
+1299;2023-04-09 00:00:00;C1126;Ratolí;Accessoris;2;14,17;28,34;PayPal;Alemanya
+1300;2023-05-06 00:00:00;C2366;Mòbil;Electrònica;5;615,82;3079,1;PayPal;Itàlia
+1301;2023-06-22 00:00:00;C3887;Mòbil;Electrònica;4;768,55;3074,2;PayPal;Portugal
+1302;2023-10-09 00:00:00;C7040;Teclat;Accessoris;5;31,67;158,35;Transferència;Portugal
+1303;2023-03-05 00:00:00;C6014;USB;Accessoris;3;23,41;70,23;Transferència;Itàlia
+1304;2023-05-26 00:00:00;C6974;Auriculars;Accessoris;5;126,02;630,1;Transferència;França
+1305;2023-11-09 00:00:00;C6014;Teclat;Accessoris;5;40,6;203;PayPal;Portugal
+1306;2023-03-29 00:00:00;C5530;Monitor;Electrònica;4;257,51;1030,04;Transferència;Espanya
+1307;2023-12-06 00:00:00;C3693;Mòbil;Electrònica;2;554,83;1109,66;Transferència;Espanya
+1308;2023-04-19 00:00:00;C8966;Teclat;Accessoris;5;49,71;248,55;Transferència;Itàlia
+1309;2023-03-18 00:00:00;C7772;Ratolí;Accessoris;5;23,7;118,5;Targeta;Itàlia
+1310;2023-01-25 00:00:00;C9488;Tablet;Electrònica;4;195,7;782,8;Targeta;Portugal
+1311;2023-02-07 00:00:00;C1901;Portàtil;Electrònica;1;1147,37;1147,37;Transferència;Alemanya
+1312;2023-06-17 00:00:00;C6622;Cadira oficina;Oficina;2;65,75;131,5;Transferència;Espanya
+1313;2023-06-01 00:00:00;C6650;Impressora;Oficina;1;250,85;250,85;Transferència;Alemanya
+1314;2023-12-10 00:00:00;C2058;Ratolí;Accessoris;1;53,8;53,8;PayPal;Països Baixos
+1315;2023-06-02 00:00:00;C3476;Cadira oficina;Oficina;4;275,18;1100,72;Transferència;Portugal
+1316;2023-12-11 00:00:00;C1220;Monitor;Electrònica;3;347,26;1041,78;PayPal;Itàlia
+1317;2023-01-25 00:00:00;C5623;Mòbil;Electrònica;3;1010,16;3030,48;Targeta;França
+1318;2023-05-09 00:00:00;C8209;Monitor;Electrònica;1;247,87;247,87;Transferència;Itàlia
+1319;2023-12-02 00:00:00;C8915;Cadira oficina;Oficina;2;103,39;206,78;Targeta;Països Baixos
+1320;2023-02-03 00:00:00;C9536;Cadira oficina;Oficina;2;249,77;499,54;Targeta;Itàlia
+1321;2023-05-02 00:00:00;C8237;Portàtil;Electrònica;5;1188,59;5942,95;Targeta;Itàlia
+1322;2023-02-08 00:00:00;C2001;Auriculars;Accessoris;3;130,78;392,34;Targeta;França
+1323;2023-09-01 00:00:00;C9465;Cadira oficina;Oficina;1;245,44;245,44;PayPal;Països Baixos
+1324;2023-11-25 00:00:00;C1478;Impressora;Oficina;4;149,15;596,6;Transferència;Alemanya
+1325;2023-04-19 00:00:00;C7297;Impressora;Oficina;1;54,85;54,85;Transferència;Itàlia
+1326;2023-11-04 00:00:00;C4332;Mòbil;Electrònica;3;1132,75;3398,25;Transferència;Portugal
+1327;2023-04-21 00:00:00;C4841;Monitor;Electrònica;2;382,3;764,6;Targeta;Alemanya
+1328;2023-04-19 00:00:00;C6214;Portàtil;Electrònica;4;1371,26;5485,04;Targeta;Països Baixos
+1329;2023-07-10 00:00:00;C8533;Teclat;Accessoris;3;28,96;86,88;Targeta;Itàlia
+1330;2023-09-24 00:00:00;C6730;Portàtil;Electrònica;5;839,98;4199,9;Targeta;Alemanya
+1331;2023-06-13 00:00:00;C5471;Cadira oficina;Oficina;2;276,77;553,54;Transferència;Alemanya
+1332;2023-03-15 00:00:00;C8675;Portàtil;Electrònica;5;1091,38;5456,9;Targeta;Portugal
+1333;2023-07-18 00:00:00;C1571;USB;Accessoris;4;39,11;156,44;Transferència;Alemanya
+1334;2023-05-31 00:00:00;C1178;Teclat;Accessoris;5;37,02;185,1;Targeta;Itàlia
+1335;2023-10-14 00:00:00;C8601;Ratolí;Accessoris;1;72,04;72,04;Targeta;Espanya
+1336;2023-05-10 00:00:00;C4084;Impressora;Oficina;1;165;165;PayPal;Portugal
+1337;2023-04-16 00:00:00;C2605;Auriculars;Accessoris;4;97,07;388,28;Transferència;Itàlia
+1338;2023-03-23 00:00:00;C3933;Impressora;Oficina;3;178,44;535,32;Targeta;Espanya
+1339;2023-08-02 00:00:00;C8099;USB;Accessoris;5;19,1;95,5;Transferència;Alemanya
+1340;2023-11-20 00:00:00;C5312;Tablet;Electrònica;1;351,87;351,87;Transferència;Portugal
+1341;2023-07-02 00:00:00;C8088;Impressora;Oficina;3;163,31;489,93;PayPal;França
+1342;2023-01-07 00:00:00;C2167;Cadira oficina;Oficina;4;217,85;871,4;Transferència;Espanya
+1343;2023-03-13 00:00:00;C4793;Cadira oficina;Oficina;3;176,68;530,04;PayPal;França
+1344;2023-03-24 00:00:00;C2577;Portàtil;Electrònica;4;1021,86;4087,44;Transferència;Països Baixos
+1345;2023-01-07 00:00:00;C7691;Portàtil;Electrònica;5;1182,15;5910,75;Transferència;Espanya
+1346;2023-08-03 00:00:00;C3181;Mòbil;Electrònica;2;346,7;693,4;Transferència;Portugal
+1347;2023-12-03 00:00:00;C8037;Auriculars;Accessoris;1;142,86;142,86;Transferència;Espanya
+1348;2023-03-16 00:00:00;C6308;Auriculars;Accessoris;3;76,17;228,51;PayPal;Espanya
+1349;2023-06-25 00:00:00;C5661;Impressora;Oficina;2;98,06;196,12;Transferència;França
+1350;2023-11-24 00:00:00;C7322;USB;Accessoris;3;34,8;104,4;Targeta;França
+1351;2023-11-23 00:00:00;C4968;Impressora;Oficina;3;381,01;1143,03;Targeta;Alemanya
+1352;2023-02-04 00:00:00;C1378;Mòbil;Electrònica;4;797,84;3191,36;Transferència;Itàlia
+1353;2023-04-14 00:00:00;C3330;Ratolí;Accessoris;5;54,68;273,4;PayPal;Països Baixos
+1354;2023-03-28 00:00:00;C4624;Cadira oficina;Oficina;4;290,27;1161,08;Targeta;Espanya
+1355;2023-06-27 00:00:00;C6603;USB;Accessoris;2;41,92;83,84;Targeta;França
+1356;2023-07-28 00:00:00;C2412;Tablet;Electrònica;3;583,37;1750,11;PayPal;França
+1357;2023-06-24 00:00:00;C6565;Auriculars;Accessoris;3;196,62;589,86;Transferència;Portugal
+1358;2023-11-13 00:00:00;C3939;Cadira oficina;Oficina;5;156,53;782,65;PayPal;Itàlia
+1359;2023-02-19 00:00:00;C5813;Monitor;Electrònica;2;462,69;925,38;Targeta;França
+1360;2023-09-28 00:00:00;C5657;Cadira oficina;Oficina;3;138,27;414,81;Transferència;França
+1361;2023-07-09 00:00:00;C6068;Portàtil;Electrònica;3;1241,96;3725,88;PayPal;Espanya
+1362;2023-09-13 00:00:00;C2907;Portàtil;Electrònica;5;1008,79;5043,95;Targeta;Alemanya
+1363;2023-02-03 00:00:00;C5174;Cadira oficina;Oficina;1;190,62;190,62;Transferència;Països Baixos
+1364;2023-12-15 00:00:00;C8265;Auriculars;Accessoris;1;84,29;84,29;PayPal;Països Baixos
+1365;2023-07-11 00:00:00;C5645;USB;Accessoris;5;12,54;62,7;PayPal;Alemanya
+1366;2023-11-06 00:00:00;C5435;Portàtil;Electrònica;3;844,19;2532,57;Transferència;Itàlia
+1367;2023-01-22 00:00:00;C8951;Tablet;Electrònica;5;466,64;2333,2;PayPal;França
+1368;2023-09-30 00:00:00;C9633;Cadira oficina;Oficina;1;264,78;264,78;Targeta;Països Baixos
+1369;2023-03-26 00:00:00;C7054;USB;Accessoris;4;7,07;28,28;Targeta;Portugal
+1370;2023-11-21 00:00:00;C8236;Tablet;Electrònica;1;390,64;390,64;Targeta;Espanya
+1371;2023-04-15 00:00:00;C7852;Ratolí;Accessoris;3;74,45;223,35;Targeta;Espanya
+1372;2023-09-22 00:00:00;C9042;Monitor;Electrònica;2;531,04;1062,08;PayPal;Alemanya
+1373;2023-06-06 00:00:00;C3925;Teclat;Accessoris;2;111,08;222,16;PayPal;Espanya
+1374;2023-04-07 00:00:00;C1512;Cadira oficina;Oficina;1;270,29;270,29;Targeta;Espanya
+1375;2023-05-05 00:00:00;C4153;Portàtil;Electrònica;4;883,4;3533,6;Targeta;Països Baixos
+1376;2023-02-01 00:00:00;C2128;Impressora;Oficina;3;75,55;226,65;Transferència;França
+1377;2023-03-11 00:00:00;C3365;Tablet;Electrònica;4;712,03;2848,12;PayPal;Portugal
+1378;2023-12-28 00:00:00;C5567;Ratolí;Accessoris;2;26,29;52,58;Targeta;Portugal
+1379;2023-01-18 00:00:00;C3741;Mòbil;Electrònica;5;238,96;1194,8;Transferència;Itàlia
+1380;2023-06-20 00:00:00;C1294;Cadira oficina;Oficina;5;141,9;709,5;PayPal;França
+1381;2023-03-20 00:00:00;C7801;USB;Accessoris;1;41,68;41,68;PayPal;Portugal
+1382;2023-10-13 00:00:00;C3809;Portàtil;Electrònica;3;1406,22;4218,66;PayPal;Espanya
+1383;2023-11-19 00:00:00;C3118;Ratolí;Accessoris;4;47,45;189,8;PayPal;Portugal
+1384;2023-09-20 00:00:00;C5565;Mòbil;Electrònica;2;683,23;1366,46;PayPal;Itàlia
+1385;2023-11-01 00:00:00;C9243;USB;Accessoris;4;40,21;160,84;Targeta;Portugal
+1386;2023-11-30 00:00:00;C3568;Tablet;Electrònica;5;797,19;3985,95;Transferència;Itàlia
+1387;2023-10-25 00:00:00;C8602;Cadira oficina;Oficina;4;61,68;246,72;Targeta;Països Baixos
+1388;2023-11-24 00:00:00;C1240;Cadira oficina;Oficina;4;89,25;357;Transferència;Alemanya
+1389;2023-11-15 00:00:00;C4768;Portàtil;Electrònica;3;895,91;2687,73;PayPal;Espanya
+1390;2023-03-03 00:00:00;C7429;Mòbil;Electrònica;3;491,36;1474,08;PayPal;Portugal
+1391;2023-07-31 00:00:00;C3173;Ratolí;Accessoris;3;40,71;122,13;PayPal;Països Baixos
+1392;2023-02-11 00:00:00;C3657;Cadira oficina;Oficina;1;178,31;178,31;PayPal;Portugal
+1393;2023-09-04 00:00:00;C9313;Ratolí;Accessoris;2;68,8;137,6;PayPal;Alemanya
+1394;2023-07-26 00:00:00;C2133;Tablet;Electrònica;1;373,55;373,55;Transferència;Itàlia
+1395;2023-02-25 00:00:00;C2910;Portàtil;Electrònica;3;1441,07;4323,21;Targeta;Espanya
+1396;2023-10-18 00:00:00;C2916;Teclat;Accessoris;4;28;112;Transferència;Portugal
+1397;2023-07-17 00:00:00;C7464;Mòbil;Electrònica;5;242,74;1213,7;Transferència;Alemanya
+1398;2023-10-04 00:00:00;C9683;Impressora;Oficina;3;384,41;1153,23;Targeta;Itàlia
+1399;2023-12-02 00:00:00;C1585;USB;Accessoris;2;24,8;49,6;Targeta;Alemanya
+1400;2023-07-06 00:00:00;C1534;Mòbil;Electrònica;1;702,47;702,47;Targeta;Portugal
+1401;2023-11-23 00:00:00;C3155;Auriculars;Accessoris;5;196,54;982,7;Transferència;Alemanya
+1402;2023-07-25 00:00:00;C9518;Tablet;Electrònica;5;366,73;1833,65;PayPal;Itàlia
+1403;2023-01-10 00:00:00;C9316;Impressora;Oficina;2;257,28;514,56;Transferència;Alemanya
+1404;2023-11-22 00:00:00;C6269;Impressora;Oficina;4;206,52;826,08;PayPal;França
+1405;2023-05-09 00:00:00;C1437;Mòbil;Electrònica;4;939,47;3757,88;Targeta;Itàlia
+1406;2023-07-17 00:00:00;C9081;USB;Accessoris;2;10,32;20,64;Transferència;Alemanya
+1407;2023-10-06 00:00:00;C7678;Monitor;Electrònica;1;210,25;210,25;Transferència;Països Baixos
+1408;2023-01-27 00:00:00;C7937;Ratolí;Accessoris;4;29,18;116,72;Targeta;Itàlia
+1409;2023-04-19 00:00:00;C9758;Impressora;Oficina;4;307,15;1228,6;PayPal;Itàlia
+1410;2023-03-10 00:00:00;C8996;Auriculars;Accessoris;1;90,6;90,6;PayPal;Itàlia
+1411;2023-04-07 00:00:00;C5943;Ratolí;Accessoris;2;45,26;90,52;PayPal;França
+1412;2023-06-03 00:00:00;C3460;Auriculars;Accessoris;5;196,63;983,15;Targeta;Alemanya
+1413;2023-06-18 00:00:00;C7726;Tablet;Electrònica;1;259,52;259,52;PayPal;Itàlia
+1414;2023-02-12 00:00:00;C1616;Teclat;Accessoris;2;108,18;216,36;PayPal;Portugal
+1415;2023-08-12 00:00:00;C3565;Auriculars;Accessoris;4;80,26;321,04;PayPal;Països Baixos
+1416;2023-08-14 00:00:00;C9861;Portàtil;Electrònica;2;1049,17;2098,34;PayPal;Espanya
+1417;2023-07-28 00:00:00;C5078;Impressora;Oficina;4;335,03;1340,12;PayPal;Portugal
+1418;2023-02-25 00:00:00;C9911;Portàtil;Electrònica;4;1009,93;4039,72;PayPal;Alemanya
+1419;2023-10-11 00:00:00;C6840;USB;Accessoris;3;36,32;108,96;Transferència;Països Baixos
+1420;2023-05-10 00:00:00;C5734;USB;Accessoris;3;13,69;41,07;PayPal;Itàlia
+1421;2023-09-28 00:00:00;C4672;Cadira oficina;Oficina;5;86,37;431,85;Targeta;Espanya
+1422;2023-07-22 00:00:00;C3121;USB;Accessoris;2;35,77;71,54;Targeta;Itàlia
+1423;2023-04-27 00:00:00;C4237;Teclat;Accessoris;3;91,16;273,48;PayPal;Països Baixos
+1424;2023-05-25 00:00:00;C5823;Ratolí;Accessoris;1;24,15;24,15;PayPal;Alemanya
+1425;2023-12-18 00:00:00;C1888;Monitor;Electrònica;2;555,41;1110,82;Targeta;Països Baixos
+1426;2023-11-20 00:00:00;C5212;Portàtil;Electrònica;1;971,89;971,89;Transferència;Alemanya
+1427;2023-07-22 00:00:00;C2364;Monitor;Electrònica;2;385,2;770,4;Targeta;Portugal
+1428;2023-06-01 00:00:00;C9777;Portàtil;Electrònica;5;1182,67;5913,35;Targeta;Espanya
+1429;2023-02-11 00:00:00;C1495;Auriculars;Accessoris;2;116,22;232,44;PayPal;Espanya
+1430;2023-03-23 00:00:00;C2552;Ratolí;Accessoris;5;31,1;155,5;PayPal;Itàlia
+1431;2023-06-06 00:00:00;C9926;Ratolí;Accessoris;1;36,05;36,05;PayPal;Portugal
+1432;2023-02-16 00:00:00;C7250;Mòbil;Electrònica;3;203,84;611,52;Transferència;Alemanya
+1433;2023-03-20 00:00:00;C1154;Monitor;Electrònica;5;127,26;636,3;PayPal;França
+1434;2023-09-04 00:00:00;C5626;Impressora;Oficina;5;212,76;1063,8;PayPal;Portugal
+1435;2023-08-05 00:00:00;C1153;Mòbil;Electrònica;2;287,11;574,22;Targeta;Països Baixos
+1436;2023-12-04 00:00:00;C6599;Auriculars;Accessoris;1;67,12;67,12;Targeta;Espanya
+1437;2023-10-25 00:00:00;C1786;Tablet;Electrònica;2;516,79;1033,58;Transferència;França
+1438;2023-03-17 00:00:00;C5272;Auriculars;Accessoris;1;122,41;122,41;PayPal;França
+1439;2023-12-29 00:00:00;C8216;Portàtil;Electrònica;3;1018,53;3055,59;PayPal;Països Baixos
+1440;2023-07-19 00:00:00;C6427;USB;Accessoris;3;43,18;129,54;Transferència;Itàlia
+1441;2023-07-08 00:00:00;C7965;Impressora;Oficina;4;326,95;1307,8;Transferència;Països Baixos
+1442;2023-01-25 00:00:00;C8433;Ratolí;Accessoris;1;37,65;37,65;Targeta;Països Baixos
+1443;2023-07-19 00:00:00;C4228;Portàtil;Electrònica;2;843,75;1687,5;Transferència;Espanya
+1444;2023-12-02 00:00:00;C3713;USB;Accessoris;4;25,89;103,56;Transferència;Alemanya
+1445;2023-01-26 00:00:00;C4192;Mòbil;Electrònica;1;404,06;404,06;Transferència;França
+1446;2023-03-09 00:00:00;C3506;Teclat;Accessoris;3;65,67;197,01;Targeta;Portugal
+1447;2023-10-13 00:00:00;C6680;Tablet;Electrònica;4;609,86;2439,44;Targeta;Espanya
+1448;2023-09-26 00:00:00;C4661;Cadira oficina;Oficina;4;275,51;1102,04;Targeta;Alemanya
+1449;2023-08-24 00:00:00;C8067;Impressora;Oficina;2;138,26;276,52;PayPal;Portugal
+1450;2023-08-22 00:00:00;C2480;Mòbil;Electrònica;2;628,76;1257,52;Transferència;Països Baixos
+1451;2023-10-06 00:00:00;C7447;Teclat;Accessoris;5;52,59;262,95;Transferència;Alemanya
+1452;2023-10-03 00:00:00;C6818;Cadira oficina;Oficina;4;192,16;768,64;Transferència;Itàlia
+1453;2023-10-23 00:00:00;C8489;Monitor;Electrònica;4;569,36;2277,44;Targeta;Alemanya
+1454;2023-06-11 00:00:00;C2532;Ratolí;Accessoris;3;69,89;209,67;PayPal;Portugal
+1455;2023-07-11 00:00:00;C1277;Cadira oficina;Oficina;5;183,76;918,8;Transferència;Països Baixos
+1456;2023-05-03 00:00:00;C6365;Teclat;Accessoris;4;26,36;105,44;PayPal;Portugal
+1457;2023-03-12 00:00:00;C5575;Teclat;Accessoris;3;77,72;233,16;Transferència;Alemanya
+1458;2023-06-04 00:00:00;C7500;Teclat;Accessoris;4;104,73;418,92;Targeta;Itàlia
+1459;2023-03-10 00:00:00;C7666;Teclat;Accessoris;3;96,56;289,68;Transferència;Espanya
+1460;2023-03-10 00:00:00;C1534;Tablet;Electrònica;3;355,59;1066,77;PayPal;Alemanya
+1461;2023-09-28 00:00:00;C7085;Auriculars;Accessoris;1;162,02;162,02;PayPal;França
+1462;2023-11-24 00:00:00;C2172;Portàtil;Electrònica;5;948,22;4741,1;Targeta;França
+1463;2023-02-04 00:00:00;C5726;Teclat;Accessoris;2;102,84;205,68;PayPal;Alemanya
+1464;2023-05-20 00:00:00;C1363;Tablet;Electrònica;2;864,84;1729,68;PayPal;Països Baixos
+1465;2023-06-18 00:00:00;C7665;Monitor;Electrònica;2;146,36;292,72;Targeta;Itàlia
+1466;2023-08-11 00:00:00;C1882;Impressora;Oficina;1;304,13;304,13;Transferència;Països Baixos
+1467;2023-12-20 00:00:00;C6204;Ratolí;Accessoris;4;43,76;175,04;Transferència;Espanya
+1468;2023-12-04 00:00:00;C3244;Mòbil;Electrònica;4;817,19;3268,76;Transferència;Alemanya
+1469;2023-03-22 00:00:00;C9521;Teclat;Accessoris;4;28,03;112,12;Transferència;Alemanya
+1470;2023-11-03 00:00:00;C4518;Teclat;Accessoris;5;77,13;385,65;PayPal;França
+1471;2023-11-25 00:00:00;C3567;Tablet;Electrònica;4;168,57;674,28;Targeta;Portugal
+1472;2023-11-05 00:00:00;C1739;Auriculars;Accessoris;4;70,33;281,32;Targeta;Països Baixos
+1473;2023-04-22 00:00:00;C6127;USB;Accessoris;4;13,89;55,56;PayPal;Espanya
+1474;2023-09-10 00:00:00;C6645;Mòbil;Electrònica;2;974,42;1948,84;Targeta;Alemanya
+1475;2023-12-08 00:00:00;C4732;Monitor;Electrònica;2;528;1056;Targeta;Itàlia
+1476;2023-08-04 00:00:00;C7998;Teclat;Accessoris;4;29,37;117,48;Transferència;Itàlia
+1477;2023-10-21 00:00:00;C2269;Impressora;Oficina;1;225,83;225,83;PayPal;Itàlia
+1478;2023-11-26 00:00:00;C9569;Mòbil;Electrònica;4;1062,49;4249,96;Transferència;Alemanya
+1479;2023-08-30 00:00:00;C6682;Monitor;Electrònica;3;124,83;374,49;PayPal;Alemanya
+1480;2023-09-05 00:00:00;C1069;Cadira oficina;Oficina;5;80,5;402,5;Transferència;Països Baixos
+1481;2023-01-18 00:00:00;C9119;Portàtil;Electrònica;1;1229,93;1229,93;Targeta;Alemanya
+1482;2023-12-18 00:00:00;C6935;Tablet;Electrònica;4;712,61;2850,44;PayPal;Espanya
+1483;2023-04-20 00:00:00;C2016;Mòbil;Electrònica;2;314,24;628,48;PayPal;Portugal
+1484;2023-10-09 00:00:00;C9216;Ratolí;Accessoris;2;63,81;127,62;Targeta;Països Baixos
+1485;2023-02-26 00:00:00;C9371;Cadira oficina;Oficina;2;88,61;177,22;PayPal;Portugal
+1486;2023-10-14 00:00:00;C3623;Impressora;Oficina;5;198,73;993,65;Targeta;Portugal
+1487;2023-08-01 00:00:00;C7401;Tablet;Electrònica;1;560,64;560,64;Transferència;Portugal
+1488;2023-08-17 00:00:00;C8393;USB;Accessoris;1;16,81;16,81;PayPal;Portugal
+1489;2023-09-03 00:00:00;C5497;USB;Accessoris;3;32,75;98,25;Transferència;Països Baixos
+1490;2023-01-30 00:00:00;C1308;Cadira oficina;Oficina;5;139,78;698,9;Targeta;Itàlia
+1491;2023-06-26 00:00:00;C1138;Auriculars;Accessoris;4;37,91;151,64;Transferència;Itàlia
+1492;2023-06-13 00:00:00;C1942;USB;Accessoris;2;44,09;88,18;Targeta;Itàlia
+1493;2023-11-20 00:00:00;C7353;Mòbil;Electrònica;1;484,6;484,6;PayPal;Itàlia
+1494;2023-10-06 00:00:00;C4381;Monitor;Electrònica;3;327,82;983,46;Transferència;Espanya
+1495;2023-10-07 00:00:00;C1545;Mòbil;Electrònica;4;369,76;1479,04;Transferència;Països Baixos
+1496;2023-02-26 00:00:00;C1004;Monitor;Electrònica;2;128,11;256,22;Targeta;Itàlia
+1497;2023-12-05 00:00:00;C6378;Teclat;Accessoris;5;32,28;161,4;Transferència;França
+1498;2023-07-05 00:00:00;C4326;USB;Accessoris;3;43,34;130,02;Transferència;França
+1499;2023-04-18 00:00:00;C5763;Ratolí;Accessoris;3;16,97;50,91;Targeta;Portugal
+1500;2023-09-15 00:00:00;C6092;Portàtil;Electrònica;5;1172,98;5864,9;Targeta;Portugal
+1501;2023-03-29 00:00:00;C7159;Tablet;Electrònica;2;445,57;891,14;Transferència;Portugal
+1502;2023-11-25 00:00:00;C4044;Auriculars;Accessoris;4;26,34;105,36;PayPal;Portugal
+1503;2023-11-26 00:00:00;C3892;Cadira oficina;Oficina;3;188,96;566,88;Transferència;Itàlia
+1504;2023-05-23 00:00:00;C6481;Auriculars;Accessoris;2;68,88;137,76;PayPal;França
+1505;2023-12-21 00:00:00;C9446;Ratolí;Accessoris;4;43,34;173,36;Transferència;Alemanya
+1506;2023-12-07 00:00:00;C7154;Teclat;Accessoris;4;80,68;322,72;Targeta;Portugal
+1507;2023-05-31 00:00:00;C6972;Monitor;Electrònica;5;447,9;2239,5;Transferència;Espanya
+1508;2023-08-07 00:00:00;C3508;Auriculars;Accessoris;5;104,34;521,7;PayPal;Països Baixos
+1509;2023-09-12 00:00:00;C5711;Ratolí;Accessoris;5;19,12;95,6;Targeta;Alemanya
+1510;2023-12-28 00:00:00;C9075;Mòbil;Electrònica;5;765,42;3827,1;Targeta;Itàlia
+1511;2023-08-08 00:00:00;C8688;Impressora;Oficina;1;183,75;183,75;Targeta;Portugal
+1512;2023-07-01 00:00:00;C5379;USB;Accessoris;4;29,23;116,92;PayPal;Espanya
+1513;2023-08-14 00:00:00;C2868;Ratolí;Accessoris;5;68,07;340,35;PayPal;Espanya
+1514;2023-02-27 00:00:00;C3637;Teclat;Accessoris;5;61,75;308,75;Transferència;Països Baixos
+1515;2023-06-30 00:00:00;C1544;USB;Accessoris;4;9,47;37,88;PayPal;Portugal
+1516;2023-07-19 00:00:00;C4172;Teclat;Accessoris;1;37,59;37,59;Transferència;Espanya
+1517;2023-06-20 00:00:00;C7520;Cadira oficina;Oficina;2;283,06;566,12;Targeta;Portugal
+1518;2023-08-09 00:00:00;C4666;Ratolí;Accessoris;5;26,49;132,45;Transferència;França
+1519;2023-01-04 00:00:00;C4985;Auriculars;Accessoris;2;63,61;127,22;Transferència;França
+1520;2023-10-08 00:00:00;C5310;Auriculars;Accessoris;4;28,46;113,84;Transferència;Portugal
+1521;2023-04-11 00:00:00;C1572;Monitor;Electrònica;4;288,6;1154,4;Targeta;Espanya
+1522;2023-03-04 00:00:00;C9417;Portàtil;Electrònica;3;1395,35;4186,05;PayPal;Itàlia
+1523;2023-12-15 00:00:00;C8422;Monitor;Electrònica;4;478,1;1912,4;Targeta;França
+1524;2023-06-19 00:00:00;C4407;Portàtil;Electrònica;4;1111,2;4444,8;Transferència;Països Baixos
+1525;2023-12-20 00:00:00;C3793;Portàtil;Electrònica;5;840,92;4204,6;PayPal;França
+1526;2023-09-30 00:00:00;C3415;Teclat;Accessoris;2;53,78;107,56;Transferència;Països Baixos
+1527;2023-06-23 00:00:00;C6289;Portàtil;Electrònica;3;1467,76;4403,28;Targeta;Espanya
+1528;2023-02-18 00:00:00;C6565;Tablet;Electrònica;2;655,53;1311,06;Targeta;Països Baixos
+1529;2023-02-28 00:00:00;C1835;Tablet;Electrònica;4;648,55;2594,2;PayPal;Itàlia
+1530;2023-02-18 00:00:00;C5567;Tablet;Electrònica;2;528,48;1056,96;Targeta;Països Baixos
+1531;2023-10-26 00:00:00;C5022;Mòbil;Electrònica;3;331,06;993,18;PayPal;Espanya
+1532;2023-03-21 00:00:00;C6580;Impressora;Oficina;4;368,48;1473,92;PayPal;Espanya
+1533;2023-07-14 00:00:00;C7997;Monitor;Electrònica;4;532,18;2128,72;Transferència;Països Baixos
+1534;2023-05-04 00:00:00;C7960;USB;Accessoris;2;43,86;87,72;PayPal;Països Baixos
+1535;2023-11-08 00:00:00;C7851;USB;Accessoris;5;10;50;Transferència;Portugal
+1536;2023-12-09 00:00:00;C4317;Mòbil;Electrònica;2;1077,75;2155,5;PayPal;França
+1537;2023-01-16 00:00:00;C1164;Cadira oficina;Oficina;4;193,85;775,4;Targeta;Portugal
+1538;2023-02-06 00:00:00;C5428;Impressora;Oficina;1;190,59;190,59;Targeta;Portugal
+1539;2023-07-25 00:00:00;C5157;Monitor;Electrònica;5;425,42;2127,1;Transferència;Espanya
+1540;2023-11-04 00:00:00;C9210;Tablet;Electrònica;4;534,89;2139,56;Targeta;Alemanya
+1541;2023-04-27 00:00:00;C1579;Auriculars;Accessoris;1;104,89;104,89;Targeta;Alemanya
+1542;2023-11-21 00:00:00;C5150;USB;Accessoris;2;21,91;43,82;PayPal;Països Baixos
+1543;2023-10-24 00:00:00;C1452;Mòbil;Electrònica;2;1188,12;2376,24;PayPal;Portugal
+1544;2023-12-24 00:00:00;C9154;Cadira oficina;Oficina;2;168,06;336,12;PayPal;Portugal
+1545;2023-07-12 00:00:00;C7747;Ratolí;Accessoris;3;78,86;236,58;Transferència;Itàlia
+1546;2023-01-30 00:00:00;C8892;Cadira oficina;Oficina;5;290,74;1453,7;Transferència;Itàlia
+1547;2023-03-10 00:00:00;C4129;Tablet;Electrònica;1;209,41;209,41;PayPal;Itàlia
+1548;2023-10-23 00:00:00;C8338;Portàtil;Electrònica;4;894,1;3576,4;Transferència;Països Baixos
+1549;2023-11-02 00:00:00;C6111;Portàtil;Electrònica;4;818,97;3275,88;Transferència;França
+1550;2023-02-12 00:00:00;C5016;Teclat;Accessoris;5;108,8;544;Transferència;Portugal
+1551;2023-09-23 00:00:00;C7238;Teclat;Accessoris;4;118,6;474,4;Transferència;França
+1552;2023-03-12 00:00:00;C5025;USB;Accessoris;1;44,93;44,93;Targeta;Alemanya
+1553;2023-05-07 00:00:00;C5175;Mòbil;Electrònica;4;687,41;2749,64;Targeta;França
+1554;2023-07-01 00:00:00;C9347;Cadira oficina;Oficina;4;290,89;1163,56;Transferència;Itàlia
+1555;2023-01-18 00:00:00;C6724;USB;Accessoris;5;16,82;84,1;Transferència;Alemanya
+1556;2023-07-12 00:00:00;C2410;Mòbil;Electrònica;1;1023,65;1023,65;Transferència;Espanya
+1557;2023-08-21 00:00:00;C1551;Mòbil;Electrònica;3;1020,59;3061,77;Targeta;Espanya
+1558;2023-02-24 00:00:00;C7099;Portàtil;Electrònica;5;908,16;4540,8;Targeta;Alemanya
+1559;2023-12-20 00:00:00;C5052;Teclat;Accessoris;5;48,23;241,15;Transferència;Espanya
+1560;2023-03-28 00:00:00;C3248;Tablet;Electrònica;3;504,17;1512,51;Targeta;Països Baixos
+1561;2023-10-02 00:00:00;C7354;Portàtil;Electrònica;2;804,33;1608,66;PayPal;Espanya
+1562;2023-02-11 00:00:00;C1314;Impressora;Oficina;2;287,9;575,8;Transferència;França
+1563;2023-10-10 00:00:00;C9449;Monitor;Electrònica;1;368,77;368,77;Targeta;Països Baixos
+1564;2023-01-19 00:00:00;C6585;Tablet;Electrònica;4;487,46;1949,84;Targeta;Països Baixos
+1565;2023-03-22 00:00:00;C6670;Mòbil;Electrònica;3;487,51;1462,53;Targeta;Espanya
+1566;2023-07-16 00:00:00;C8837;Portàtil;Electrònica;5;1083,95;5419,75;Targeta;Itàlia
+1567;2023-07-15 00:00:00;C9498;Impressora;Oficina;5;224,42;1122,1;Targeta;Portugal
+1568;2023-05-26 00:00:00;C6176;USB;Accessoris;5;9,67;48,35;PayPal;Alemanya
+1569;2023-01-17 00:00:00;C5893;Impressora;Oficina;2;283,8;567,6;PayPal;Portugal
+1570;2023-10-06 00:00:00;C9400;Impressora;Oficina;3;320,25;960,75;Targeta;Alemanya
+1571;2023-09-22 00:00:00;C1919;USB;Accessoris;4;45,31;181,24;PayPal;Itàlia
+1572;2023-08-02 00:00:00;C8378;Impressora;Oficina;3;167,55;502,65;Targeta;Itàlia
+1573;2023-11-17 00:00:00;C3772;Cadira oficina;Oficina;4;141,12;564,48;PayPal;Alemanya
+1574;2023-01-10 00:00:00;C2070;Teclat;Accessoris;1;38,56;38,56;Transferència;Països Baixos
+1575;2023-12-08 00:00:00;C8194;USB;Accessoris;4;11,46;45,84;Targeta;Portugal
+1576;2023-06-16 00:00:00;C1988;Monitor;Electrònica;3;453,48;1360,44;Transferència;Itàlia
+1577;2023-11-23 00:00:00;C6027;USB;Accessoris;2;15,99;31,98;PayPal;Països Baixos
+1578;2023-07-20 00:00:00;C8367;Impressora;Oficina;3;82,36;247,08;PayPal;Alemanya
+1579;2023-03-23 00:00:00;C3436;Teclat;Accessoris;3;116,51;349,53;PayPal;Itàlia
+1580;2023-06-16 00:00:00;C4539;Auriculars;Accessoris;4;112,51;450,04;PayPal;França
+1581;2023-07-23 00:00:00;C3241;Mòbil;Electrònica;4;522,99;2091,96;PayPal;Itàlia
+1582;2023-06-15 00:00:00;C4382;Ratolí;Accessoris;4;46,83;187,32;PayPal;Itàlia
+1583;2023-01-01 00:00:00;C6816;Monitor;Electrònica;1;124,65;124,65;PayPal;Alemanya
+1584;2023-05-13 00:00:00;C6739;Monitor;Electrònica;2;123,96;247,92;Targeta;Itàlia
+1585;2023-12-25 00:00:00;C7606;Cadira oficina;Oficina;4;106,14;424,56;Targeta;Itàlia
+1586;2023-01-17 00:00:00;C6315;Cadira oficina;Oficina;2;198,37;396,74;Targeta;Alemanya
+1587;2023-09-09 00:00:00;C3042;Impressora;Oficina;1;191,79;191,79;PayPal;Espanya
+1588;2023-07-17 00:00:00;C4557;Monitor;Electrònica;2;144,29;288,58;Targeta;Països Baixos
+1589;2023-02-13 00:00:00;C2101;Monitor;Electrònica;3;593,24;1779,72;Targeta;Alemanya
+1590;2023-01-03 00:00:00;C3261;Ratolí;Accessoris;5;67,04;335,2;Transferència;Portugal
+1591;2023-03-08 00:00:00;C1508;Monitor;Electrònica;3;438,57;1315,71;Transferència;Espanya
+1592;2023-01-07 00:00:00;C6495;Auriculars;Accessoris;1;55,84;55,84;PayPal;Itàlia
+1593;2023-08-19 00:00:00;C7743;Teclat;Accessoris;2;107,16;214,32;Transferència;Portugal
+1594;2023-11-21 00:00:00;C4557;Teclat;Accessoris;3;40,07;120,21;Targeta;Espanya
+1595;2023-09-16 00:00:00;C8160;Ratolí;Accessoris;3;78,35;235,05;Transferència;França
+1596;2023-02-25 00:00:00;C7763;USB;Accessoris;3;18,65;55,95;Targeta;Itàlia
+1597;2023-11-20 00:00:00;C1845;Portàtil;Electrònica;5;1102,56;5512,8;Transferència;Itàlia
+1598;2023-08-20 00:00:00;C6360;Cadira oficina;Oficina;1;63,02;63,02;Targeta;Alemanya
+1599;2023-09-15 00:00:00;C4832;Ratolí;Accessoris;1;14,26;14,26;PayPal;França
+1600;2023-11-04 00:00:00;C3581;Monitor;Electrònica;2;488,86;977,72;Transferència;Espanya
+1601;2023-08-15 00:00:00;C3443;Cadira oficina;Oficina;3;132,98;398,94;PayPal;Itàlia
+1602;2023-04-13 00:00:00;C2036;Tablet;Electrònica;4;695,26;2781,04;PayPal;Alemanya
+1603;2023-09-25 00:00:00;C2548;Portàtil;Electrònica;5;957,61;4788,05;Targeta;Espanya
+1604;2023-02-26 00:00:00;C7183;Auriculars;Accessoris;1;184,72;184,72;PayPal;Itàlia
+1605;2023-02-04 00:00:00;C5354;Mòbil;Electrònica;5;631,21;3156,05;Transferència;França
+1606;2023-01-11 00:00:00;C3886;Teclat;Accessoris;2;42,37;84,74;Targeta;Països Baixos
+1607;2023-12-28 00:00:00;C6235;USB;Accessoris;2;12,84;25,68;Targeta;Portugal
+1608;2023-08-25 00:00:00;C5934;USB;Accessoris;3;28,34;85,02;PayPal;França
+1609;2023-01-20 00:00:00;C3785;Teclat;Accessoris;1;46,13;46,13;PayPal;Portugal
+1610;2023-07-18 00:00:00;C2574;USB;Accessoris;1;16,61;16,61;Targeta;França
+1611;2023-11-22 00:00:00;C9060;Ratolí;Accessoris;3;74,94;224,82;Targeta;Països Baixos
+1612;2023-08-02 00:00:00;C2875;Ratolí;Accessoris;2;31,29;62,58;PayPal;Països Baixos
+1613;2023-12-15 00:00:00;C9240;Portàtil;Electrònica;4;879,78;3519,12;PayPal;Països Baixos
+1614;2023-08-27 00:00:00;C3833;Mòbil;Electrònica;2;846,41;1692,82;PayPal;Itàlia
+1615;2023-10-20 00:00:00;C8645;Tablet;Electrònica;5;629,22;3146,1;PayPal;Alemanya
+1616;2023-03-20 00:00:00;C5777;Teclat;Accessoris;2;67,41;134,82;PayPal;Portugal
+1617;2023-03-23 00:00:00;C9278;Portàtil;Electrònica;4;1102,41;4409,64;Transferència;Espanya
+1618;2023-04-08 00:00:00;C2932;Teclat;Accessoris;3;32,15;96,45;Transferència;França
+1619;2023-11-21 00:00:00;C4446;USB;Accessoris;3;26,03;78,09;Transferència;Itàlia
+1620;2023-05-28 00:00:00;C8959;Cadira oficina;Oficina;5;164,56;822,8;Transferència;Portugal
+1621;2023-05-08 00:00:00;C1564;Portàtil;Electrònica;2;1250,17;2500,34;PayPal;Alemanya
+1622;2023-08-14 00:00:00;C4636;Impressora;Oficina;5;96,74;483,7;Transferència;Alemanya
+1623;2023-02-17 00:00:00;C1350;Cadira oficina;Oficina;2;260,39;520,78;Targeta;Itàlia
+1624;2023-07-01 00:00:00;C5732;USB;Accessoris;5;30,75;153,75;Targeta;Països Baixos
+1625;2023-01-03 00:00:00;C7207;Tablet;Electrònica;4;277,95;1111,8;PayPal;França
+1626;2023-04-07 00:00:00;C2893;Cadira oficina;Oficina;3;204,69;614,07;Targeta;Itàlia
+1627;2023-01-21 00:00:00;C8718;Cadira oficina;Oficina;3;227,21;681,63;PayPal;Itàlia
+1628;2023-04-01 00:00:00;C5042;Cadira oficina;Oficina;2;293,87;587,74;Transferència;Alemanya
+1629;2023-07-12 00:00:00;C9638;Portàtil;Electrònica;3;1276,67;3830,01;Targeta;Alemanya
+1630;2023-04-13 00:00:00;C3944;Portàtil;Electrònica;4;889,84;3559,36;Targeta;Portugal
+1631;2023-07-10 00:00:00;C2074;Mòbil;Electrònica;4;1111,82;4447,28;Transferència;França
+1632;2023-03-10 00:00:00;C3824;Auriculars;Accessoris;4;37,46;149,84;Targeta;França
+1633;2023-08-18 00:00:00;C5284;Mòbil;Electrònica;4;626,89;2507,56;PayPal;Itàlia
+1634;2023-03-17 00:00:00;C1501;Cadira oficina;Oficina;2;287,25;574,5;Transferència;Itàlia
+1635;2023-08-06 00:00:00;C6820;Mòbil;Electrònica;1;1131,48;1131,48;PayPal;Itàlia
+1636;2023-08-18 00:00:00;C3302;Impressora;Oficina;2;312,34;624,68;Transferència;Alemanya
+1637;2023-09-11 00:00:00;C5366;Cadira oficina;Oficina;5;124,35;621,75;PayPal;Portugal
+1638;2023-05-24 00:00:00;C9450;Mòbil;Electrònica;1;855,51;855,51;Transferència;Alemanya
+1639;2023-07-27 00:00:00;C1148;Ratolí;Accessoris;5;70,88;354,4;Targeta;Portugal
+1640;2023-06-15 00:00:00;C9186;Impressora;Oficina;3;354,27;1062,81;Transferència;Espanya
+1641;2023-09-21 00:00:00;C6728;Cadira oficina;Oficina;1;92,93;92,93;PayPal;Alemanya
+1642;2023-07-19 00:00:00;C2982;Tablet;Electrònica;5;562,93;2814,65;PayPal;França
+1643;2023-09-21 00:00:00;C8225;Mòbil;Electrònica;4;224,98;899,92;PayPal;Països Baixos
+1644;2023-09-06 00:00:00;C1604;USB;Accessoris;2;32,26;64,52;PayPal;Països Baixos
+1645;2023-10-12 00:00:00;C5597;Portàtil;Electrònica;2;1182,53;2365,06;Transferència;Espanya
+1646;2023-12-31 00:00:00;C9740;Cadira oficina;Oficina;4;104,78;419,12;Transferència;Portugal
+1647;2023-08-20 00:00:00;C1847;Tablet;Electrònica;1;192,75;192,75;PayPal;Països Baixos
+1648;2023-08-13 00:00:00;C6192;Ratolí;Accessoris;5;46,78;233,9;PayPal;Espanya
+1649;2023-08-04 00:00:00;C4673;Auriculars;Accessoris;3;71,13;213,39;Transferència;Espanya
+1650;2023-08-08 00:00:00;C1726;Mòbil;Electrònica;1;640,74;640,74;PayPal;Alemanya
+1651;2023-05-15 00:00:00;C1282;Teclat;Accessoris;2;87,13;174,26;PayPal;Països Baixos
+1652;2023-01-25 00:00:00;C3970;USB;Accessoris;2;36,22;72,44;Targeta;França
+1653;2023-06-02 00:00:00;C1066;Auriculars;Accessoris;2;193,29;386,58;Transferència;Països Baixos
+1654;2023-11-22 00:00:00;C1564;Impressora;Oficina;2;260,79;521,58;PayPal;Alemanya
+1655;2023-03-23 00:00:00;C4670;Teclat;Accessoris;2;97,05;194,1;Targeta;Països Baixos
+1656;2023-04-13 00:00:00;C5631;Monitor;Electrònica;5;504,6;2523;Targeta;Països Baixos
+1657;2023-07-28 00:00:00;C7906;Tablet;Electrònica;1;364,6;364,6;Transferència;Països Baixos
+1658;2023-08-25 00:00:00;C4549;Portàtil;Electrònica;4;1470,58;5882,32;Transferència;França
+1659;2023-02-15 00:00:00;C7966;Mòbil;Electrònica;3;409,92;1229,76;Transferència;Itàlia
+1660;2023-10-28 00:00:00;C9089;USB;Accessoris;4;12,92;51,68;Transferència;Alemanya
+1661;2023-02-04 00:00:00;C2559;Teclat;Accessoris;2;65,78;131,56;Targeta;Itàlia
+1662;2023-08-31 00:00:00;C2294;Auriculars;Accessoris;3;110,11;330,33;PayPal;Itàlia
+1663;2023-07-12 00:00:00;C9014;Mòbil;Electrònica;3;883,43;2650,29;PayPal;Portugal
+1664;2023-10-26 00:00:00;C6956;Cadira oficina;Oficina;4;178,42;713,68;Targeta;Alemanya
+1665;2023-03-16 00:00:00;C6073;Teclat;Accessoris;2;57,57;115,14;Transferència;Alemanya
+1666;2023-06-27 00:00:00;C4787;Tablet;Electrònica;1;887,95;887,95;Targeta;Espanya
+1667;2023-06-10 00:00:00;C6988;Mòbil;Electrònica;2;465,69;931,38;Targeta;França
+1668;2023-05-12 00:00:00;C9867;Mòbil;Electrònica;2;1147,3;2294,6;Transferència;Espanya
+1669;2023-01-01 00:00:00;C4259;USB;Accessoris;5;13,56;67,8;Transferència;Països Baixos
+1670;2023-08-05 00:00:00;C2849;USB;Accessoris;4;13,47;53,88;Targeta;Alemanya
+1671;2023-05-08 00:00:00;C5402;Ratolí;Accessoris;5;45,93;229,65;Transferència;França
+1672;2023-04-19 00:00:00;C6491;Portàtil;Electrònica;3;891,22;2673,66;PayPal;Alemanya
+1673;2023-06-13 00:00:00;C8633;Ratolí;Accessoris;4;68,8;275,2;PayPal;Espanya
+1674;2023-01-22 00:00:00;C3113;Tablet;Electrònica;1;415,55;415,55;PayPal;Països Baixos
+1675;2023-04-13 00:00:00;C2582;Cadira oficina;Oficina;4;222,51;890,04;PayPal;França
+1676;2023-03-26 00:00:00;C8503;Tablet;Electrònica;2;349,58;699,16;Targeta;França
+1677;2023-03-14 00:00:00;C7622;Ratolí;Accessoris;3;45,74;137,22;Transferència;Alemanya
+1678;2023-01-02 00:00:00;C6875;Impressora;Oficina;5;397,07;1985,35;Transferència;Espanya
+1679;2023-12-19 00:00:00;C6218;Teclat;Accessoris;3;15,72;47,16;Targeta;Portugal
+1680;2023-01-02 00:00:00;C1754;Impressora;Oficina;2;129,2;258,4;PayPal;Espanya
+1681;2023-08-17 00:00:00;C8823;Impressora;Oficina;3;128,26;384,78;Transferència;Espanya
+1682;2023-09-27 00:00:00;C8926;Cadira oficina;Oficina;5;167,6;838;PayPal;Països Baixos
+1683;2023-12-03 00:00:00;C9697;Cadira oficina;Oficina;5;78,79;393,95;Targeta;Itàlia
+1684;2023-06-20 00:00:00;C9553;Monitor;Electrònica;2;568,09;1136,18;Targeta;Itàlia
+1685;2023-04-10 00:00:00;C8281;Ratolí;Accessoris;1;61,62;61,62;Transferència;França
+1686;2023-06-06 00:00:00;C4932;Ratolí;Accessoris;2;60,47;120,94;Transferència;Alemanya
+1687;2023-06-21 00:00:00;C1719;Ratolí;Accessoris;2;30,97;61,94;Transferència;Itàlia
+1688;2023-04-24 00:00:00;C5157;Portàtil;Electrònica;3;1454,8;4364,4;Transferència;Països Baixos
+1689;2023-12-28 00:00:00;C7713;Cadira oficina;Oficina;5;101,75;508,75;Targeta;Països Baixos
+1690;2023-07-15 00:00:00;C4936;Cadira oficina;Oficina;1;61,69;61,69;PayPal;Portugal
+1691;2023-01-08 00:00:00;C8265;Impressora;Oficina;5;387,91;1939,55;Transferència;França
+1692;2023-02-14 00:00:00;C7792;Cadira oficina;Oficina;5;250,83;1254,15;PayPal;França
+1693;2023-05-06 00:00:00;C5674;Teclat;Accessoris;1;21,49;21,49;Transferència;Portugal
+1694;2023-01-29 00:00:00;C5569;Tablet;Electrònica;4;225,12;900,48;Transferència;Alemanya
+1695;2023-03-03 00:00:00;C5675;Mòbil;Electrònica;1;578,32;578,32;PayPal;Espanya
+1696;2023-08-19 00:00:00;C6419;Ratolí;Accessoris;5;39,13;195,65;Targeta;Espanya
+1697;2023-05-10 00:00:00;C2468;USB;Accessoris;1;11,2;11,2;Transferència;Portugal
+1698;2023-03-05 00:00:00;C6073;Auriculars;Accessoris;4;45,85;183,4;Transferència;Itàlia
+1699;2023-02-27 00:00:00;C2129;Ratolí;Accessoris;5;31,41;157,05;PayPal;Espanya
+1700;2023-06-11 00:00:00;C2790;Impressora;Oficina;3;298;894;PayPal;Espanya
+1701;2023-01-03 00:00:00;C3073;Cadira oficina;Oficina;3;146,77;440,31;Transferència;Portugal
+1702;2023-07-17 00:00:00;C1810;Teclat;Accessoris;5;81,67;408,35;PayPal;Itàlia
+1703;2023-10-25 00:00:00;C3032;Auriculars;Accessoris;1;90,25;90,25;PayPal;Espanya
+1704;2023-12-25 00:00:00;C8129;Monitor;Electrònica;3;457,48;1372,44;Targeta;Portugal
+1705;2023-04-14 00:00:00;C1947;Tablet;Electrònica;4;265,81;1063,24;Targeta;França
+1706;2023-07-06 00:00:00;C3013;Auriculars;Accessoris;5;23;115;PayPal;Itàlia
+1707;2023-01-30 00:00:00;C5920;Ratolí;Accessoris;5;24,81;124,05;PayPal;Espanya
+1708;2023-10-03 00:00:00;C5376;USB;Accessoris;3;48,16;144,48;Transferència;Alemanya
+1709;2023-07-26 00:00:00;C5423;Teclat;Accessoris;3;84,76;254,28;Targeta;Alemanya
+1710;2023-02-09 00:00:00;C9159;Ratolí;Accessoris;3;58,29;174,87;Transferència;Països Baixos
+1711;2023-06-19 00:00:00;C8867;Portàtil;Electrònica;3;1210,62;3631,86;PayPal;Alemanya
+1712;2023-08-17 00:00:00;C8776;Mòbil;Electrònica;3;918,07;2754,21;Targeta;Portugal
+1713;2023-12-18 00:00:00;C5619;Cadira oficina;Oficina;2;115,92;231,84;Transferència;Països Baixos
+1714;2023-08-08 00:00:00;C8856;Monitor;Electrònica;2;275,86;551,72;Transferència;Portugal
+1715;2023-06-10 00:00:00;C6738;Portàtil;Electrònica;5;1090,94;5454,7;Transferència;Espanya
+1716;2023-01-18 00:00:00;C9989;Monitor;Electrònica;3;324,04;972,12;Targeta;Espanya
+1717;2023-02-08 00:00:00;C3976;Impressora;Oficina;5;369,1;1845,5;PayPal;Portugal
+1718;2023-08-29 00:00:00;C2392;Monitor;Electrònica;1;340,09;340,09;Targeta;França
+1719;2023-06-15 00:00:00;C1105;Cadira oficina;Oficina;2;268,55;537,1;Targeta;Espanya
+1720;2023-03-13 00:00:00;C7985;Ratolí;Accessoris;3;60,31;180,93;Transferència;Espanya
+1721;2023-07-05 00:00:00;C7213;USB;Accessoris;5;8,68;43,4;Targeta;Portugal
+1722;2023-05-20 00:00:00;C4981;Impressora;Oficina;2;341,1;682,2;PayPal;Itàlia
+1723;2023-03-30 00:00:00;C7376;USB;Accessoris;2;29,43;58,86;PayPal;Alemanya
+1724;2023-01-09 00:00:00;C1078;Auriculars;Accessoris;3;52,69;158,07;Transferència;Alemanya
+1725;2023-09-26 00:00:00;C9417;Teclat;Accessoris;1;64,17;64,17;Transferència;Països Baixos
+1726;2023-10-18 00:00:00;C3178;Teclat;Accessoris;2;89,59;179,18;PayPal;Portugal
+1727;2023-11-22 00:00:00;C9895;Impressora;Oficina;3;79,47;238,41;PayPal;Alemanya
+1728;2023-07-29 00:00:00;C5710;Teclat;Accessoris;3;76,51;229,53;Transferència;França
+1729;2023-05-13 00:00:00;C7794;Monitor;Electrònica;4;253,22;1012,88;Targeta;Portugal
+1730;2023-05-09 00:00:00;C4675;Portàtil;Electrònica;4;1002,61;4010,44;Transferència;França
+1731;2023-01-12 00:00:00;C9524;USB;Accessoris;2;32,65;65,3;Targeta;Itàlia
+1732;2023-06-22 00:00:00;C4170;Mòbil;Electrònica;5;709,16;3545,8;Transferència;Portugal
+1733;2023-11-10 00:00:00;C1028;Monitor;Electrònica;3;366,65;1099,95;Targeta;Espanya
+1734;2023-12-17 00:00:00;C3024;USB;Accessoris;4;15,75;63;PayPal;Portugal
+1735;2023-07-11 00:00:00;C6791;Auriculars;Accessoris;2;23,54;47,08;Transferència;Itàlia
+1736;2023-06-01 00:00:00;C2238;Ratolí;Accessoris;2;33,91;67,82;PayPal;França
+1737;2023-08-20 00:00:00;C8961;Monitor;Electrònica;3;598,99;1796,97;PayPal;Portugal
+1738;2023-11-30 00:00:00;C2460;Auriculars;Accessoris;2;196,45;392,9;PayPal;Itàlia
+1739;2023-10-21 00:00:00;C8766;Portàtil;Electrònica;2;1235,78;2471,56;Targeta;França
+1740;2023-10-10 00:00:00;C8529;Ratolí;Accessoris;1;19,38;19,38;PayPal;Itàlia
+1741;2023-12-22 00:00:00;C2563;Teclat;Accessoris;4;29,63;118,52;Targeta;Països Baixos
+1742;2023-06-17 00:00:00;C3553;Tablet;Electrònica;3;823,15;2469,45;Targeta;Espanya
+1743;2023-08-19 00:00:00;C6835;Tablet;Electrònica;4;852,37;3409,48;PayPal;Espanya
+1744;2023-03-26 00:00:00;C5362;Monitor;Electrònica;5;208,55;1042,75;Targeta;Itàlia
+1745;2023-08-04 00:00:00;C4998;Portàtil;Electrònica;3;928,03;2784,09;PayPal;França
+1746;2023-04-25 00:00:00;C7363;Monitor;Electrònica;5;387,9;1939,5;Transferència;Portugal
+1747;2023-12-09 00:00:00;C2400;Auriculars;Accessoris;3;116,56;349,68;Targeta;Espanya
+1748;2023-01-27 00:00:00;C3786;Tablet;Electrònica;1;160,51;160,51;Transferència;Portugal
+1749;2023-01-21 00:00:00;C3739;Cadira oficina;Oficina;5;71,88;359,4;PayPal;Portugal
+1750;2023-01-20 00:00:00;C8422;Portàtil;Electrònica;5;1179,41;5897,05;Transferència;Portugal
+1751;2023-01-25 00:00:00;C4457;Portàtil;Electrònica;4;1372,7;5490,8;Transferència;Espanya
+1752;2023-06-18 00:00:00;C9184;Auriculars;Accessoris;2;157,8;315,6;PayPal;Alemanya
+1753;2023-11-03 00:00:00;C5868;Mòbil;Electrònica;1;1019,23;1019,23;Targeta;Espanya
+1754;2023-02-17 00:00:00;C1920;Auriculars;Accessoris;4;177,03;708,12;Targeta;França
+1755;2023-11-28 00:00:00;C3017;Portàtil;Electrònica;3;858,65;2575,95;Transferència;França
+1756;2023-07-04 00:00:00;C7830;Auriculars;Accessoris;5;132,83;664,15;Targeta;Portugal
+1757;2023-11-05 00:00:00;C2438;Teclat;Accessoris;4;27,54;110,16;Targeta;Alemanya
+1758;2023-07-19 00:00:00;C3263;Cadira oficina;Oficina;1;109,57;109,57;PayPal;Països Baixos
+1759;2023-01-16 00:00:00;C8027;Mòbil;Electrònica;4;746,92;2987,68;PayPal;Itàlia
+1760;2023-02-08 00:00:00;C6720;Monitor;Electrònica;5;308,99;1544,95;Targeta;Itàlia
+1761;2023-05-17 00:00:00;C6095;USB;Accessoris;4;9,47;37,88;Targeta;Itàlia
+1762;2023-03-18 00:00:00;C8135;Ratolí;Accessoris;2;60,4;120,8;PayPal;Portugal
+1763;2023-11-15 00:00:00;C8492;Teclat;Accessoris;4;97,84;391,36;Targeta;Portugal
+1764;2023-11-26 00:00:00;C8447;Monitor;Electrònica;1;217,84;217,84;Targeta;Itàlia
+1765;2023-09-20 00:00:00;C4161;USB;Accessoris;2;41,1;82,2;Transferència;Països Baixos
+1766;2023-01-29 00:00:00;C9624;Tablet;Electrònica;3;183,38;550,14;PayPal;Països Baixos
+1767;2023-10-06 00:00:00;C3233;USB;Accessoris;5;8,55;42,75;PayPal;França
+1768;2023-06-07 00:00:00;C6906;Ratolí;Accessoris;4;47,5;190;PayPal;Països Baixos
+1769;2023-05-31 00:00:00;C7944;Ratolí;Accessoris;5;65,78;328,9;Transferència;França
+1770;2023-03-14 00:00:00;C2951;Auriculars;Accessoris;2;169,75;339,5;PayPal;Espanya
+1771;2023-01-19 00:00:00;C8799;Auriculars;Accessoris;1;108,55;108,55;Targeta;Espanya
+1772;2023-07-15 00:00:00;C5439;Auriculars;Accessoris;4;107,57;430,28;Targeta;Alemanya
+1773;2023-08-06 00:00:00;C9636;Impressora;Oficina;3;382,25;1146,75;Targeta;Alemanya
+1774;2023-03-21 00:00:00;C2030;Monitor;Electrònica;1;330,34;330,34;Targeta;Espanya
+1775;2023-01-16 00:00:00;C2447;Portàtil;Electrònica;2;1026,2;2052,4;PayPal;Itàlia
+1776;2023-08-29 00:00:00;C9106;Monitor;Electrònica;3;141,01;423,03;PayPal;França
+1777;2023-10-15 00:00:00;C7952;Auriculars;Accessoris;1;87,92;87,92;Targeta;França
+1778;2023-06-02 00:00:00;C2672;Tablet;Electrònica;3;523,14;1569,42;PayPal;Itàlia
+1779;2023-09-16 00:00:00;C7085;Teclat;Accessoris;5;89,48;447,4;PayPal;Espanya
+1780;2023-04-11 00:00:00;C2221;Monitor;Electrònica;1;243,04;243,04;PayPal;Països Baixos
+1781;2023-01-26 00:00:00;C4253;Portàtil;Electrònica;5;1441,95;7209,75;Targeta;Espanya
+1782;2023-01-31 00:00:00;C8482;Ratolí;Accessoris;2;22,85;45,7;Transferència;Espanya
+1783;2023-08-12 00:00:00;C4513;Teclat;Accessoris;2;110,12;220,24;Transferència;Països Baixos
+1784;2023-07-10 00:00:00;C3072;Cadira oficina;Oficina;5;107,04;535,2;Transferència;Itàlia
+1785;2023-12-04 00:00:00;C4949;Cadira oficina;Oficina;4;137,17;548,68;Transferència;França
+1786;2023-05-17 00:00:00;C3555;Impressora;Oficina;2;144,41;288,82;Transferència;Itàlia
+1787;2023-07-01 00:00:00;C6993;Portàtil;Electrònica;4;1117,5;4470;PayPal;Portugal
+1788;2023-12-14 00:00:00;C3914;Tablet;Electrònica;5;546,05;2730,25;PayPal;Països Baixos
+1789;2023-10-14 00:00:00;C6085;Impressora;Oficina;3;184,19;552,57;Transferència;Països Baixos
+1790;2023-01-15 00:00:00;C1938;Impressora;Oficina;4;155,02;620,08;PayPal;França
+1791;2023-04-24 00:00:00;C4690;Tablet;Electrònica;5;431,98;2159,9;Transferència;Països Baixos
+1792;2023-03-25 00:00:00;C9405;USB;Accessoris;2;8,49;16,98;Transferència;Alemanya
+1793;2023-03-31 00:00:00;C5938;USB;Accessoris;3;46,99;140,97;Targeta;Portugal
+1794;2023-05-03 00:00:00;C4345;Mòbil;Electrònica;2;671,32;1342,64;PayPal;França
+1795;2023-04-28 00:00:00;C2737;Portàtil;Electrònica;2;917,68;1835,36;PayPal;Països Baixos
+1796;2023-07-10 00:00:00;C8095;Mòbil;Electrònica;3;825,09;2475,27;PayPal;Portugal
+1797;2023-01-21 00:00:00;C6330;Teclat;Accessoris;1;34,67;34,67;PayPal;França
+1798;2023-07-07 00:00:00;C9563;Mòbil;Electrònica;5;865,65;4328,25;PayPal;Alemanya
+1799;2023-05-31 00:00:00;C2164;Portàtil;Electrònica;2;1010,82;2021,64;PayPal;Alemanya
+1800;2023-11-30 00:00:00;C9712;Cadira oficina;Oficina;4;273,3;1093,2;PayPal;Portugal
+1801;2023-04-11 00:00:00;C8111;Cadira oficina;Oficina;3;109,13;327,39;Targeta;Itàlia
+1802;2023-02-12 00:00:00;C8262;Ratolí;Accessoris;1;53,81;53,81;PayPal;Itàlia
+1803;2023-04-10 00:00:00;C4083;Ratolí;Accessoris;3;45,84;137,52;PayPal;Itàlia
+1804;2023-12-03 00:00:00;C6599;Ratolí;Accessoris;2;23,84;47,68;Transferència;Espanya
+1805;2023-05-22 00:00:00;C7571;Auriculars;Accessoris;4;40,94;163,76;Targeta;Alemanya
+1806;2023-12-10 00:00:00;C8450;Monitor;Electrònica;3;220,53;661,59;Targeta;Espanya
+1807;2023-10-07 00:00:00;C2313;Ratolí;Accessoris;5;20,19;100,95;PayPal;Alemanya
+1808;2023-08-02 00:00:00;C9949;Tablet;Electrònica;3;899,89;2699,67;Transferència;Espanya
+1809;2023-02-13 00:00:00;C5939;USB;Accessoris;2;11,36;22,72;PayPal;Portugal
+1810;2023-07-18 00:00:00;C8637;Cadira oficina;Oficina;4;110,23;440,92;Targeta;Alemanya
+1811;2023-04-03 00:00:00;C4867;Mòbil;Electrònica;4;462,67;1850,68;PayPal;França
+1812;2023-08-08 00:00:00;C3327;Ratolí;Accessoris;2;43,86;87,72;Transferència;Alemanya
+1813;2023-11-05 00:00:00;C9067;Auriculars;Accessoris;5;142,72;713,6;PayPal;Països Baixos
+1814;2023-11-01 00:00:00;C5381;Teclat;Accessoris;5;51,82;259,1;PayPal;Alemanya
+1815;2023-10-20 00:00:00;C4078;Portàtil;Electrònica;2;1164,14;2328,28;PayPal;Alemanya
+1816;2023-07-09 00:00:00;C3523;Tablet;Electrònica;4;680,42;2721,68;Transferència;Espanya
+1817;2023-08-30 00:00:00;C5581;Portàtil;Electrònica;5;833,06;4165,3;Transferència;Alemanya
+1818;2023-12-30 00:00:00;C7552;Portàtil;Electrònica;2;1490,15;2980,3;Targeta;França
+1819;2023-07-16 00:00:00;C7035;Auriculars;Accessoris;4;124,14;496,56;PayPal;Alemanya
+1820;2023-12-26 00:00:00;C1834;Impressora;Oficina;4;105,71;422,84;Targeta;França
+1821;2023-10-17 00:00:00;C6993;Monitor;Electrònica;5;295,35;1476,75;Targeta;França
+1822;2023-10-31 00:00:00;C1209;Monitor;Electrònica;1;464,61;464,61;Transferència;Portugal
+1823;2023-08-22 00:00:00;C1792;Cadira oficina;Oficina;5;100,61;503,05;Transferència;Espanya
+1824;2023-10-08 00:00:00;C4110;Portàtil;Electrònica;4;1304,08;5216,32;Targeta;Alemanya
+1825;2023-04-14 00:00:00;C6193;Impressora;Oficina;3;110,89;332,67;Transferència;França
+1826;2023-05-27 00:00:00;C9475;Teclat;Accessoris;3;57,03;171,09;Targeta;França
+1827;2023-08-28 00:00:00;C6917;Mòbil;Electrònica;1;863,49;863,49;Transferència;Portugal
+1828;2023-04-15 00:00:00;C6578;Mòbil;Electrònica;5;719,69;3598,45;Targeta;Alemanya
+1829;2023-11-06 00:00:00;C4845;Mòbil;Electrònica;4;1103,03;4412,12;Targeta;Països Baixos
+1830;2023-08-09 00:00:00;C1378;Monitor;Electrònica;4;148,69;594,76;Targeta;França
+1831;2023-09-15 00:00:00;C1224;Teclat;Accessoris;1;51,75;51,75;Transferència;Espanya
+1832;2023-07-02 00:00:00;C1711;Impressora;Oficina;4;342,44;1369,76;Transferència;Alemanya
+1833;2023-12-19 00:00:00;C8173;Ratolí;Accessoris;4;27,9;111,6;Transferència;Països Baixos
+1834;2023-06-04 00:00:00;C7400;Impressora;Oficina;5;118,23;591,15;PayPal;Països Baixos
+1835;2023-02-09 00:00:00;C2823;Cadira oficina;Oficina;1;231,27;231,27;Transferència;Itàlia
+1836;2023-10-25 00:00:00;C8777;Portàtil;Electrònica;1;1407,41;1407,41;Targeta;Itàlia
+1837;2023-08-30 00:00:00;C2222;Portàtil;Electrònica;3;1012,06;3036,18;Transferència;Itàlia
+1838;2023-08-30 00:00:00;C8490;Cadira oficina;Oficina;4;232,29;929,16;Targeta;Alemanya
+1839;2023-10-29 00:00:00;C6127;Impressora;Oficina;2;172,57;345,14;Transferència;Portugal
+1840;2023-02-18 00:00:00;C2325;USB;Accessoris;3;5,98;17,94;Transferència;Alemanya
+1841;2023-08-07 00:00:00;C9539;Ratolí;Accessoris;5;36,77;183,85;PayPal;Espanya
+1842;2023-09-30 00:00:00;C4232;Tablet;Electrònica;4;425,51;1702,04;PayPal;Països Baixos
+1843;2023-08-09 00:00:00;C2824;Monitor;Electrònica;4;362,13;1448,52;PayPal;Espanya
+1844;2023-07-24 00:00:00;C1404;Portàtil;Electrònica;5;1453,39;7266,95;Transferència;Portugal
+1845;2023-09-23 00:00:00;C4845;Ratolí;Accessoris;5;32,02;160,1;Transferència;Portugal
+1846;2023-05-21 00:00:00;C1064;Cadira oficina;Oficina;1;208,34;208,34;PayPal;Espanya
+1847;2023-08-21 00:00:00;C3242;Impressora;Oficina;2;76,85;153,7;Transferència;Portugal
+1848;2023-06-26 00:00:00;C2469;Ratolí;Accessoris;2;57,78;115,56;Targeta;Alemanya
+1849;2023-08-06 00:00:00;C1823;Monitor;Electrònica;5;369,05;1845,25;Targeta;Portugal
+1850;2023-09-10 00:00:00;C9989;Cadira oficina;Oficina;4;100,38;401,52;Targeta;Països Baixos
+1851;2023-11-29 00:00:00;C6534;Ratolí;Accessoris;3;56,54;169,62;Targeta;França
+1852;2023-11-04 00:00:00;C4718;USB;Accessoris;4;33,59;134,36;PayPal;Països Baixos
+1853;2023-08-13 00:00:00;C4641;Ratolí;Accessoris;3;29,16;87,48;Transferència;Alemanya
+1854;2023-04-13 00:00:00;C9587;Tablet;Electrònica;3;682,3;2046,9;PayPal;Itàlia
+1855;2023-02-24 00:00:00;C5326;USB;Accessoris;3;5,46;16,38;PayPal;França
+1856;2023-08-20 00:00:00;C9648;Portàtil;Electrònica;2;1444,54;2889,08;Transferència;Portugal
+1857;2023-11-29 00:00:00;C6494;Teclat;Accessoris;5;63,11;315,55;Targeta;Espanya
+1858;2023-05-25 00:00:00;C7273;Cadira oficina;Oficina;4;75,58;302,32;Transferència;Espanya
+1859;2023-04-24 00:00:00;C4994;Portàtil;Electrònica;5;1128,86;5644,3;PayPal;Portugal
+1860;2023-10-03 00:00:00;C2736;Ratolí;Accessoris;1;54,25;54,25;Transferència;Espanya
+1861;2023-06-02 00:00:00;C2356;Mòbil;Electrònica;3;392,69;1178,07;Targeta;França
+1862;2023-01-31 00:00:00;C2764;Monitor;Electrònica;5;459,05;2295,25;PayPal;Espanya
+1863;2023-11-06 00:00:00;C1667;Impressora;Oficina;3;388,75;1166,25;Transferència;Espanya
+1864;2023-04-09 00:00:00;C5070;Portàtil;Electrònica;3;1283,12;3849,36;Targeta;Països Baixos
+1865;2023-03-03 00:00:00;C4620;Ratolí;Accessoris;3;61,3;183,9;Targeta;Alemanya
+1866;2023-02-21 00:00:00;C3650;Portàtil;Electrònica;1;1383,23;1383,23;Transferència;Països Baixos
+1867;2023-10-25 00:00:00;C9047;USB;Accessoris;1;33,52;33,52;Transferència;Alemanya
+1868;2023-08-28 00:00:00;C2159;Auriculars;Accessoris;3;121,06;363,18;Targeta;Alemanya
+1869;2023-03-05 00:00:00;C9445;Teclat;Accessoris;2;61,26;122,52;Transferència;Portugal
+1870;2023-01-16 00:00:00;C6264;Impressora;Oficina;4;121,23;484,92;Targeta;Itàlia
+1871;2023-12-15 00:00:00;C5712;Teclat;Accessoris;5;84,34;421,7;Transferència;Alemanya
+1872;2023-11-28 00:00:00;C5598;USB;Accessoris;4;38,66;154,64;Transferència;Països Baixos
+1873;2023-06-25 00:00:00;C5491;Impressora;Oficina;1;188,62;188,62;Transferència;Portugal
+1874;2023-08-12 00:00:00;C5613;Cadira oficina;Oficina;2;245,98;491,96;Targeta;Espanya
+1875;2023-04-26 00:00:00;C1225;USB;Accessoris;3;49,48;148,44;Transferència;Espanya
+1876;2023-11-14 00:00:00;C5036;Cadira oficina;Oficina;1;122,95;122,95;Transferència;Alemanya
+1877;2023-04-06 00:00:00;C3803;Cadira oficina;Oficina;1;287,42;287,42;Transferència;Itàlia
+1878;2023-07-03 00:00:00;C9795;Auriculars;Accessoris;3;149,86;449,58;PayPal;França
+1879;2023-05-13 00:00:00;C3838;Monitor;Electrònica;4;408,93;1635,72;PayPal;Països Baixos
+1880;2023-08-09 00:00:00;C1975;Monitor;Electrònica;3;157,37;472,11;Targeta;Alemanya
+1881;2023-10-03 00:00:00;C3738;Cadira oficina;Oficina;3;229,91;689,73;Targeta;França
+1882;2023-06-27 00:00:00;C9353;Impressora;Oficina;5;119,37;596,85;PayPal;França
+1883;2023-10-14 00:00:00;C2963;USB;Accessoris;1;48,6;48,6;Targeta;França
+1884;2023-04-23 00:00:00;C4061;Portàtil;Electrònica;2;1388,77;2777,54;Targeta;Portugal
+1885;2023-07-08 00:00:00;C9101;Cadira oficina;Oficina;1;136,87;136,87;Targeta;Països Baixos
+1886;2023-02-13 00:00:00;C5223;Auriculars;Accessoris;1;143,34;143,34;Transferència;Països Baixos
+1887;2023-11-11 00:00:00;C5607;Ratolí;Accessoris;1;58,03;58,03;Targeta;Països Baixos
+1888;2023-08-07 00:00:00;C5538;Cadira oficina;Oficina;4;73,29;293,16;PayPal;Espanya
+1889;2023-08-16 00:00:00;C2726;Teclat;Accessoris;1;42,45;42,45;PayPal;França
+1890;2023-09-24 00:00:00;C8013;Cadira oficina;Oficina;2;217,91;435,82;Transferència;Alemanya
+1891;2023-07-09 00:00:00;C1686;Tablet;Electrònica;1;747,34;747,34;PayPal;Espanya
+1892;2023-05-25 00:00:00;C5647;USB;Accessoris;5;46,61;233,05;Targeta;França
+1893;2023-06-30 00:00:00;C7642;Portàtil;Electrònica;2;1214,75;2429,5;Transferència;França
+1894;2023-06-29 00:00:00;C5784;Teclat;Accessoris;2;57,61;115,22;Targeta;Itàlia
+1895;2023-05-18 00:00:00;C1877;Ratolí;Accessoris;5;29,39;146,95;Targeta;Alemanya
+1896;2023-06-13 00:00:00;C1292;Mòbil;Electrònica;1;438,21;438,21;Transferència;Itàlia
+1897;2023-05-07 00:00:00;C1233;Tablet;Electrònica;1;818,49;818,49;Targeta;Espanya
+1898;2023-10-07 00:00:00;C7154;Impressora;Oficina;1;323,16;323,16;PayPal;Itàlia
+1899;2023-08-16 00:00:00;C4291;Mòbil;Electrònica;3;235,97;707,91;Transferència;Itàlia
+1900;2023-08-17 00:00:00;C5439;Auriculars;Accessoris;3;184,72;554,16;Transferència;França
+1901;2023-10-17 00:00:00;C8869;Tablet;Electrònica;4;737,14;2948,56;PayPal;Països Baixos
+1902;2023-12-25 00:00:00;C4384;Mòbil;Electrònica;2;1045,33;2090,66;Targeta;Portugal
+1903;2023-11-27 00:00:00;C1028;Teclat;Accessoris;4;31,35;125,4;Targeta;Itàlia
+1904;2023-10-20 00:00:00;C6755;Portàtil;Electrònica;5;1354,78;6773,9;PayPal;Itàlia
+1905;2023-08-17 00:00:00;C8105;Tablet;Electrònica;5;776,43;3882,15;PayPal;França
+1906;2023-03-02 00:00:00;C8705;Cadira oficina;Oficina;3;115,82;347,46;Targeta;Espanya
+1907;2023-11-22 00:00:00;C4740;USB;Accessoris;3;8,39;25,17;Transferència;Espanya
+1908;2023-10-02 00:00:00;C2721;Portàtil;Electrònica;2;842,94;1685,88;Targeta;França
+1909;2023-06-14 00:00:00;C7941;Auriculars;Accessoris;1;194,7;194,7;PayPal;Portugal
+1910;2023-08-13 00:00:00;C6246;Tablet;Electrònica;1;521,12;521,12;PayPal;França
+1911;2023-01-10 00:00:00;C1091;Cadira oficina;Oficina;2;221,27;442,54;PayPal;Espanya
+1912;2023-11-29 00:00:00;C9128;Monitor;Electrònica;1;475,14;475,14;Transferència;Portugal
+1913;2023-07-25 00:00:00;C9990;Mòbil;Electrònica;2;208,5;417;PayPal;Itàlia
+1914;2023-11-05 00:00:00;C7800;Cadira oficina;Oficina;5;147,91;739,55;Transferència;Espanya
+1915;2023-01-02 00:00:00;C6622;Teclat;Accessoris;1;48,97;48,97;Targeta;França
+1916;2023-06-13 00:00:00;C6780;Auriculars;Accessoris;4;141,76;567,04;Targeta;Espanya
+1917;2023-03-30 00:00:00;C1665;Mòbil;Electrònica;5;760,12;3800,6;PayPal;França
+1918;2023-06-10 00:00:00;C2079;Tablet;Electrònica;4;571,58;2286,32;PayPal;Itàlia
+1919;2023-02-15 00:00:00;C6263;Teclat;Accessoris;5;107,53;537,65;PayPal;Portugal
+1920;2023-08-08 00:00:00;C1519;Monitor;Electrònica;4;512,8;2051,2;Targeta;Països Baixos
+1921;2023-10-02 00:00:00;C8233;Portàtil;Electrònica;1;1198,24;1198,24;Targeta;Portugal
+1922;2023-07-21 00:00:00;C6781;Cadira oficina;Oficina;4;237,5;950;Targeta;Països Baixos
+1923;2023-05-21 00:00:00;C9780;Monitor;Electrònica;3;305,15;915,45;PayPal;Portugal
+1924;2023-08-27 00:00:00;C5798;Ratolí;Accessoris;3;65,34;196,02;Targeta;Itàlia
+1925;2023-06-21 00:00:00;C3986;Teclat;Accessoris;4;27,34;109,36;Targeta;França
+1926;2023-12-07 00:00:00;C1056;Portàtil;Electrònica;1;1207,11;1207,11;Targeta;Espanya
+1927;2023-07-04 00:00:00;C6752;Mòbil;Electrònica;3;1144,46;3433,38;Transferència;Països Baixos
+1928;2023-12-29 00:00:00;C5987;Ratolí;Accessoris;2;43,23;86,46;Transferència;Espanya
+1929;2023-02-12 00:00:00;C3934;Teclat;Accessoris;4;71,37;285,48;Targeta;Itàlia
+1930;2023-09-06 00:00:00;C9940;Cadira oficina;Oficina;2;268,69;537,38;Transferència;Espanya
+1931;2023-01-22 00:00:00;C5968;Portàtil;Electrònica;1;839,97;839,97;PayPal;Espanya
+1932;2023-03-20 00:00:00;C8001;Teclat;Accessoris;5;35,97;179,85;PayPal;Espanya
+1933;2023-09-03 00:00:00;C4264;Cadira oficina;Oficina;5;108,21;541,05;PayPal;Països Baixos
+1934;2023-07-23 00:00:00;C5005;USB;Accessoris;4;41,83;167,32;PayPal;Alemanya
+1935;2023-02-08 00:00:00;C6574;Mòbil;Electrònica;2;892,88;1785,76;Transferència;Alemanya
+1936;2023-10-14 00:00:00;C6920;Teclat;Accessoris;4;58,26;233,04;Transferència;Alemanya
+1937;2023-11-10 00:00:00;C6783;Tablet;Electrònica;1;847,34;847,34;Targeta;Portugal
+1938;2023-09-23 00:00:00;C7843;Impressora;Oficina;5;209,74;1048,7;Targeta;Portugal
+1939;2023-10-26 00:00:00;C2079;Auriculars;Accessoris;3;141,98;425,94;PayPal;Portugal
+1940;2023-04-26 00:00:00;C9795;Impressora;Oficina;5;143,68;718,4;Transferència;França
+1941;2023-02-19 00:00:00;C7214;Impressora;Oficina;1;363,69;363,69;PayPal;Espanya
+1942;2023-04-15 00:00:00;C9791;Mòbil;Electrònica;2;398;796;Targeta;Alemanya
+1943;2023-02-12 00:00:00;C8833;Portàtil;Electrònica;4;1100,24;4400,96;Targeta;Alemanya
+1944;2023-05-13 00:00:00;C5864;Tablet;Electrònica;2;262,33;524,66;Transferència;Països Baixos
+1945;2023-05-28 00:00:00;C8740;Mòbil;Electrònica;5;1008,36;5041,8;Transferència;Països Baixos
+1946;2023-10-05 00:00:00;C4475;Monitor;Electrònica;4;546,75;2187;PayPal;Alemanya
+1947;2023-10-07 00:00:00;C6389;Monitor;Electrònica;1;175,99;175,99;Targeta;França
+1948;2023-01-24 00:00:00;C4003;Portàtil;Electrònica;3;1411,32;4233,96;Targeta;Itàlia
+1949;2023-07-27 00:00:00;C8959;Mòbil;Electrònica;5;331,71;1658,55;Transferència;França
+1950;2023-07-13 00:00:00;C1421;Cadira oficina;Oficina;2;185,56;371,12;PayPal;Alemanya
+1951;2023-03-16 00:00:00;C1946;Ratolí;Accessoris;1;55,88;55,88;Targeta;Portugal
+1952;2023-06-14 00:00:00;C5944;Impressora;Oficina;5;56,18;280,9;Transferència;França
+1953;2023-10-12 00:00:00;C3986;USB;Accessoris;2;5,73;11,46;PayPal;França
+1954;2023-07-06 00:00:00;C7121;USB;Accessoris;2;14,35;28,7;Transferència;Alemanya
+1955;2023-12-16 00:00:00;C2439;Teclat;Accessoris;2;37,87;75,74;Targeta;Itàlia
+1956;2023-02-25 00:00:00;C4324;USB;Accessoris;1;37,38;37,38;PayPal;Alemanya
+1957;2023-12-03 00:00:00;C1669;Impressora;Oficina;2;333,1;666,2;Targeta;Països Baixos
+1958;2023-04-01 00:00:00;C1109;Ratolí;Accessoris;4;11,74;46,96;PayPal;Països Baixos
+1959;2023-12-06 00:00:00;C6684;Portàtil;Electrònica;1;1372,57;1372,57;PayPal;Portugal
+1960;2023-06-17 00:00:00;C1556;Portàtil;Electrònica;4;971,18;3884,72;Targeta;Alemanya
+1961;2023-05-30 00:00:00;C1145;Mòbil;Electrònica;1;298,55;298,55;Transferència;Alemanya
+1962;2023-06-16 00:00:00;C9837;Teclat;Accessoris;3;101,49;304,47;Transferència;França
+1963;2023-09-29 00:00:00;C5992;Mòbil;Electrònica;5;289,34;1446,7;PayPal;Alemanya
+1964;2023-06-14 00:00:00;C4196;Portàtil;Electrònica;3;1420,79;4262,37;Targeta;Alemanya
+1965;2023-08-02 00:00:00;C9572;Auriculars;Accessoris;2;127,29;254,58;Transferència;Països Baixos
+1966;2023-07-07 00:00:00;C2105;Impressora;Oficina;4;386,54;1546,16;PayPal;Espanya
+1967;2023-05-12 00:00:00;C3691;Mòbil;Electrònica;2;211,01;422,02;Transferència;Alemanya
+1968;2023-09-10 00:00:00;C9023;Tablet;Electrònica;5;681,6;3408;Transferència;França
+1969;2023-02-27 00:00:00;C2490;Portàtil;Electrònica;1;1456,91;1456,91;Transferència;Itàlia
+1970;2023-05-05 00:00:00;C1832;Cadira oficina;Oficina;3;249,59;748,77;Transferència;Espanya
+1971;2023-07-07 00:00:00;C2646;Tablet;Electrònica;1;811,65;811,65;Targeta;Itàlia
+1972;2023-11-21 00:00:00;C3367;Auriculars;Accessoris;1;198,71;198,71;Targeta;Portugal
+1973;2023-10-08 00:00:00;C4034;Auriculars;Accessoris;4;74,78;299,12;Targeta;Països Baixos
+1974;2023-07-10 00:00:00;C3107;USB;Accessoris;2;42,66;85,32;Transferència;Itàlia
+1975;2023-11-03 00:00:00;C3747;Mòbil;Electrònica;1;263,19;263,19;Targeta;Països Baixos
+1976;2023-06-18 00:00:00;C4133;Impressora;Oficina;2;107,42;214,84;Targeta;Països Baixos
+1977;2023-09-02 00:00:00;C2689;USB;Accessoris;4;45,76;183,04;Transferència;Alemanya
+1978;2023-01-28 00:00:00;C5541;Tablet;Electrònica;5;365,43;1827,15;Transferència;Espanya
+1979;2023-11-03 00:00:00;C5521;Monitor;Electrònica;4;124,93;499,72;Targeta;Espanya
+1980;2023-01-10 00:00:00;C2129;Cadira oficina;Oficina;2;63,61;127,22;PayPal;Espanya
+1981;2023-10-22 00:00:00;C8232;Monitor;Electrònica;1;169,14;169,14;Targeta;Països Baixos
+1982;2023-11-13 00:00:00;C7035;Cadira oficina;Oficina;4;203,73;814,92;PayPal;Portugal
+1983;2023-02-03 00:00:00;C7523;Mòbil;Electrònica;1;1074,75;1074,75;Transferència;França
+1984;2023-12-20 00:00:00;C9974;Monitor;Electrònica;1;530,94;530,94;Targeta;Espanya
+1985;2023-04-17 00:00:00;C3956;Teclat;Accessoris;5;44,99;224,95;Targeta;Portugal
+1986;2023-10-25 00:00:00;C6087;USB;Accessoris;4;31,09;124,36;PayPal;França
+1987;2023-11-16 00:00:00;C7942;Mòbil;Electrònica;3;664,35;1993,05;PayPal;Països Baixos
+1988;2023-01-10 00:00:00;C7458;Teclat;Accessoris;1;100,9;100,9;Transferència;Itàlia
+1989;2023-01-20 00:00:00;C1968;Portàtil;Electrònica;1;925,76;925,76;Targeta;Portugal
+1990;2023-05-12 00:00:00;C7499;Auriculars;Accessoris;1;111,56;111,56;Transferència;França
+1991;2023-09-22 00:00:00;C8382;Monitor;Electrònica;1;566,25;566,25;Transferència;Portugal
+1992;2023-02-12 00:00:00;C4349;Ratolí;Accessoris;2;66,01;132,02;PayPal;Portugal
+1993;2023-12-16 00:00:00;C1583;Impressora;Oficina;2;125,34;250,68;Targeta;Itàlia
+1994;2023-01-15 00:00:00;C7196;Tablet;Electrònica;5;848,66;4243,3;Targeta;Alemanya
+1995;2023-02-15 00:00:00;C4185;Portàtil;Electrònica;2;1026,24;2052,48;Targeta;Itàlia
+1996;2023-05-19 00:00:00;C7772;USB;Accessoris;3;22,56;67,68;Transferència;Alemanya
+1997;2023-10-04 00:00:00;C5945;USB;Accessoris;4;18;72;Targeta;França
+1998;2023-12-20 00:00:00;C6273;Impressora;Oficina;2;108,43;216,86;PayPal;Alemanya
+1999;2023-06-08 00:00:00;C7902;Ratolí;Accessoris;3;46,01;138,03;PayPal;Itàlia
+2000;2023-11-22 00:00:00;C7745;Auriculars;Accessoris;5;100,79;503,95;Transferència;Països Baixos
