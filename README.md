@@ -1,5 +1,6 @@
 # python-for-data-science
 
+This repository contains both theoretical materials and practical solutions for the course "Python for Data Science" from the Data Science master's program at UOC (Universitat Oberta de Catalunya).
 
 ## Repository Structure
 
