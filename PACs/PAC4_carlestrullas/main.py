@@ -39,10 +39,10 @@ def run_exercise_2(df_perf, df_aband):
     df_perf_c = transform_data.drop_unnecessary_columns(df_perf, "performance")
     df_aband_c = transform_data.drop_unnecessary_columns(df_aband_h, "abandonment")
     df_perf_g = transform_data.group_by_branch(
-        df_perf_c, "Taxa de rendiment (%)", "Rendiment mitjà (%)"
+        df_perf_c, "Taxa rendiment", "Rendiment mitjà (%)"
     )
     df_aband_g = transform_data.group_by_branch(
-        df_aband_c, "Taxa d'abandonament (%)", "Abandonament mitjà (%)"
+        df_aband_c, "% Abandonament a primer curs", "Abandonament mitjà (%)"
     )
     merged = transform_data.merge_datasets(df_perf_g, df_aband_g)
     print("\nMerged dataset (first 5 rows):")

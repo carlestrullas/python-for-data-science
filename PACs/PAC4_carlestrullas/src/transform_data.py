@@ -1,5 +1,5 @@
 """
-Data transformation and cleaning utilities for PAC4
+Data transformation and cleaning utilities.
 """
 
 import pandas as pd
@@ -8,10 +8,18 @@ import pandas as pd
 def harmonize_abandonment_columns(df: pd.DataFrame) -> pd.DataFrame:
     """
     Rename columns in the abandonment dataset to match the performance dataset.
+
+    Args:
+        df (pd.DataFrame): Abandonment dataset.
+
+    Returns:
+        pd.DataFrame: DataFrame with harmonized column names.
     """
     rename_dict = {
-        "Taxa d'abandonament (%)": "Taxa d'abandonament (%)",
-        # Add more mappings if needed
+        "Naturalesa universitat responsable": "Tipus universitat",
+        "Universitat responsable": "Universitat",
+        "Sexe Alumne": "Sexe",
+        "Tipus de centre": "Integrat S/N",
     }
     return df.rename(columns=rename_dict)
 
@@ -19,6 +27,13 @@ def harmonize_abandonment_columns(df: pd.DataFrame) -> pd.DataFrame:
 def drop_unnecessary_columns(df: pd.DataFrame, dataset: str) -> pd.DataFrame:
     """
     Drop columns not needed for analysis.
+
+    Args:
+        df (pd.DataFrame): Input DataFrame.
+        dataset (str): Dataset type ('performance' or other).
+
+    Returns:
+        pd.DataFrame: DataFrame with unnecessary columns dropped.
     """
     cols_to_drop = ["Universitat", "Unitat"]
     if dataset == "performance":
@@ -32,6 +47,14 @@ def group_by_branch(df: pd.DataFrame, value_col: str, new_col: str) -> pd.DataFr
     """
     Group by academic year, university type, sigles, study type, branch, gender,
     integrated, and average the value_col.
+
+    Args:
+        df (pd.DataFrame): Input DataFrame.
+        value_col (str): Name of the column to average.
+        new_col (str): Name for the averaged column in the result.
+
+    Returns:
+        pd.DataFrame: Grouped DataFrame with averaged values.
     """
     group_cols = [
         "Curs Acadèmic",
@@ -50,6 +73,13 @@ def group_by_branch(df: pd.DataFrame, value_col: str, new_col: str) -> pd.DataFr
 def merge_datasets(df_perf: pd.DataFrame, df_aband: pd.DataFrame) -> pd.DataFrame:
     """
     Merge the two datasets on the common columns, keeping only matching rows.
+
+    Args:
+        df_perf (pd.DataFrame): Performance dataset.
+        df_aband (pd.DataFrame): Abandonment dataset.
+
+    Returns:
+        pd.DataFrame: Merged DataFrame containing only matching rows.
     """
     merge_cols = [
         "Curs Acadèmic",

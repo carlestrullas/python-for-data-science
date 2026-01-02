@@ -1,5 +1,5 @@
 """
-Visualization utilities for PAC4
+Visualization utilities.
 """
 
 import os
@@ -14,17 +14,20 @@ def plot_time_series_by_branch(
     """
     Generate and save time series plots for abandonment and performance rates by branch.
     Args:
-        merged_df (pd.DataFrame): Merged dataset with columns for academic year,
-            branch, performance, and abandonment.
+        merged_df (pd.DataFrame): Merged dataset created in exercise 2.
         student_name (str): Name to use in the output filename.
     """
     plt.figure(figsize=(14, 10))
-    branches = merged_df["Branca"].unique()
+    grouped = merged_df.groupby(["Branca", "Curs Acadèmic"], as_index=False).mean(
+        numeric_only=True
+    )
+    branches = grouped["Branca"].unique()
     colors = plt.get_cmap("tab10").colors
+
     # Subplot 1: Abandonment
     ax1 = plt.subplot(2, 1, 1)
     for i, branch in enumerate(branches):
-        data = merged_df[merged_df["Branca"] == branch]
+        data = grouped[grouped["Branca"] == branch]
         ax1.plot(
             data["Curs Acadèmic"],
             data["Abandonament mitjà (%)"],
@@ -37,10 +40,11 @@ def plot_time_series_by_branch(
     ax1.legend()
     ax1.grid(True)
     plt.setp(ax1.get_xticklabels(), rotation=45)
+
     # Subplot 2: Performance
     ax2 = plt.subplot(2, 1, 2)
     for i, branch in enumerate(branches):
-        data = merged_df[merged_df["Branca"] == branch]
+        data = grouped[grouped["Branca"] == branch]
         ax2.plot(
             data["Curs Acadèmic"],
             data["Rendiment mitjà (%)"],
@@ -54,19 +58,11 @@ def plot_time_series_by_branch(
     ax2.grid(True)
     plt.setp(ax2.get_xticklabels(), rotation=45)
     plt.tight_layout()
-    # Save figure
 
+    # Save figure
     img_dir = os.path.join(os.path.dirname(__file__), "img")
     os.makedirs(img_dir, exist_ok=True)
     out_path = os.path.join(img_dir, f"evolucio_{student_name}.png")
     plt.savefig(out_path, dpi=300)
     plt.close()
-    print(f"Figure saved to {out_path}")
-    print(f"Figure saved to {out_path}")
-    print(f"Figure saved to {out_path}")
-    print(f"Figure saved to {out_path}")
-    print(f"Figure saved to {out_path}")
-    print(f"Figure saved to {out_path}")
-    print(f"Figure saved to {out_path}")
-    print(f"Figure saved to {out_path}")
     print(f"Figure saved to {out_path}")

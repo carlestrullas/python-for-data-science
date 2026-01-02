@@ -1,0 +1,80 @@
+{
+    "analysis_metadata": {
+        "fecha_analisis": "2026-01-02",
+        "num_registros": 1081,
+        "periodo_temporal": [
+            "19-20",
+            "20-21",
+            "21-22",
+            "22-23"
+        ]
+    },
+    "estadisticas_globales": {
+        "abandono_medio": 0.09568344419121505,
+        "rendimiento_medio": 0.880743744122325,
+        "correlacion_abandono_rendimiento": -0.44092345481896367
+    },
+    "analisis_por_rama": {
+        "Ciències de la salut": {
+            "abandono": {
+                "mean": 0.07492842115276725,
+                "std": 0.09051358018483285
+            },
+            "rendimiento": {
+                "mean": 0.9076961576517852,
+                "std": 0.06887686023092611
+            },
+            "tendencia_abandono": "decreasing"
+        },
+        "Ciències socials i jurídiques": {
+            "abandono": {
+                "mean": 0.09241675392077763,
+                "std": 0.06708356015981852
+            },
+            "rendimiento": {
+                "mean": 0.8973144415805686,
+                "std": 0.06511152376338765
+            },
+            "tendencia_abandono": "stable"
+        },
+        "Arts i humanitats": {
+            "abandono": {
+                "mean": 0.13856621323254148,
+                "std": 0.12333012462509825
+            },
+            "rendimiento": {
+                "mean": 0.8505415110589107,
+                "std": 0.10238036683343346
+            },
+            "tendencia_abandono": "stable"
+        },
+        "Enginyeria i arquitectura": {
+            "abandono": {
+                "mean": 0.097297822339536,
+                "std": 0.0692561791568208
+            },
+            "rendimiento": {
+                "mean": 0.843617757094976,
+                "std": 0.08120441764982778
+            },
+            "tendencia_abandono": "stable"
+        },
+        "Ciències": {
+            "abandono": {
+                "mean": 0.07155608322047925,
+                "std": 0.07031153722323953
+            },
+            "rendimiento": {
+                "mean": 0.8961165776870353,
+                "std": 0.0826545805802279
+            },
+            "tendencia_abandono": "stable"
+        }
+    },
+    "rankings": {
+        "mejor_rendimiento": "Ciències de la salut",
+        "peor_rendimiento": "Enginyeria i arquitectura",
+        "mayor_abandono": "Arts i humanitats",
+        "menor_abandono": "Ciències"
+    }
+}
