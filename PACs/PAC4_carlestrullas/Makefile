@@ -4,4 +4,9 @@ PYTHONVER = 3.12.8
 install:
 	@echo "Installing dependencies..."
 	conda create -n $(ENVNAME) python=$(PYTHONVER) -y
-	call conda activate $(ENVNAME) && pip install -r requirements.txt
+	conda activate $(ENVNAME) && pip install -r requirements.txt
+
+docs:
+	@echo "Building Sphinx HTML documentation..."
+	conda activate $(ENVNAME) && sphinx-build -b html doc doc/_build/html
+	@echo "Docs available at PAC4_carlestrullas/doc/_build/html/index.html"

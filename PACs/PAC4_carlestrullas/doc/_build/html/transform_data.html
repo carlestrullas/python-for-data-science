@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Transform Data Module &#8212; Python  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Visual Analysis Module" href="visual_analysis.html" />
+    <link rel="prev" title="Load Data Module" href="load_data.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-src.modules.transform_data">
+<span id="transform-data-module"></span><h1>Transform Data Module<a class="headerlink" href="#module-src.modules.transform_data" title="Link to this heading">¶</a></h1>
+<p>Data transformation and cleaning utilities.</p>
+<p>Helpers to harmonize column names between datasets, drop unused fields, compute
+grouped aggregates by branch and related dimensions, and merge the datasets.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="src.modules.transform_data.drop_unnecessary_columns">
+<span class="sig-prename descclassname"><span class="pre">src.modules.transform_data.</span></span><span class="sig-name descname"><span class="pre">drop_unnecessary_columns</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dataset</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#src.modules.transform_data.drop_unnecessary_columns" title="Link to this definition">¶</a></dt>
+<dd><p>Drop unneeded columns for the specified dataset type.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code></span>) – Input DataFrame.</p></li>
+<li><p><strong>dataset</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></span>) – Dataset type, e.g. <code class="docutils literal notranslate"><span class="pre">&quot;performance&quot;</span></code> to also drop credit
+columns.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code></span></p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A DataFrame with unnecessary columns removed.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="src.modules.transform_data.group_by_branch">
+<span class="sig-prename descclassname"><span class="pre">src.modules.transform_data.</span></span><span class="sig-name descname"><span class="pre">group_by_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value_col</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_col</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#src.modules.transform_data.group_by_branch" title="Link to this definition">¶</a></dt>
+<dd><p>Compute per-branch averages over common grouping dimensions.</p>
+<p>Groups by academic year, university type, sigles, study type, branch,
+gender, integration flag, and averages <code class="docutils literal notranslate"><span class="pre">value_col</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code></span>) – Input DataFrame.</p></li>
+<li><p><strong>value_col</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></span>) – Name of the column to average.</p></li>
+<li><p><strong>new_col</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></span>) – Name of the averaged column in the result.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code></span></p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A grouped DataFrame with averaged values and normalized column name.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="src.modules.transform_data.harmonize_abandonment_columns">
+<span class="sig-prename descclassname"><span class="pre">src.modules.transform_data.</span></span><span class="sig-name descname"><span class="pre">harmonize_abandonment_columns</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#src.modules.transform_data.harmonize_abandonment_columns" title="Link to this definition">¶</a></dt>
+<dd><p>Harmonize abandonment dataset columns.</p>
+<p>Renames specific columns in the dropout dataset so they match the naming
+used by the performance dataset and downstream processing.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>df</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code></span>) – Abandonment dataset.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code></span></p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A DataFrame with harmonized column names.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="src.modules.transform_data.merge_datasets">
+<span class="sig-prename descclassname"><span class="pre">src.modules.transform_data.</span></span><span class="sig-name descname"><span class="pre">merge_datasets</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df_perf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">df_aband</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#src.modules.transform_data.merge_datasets" title="Link to this definition">¶</a></dt>
+<dd><p>Merge performance and abandonment datasets on shared dimensions.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df_perf</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code></span>) – Performance dataset.</p></li>
+<li><p><strong>df_aband</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code></span>) – Abandonment dataset.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code></span></p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A merged DataFrame containing only matching rows across datasets.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Python</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Modules</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="main.html">Main Module</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Modules Package</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="eda.html">EDA Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="load_data.html">Load Data Module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Transform Data Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="visual_analysis.html">Visual Analysis Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="statistical_analysis.html">Statistical Analysis Module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">Modules Package</a><ul>
+      <li>Previous: <a href="load_data.html" title="previous chapter">Load Data Module</a></li>
+      <li>Next: <a href="visual_analysis.html" title="next chapter">Visual Analysis Module</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/transform_data.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

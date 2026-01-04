@@ -1,0 +1,4 @@
+[MESSAGES CONTROL]
+disable=
+    # No disables: all checks active
+    too-many-locals

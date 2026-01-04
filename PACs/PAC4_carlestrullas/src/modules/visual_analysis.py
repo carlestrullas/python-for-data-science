@@ -1,5 +1,7 @@
-"""
-Visualization utilities.
+"""Visualization utilities.
+
+Functions to generate time series plots of dropout and performance rates by
+branch and save them as PNG files under `src/img/`.
 """
 
 import os
@@ -10,12 +12,15 @@ import pandas as pd
 
 def plot_time_series_by_branch(
     merged_df: pd.DataFrame, student_name: str = "carlestrullas"
-):
-    """
-    Generate and save time series plots for abandonment and performance rates by branch.
+) -> None:
+    """Plot and save time series by branch for dropout and performance.
+
     Args:
-        merged_df (pd.DataFrame): Merged dataset created in exercise 2.
-        student_name (str): Name to use in the output filename.
+        merged_df: Merged dataset created in exercise 2.
+        student_name: Identifier used in the output filename.
+
+    Returns:
+        None. Saves a PNG figure and prints its path.
     """
     plt.figure(figsize=(14, 10))
     grouped = merged_df.groupby(["Branca", "Curs Acadèmic"], as_index=False).mean(
@@ -60,7 +65,8 @@ def plot_time_series_by_branch(
     plt.tight_layout()
 
     # Save figure
-    img_dir = os.path.join(os.path.dirname(__file__), "img")
+    src_dir = os.path.dirname(os.path.dirname(__file__))
+    img_dir = os.path.join(src_dir, "img")
     os.makedirs(img_dir, exist_ok=True)
     out_path = os.path.join(img_dir, f"evolucio_{student_name}.png")
     plt.savefig(out_path, dpi=300)

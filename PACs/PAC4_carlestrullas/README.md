@@ -1,27 +1,41 @@
-
 # PAC4 - Student Performance in Catalonia
 
 This project analyzes the academic performance of university students in Catalonia using official datasets. The code is organized as a Python package with modular structure, documentation, and tests.
 
+
 ## Project Structure
 
-- `src/` : Source code modules
-	- `load_data.py` : Functions for loading datasets
-	- `transform_data.py` : Data cleaning, harmonization, grouping, merging
-	- `eda.py` : Exploratory Data Analysis utilities
-	- `visual_analysis.py` : Visualization functions
-	- `statistical_analysis.py` : Statistical analysis functions
-- `main.py` : Entry point to run all analyses
+- `LICENSE` : Project license (MIT)
+- `src/` : Main source code package
+    - `main.py` : Main script to run all analyses
+    - `img/` : Generated or example images for reports/visualizations
+    - `modules/` : All analysis modules
+        - `eda.py` : Exploratory Data Analysis utilities
+        - `load_data.py` : Functions for loading datasets
+        - `statistical_analysis.py` : Statistical analysis functions
+        - `transform_data.py` : Data cleaning, harmonization, grouping, merging
+        - `visual_analysis.py` : Visualization functions
+    - `report/` : Output reports (e.g., JSON analysis)
+- `data/` : Input datasets (Excel, CSV, etc.)
 - `tests/` : Unit tests
 - `requirements.txt` : Python dependencies
 - `Makefile` : Environment and install commands
 - `setup.py` : Package installer (optional, for advanced usage)
+- `doc/` : Sphinx documentation source and build outputs
+- `screenshots/` : Required screenshots for reports or documentation
+- `PAC4_enunciat.ipynb` : Project statement and instructions (Jupyter Notebook)
+- `README.md` : Project overview and instructions
 
 ## Installation
 
-Create the conda environment environment:
+
+
+Create the conda environment (requires both Make and Conda to be installed):
+
+> **Note:** Make sure you have `Make` and `Miniconda` installed on your system before running the following command.
+
 ```sh
-# Execute the following command from PAC4_carlestrullas/
+# Ejecuta el siguiente comando desde PAC4_carlestrullas/
 make install
 ```
 
@@ -36,17 +50,17 @@ Now, you can run all exercises or only up to a specific one using the `-ex` opti
 
 - Run all exercises (default):
 ```sh
-python main.py
+python -m src.main
 ```
 
 - Run only up to exercise N (for example, up to exercise 2):
 ```sh
-python main.py -ex 2
+python -m src.main -ex 2
 ```
 
 - Show help:
 ```sh
-python main.py -h
+python -m src.main -h
 ```
 
 **Note:** Execute the previous commands from `PAC4_carlestrullas/`.
@@ -55,13 +69,27 @@ python main.py -h
 
 TODO
 
+
+
 ## Documentation
 
-All functions and modules are documented with Python docstrings. To generate HTML documentation (if using Sphinx or similar):
-```sh
-# Example (if Sphinx is set up):
-make html
-```
+All functions and modules in this project are documented with Google‑style docstrings. HTML documentation is generated with Sphinx under the `doc/` folder.
+
+> **Note:** The generated documentation now includes all modules inside the `src/` folder, including `main.py`.
+
+### Generate the documentation (step by step)
+
+1. **Install dependencies and activate the environment** (first time only):
+	```sh
+	# Ejecuta el siguiente comando desde PAC4_carlestrullas/
+	make install
+	```
+2. **Build HTML documentation** from the `PAC4_carlestrullas/`:
+	```sh
+	make docs
+	```
+3. **Open the documentation homepage** in your browser:
+	- Path: `PAC4_carlestrullas/doc/_build/html/index.html`
 
 ## Testing
 
@@ -78,12 +106,13 @@ coverage run -m pytest
 coverage report
 ```
 
-## Style Checks
+## Linting and Code Style
 
-To check code style (if flake8 or similar is installed):
+All code follows the Python style guide (PEP8), except in cases where strict adherence would reduce code readability. The linter `pylint` is used to check code quality. Any justified exceptions to the style guide are configured in the `.pylintrc` file, aiming for scores above 9 in all scripts.
+
+> **Note:** The warning `too-many-locals` has been disabled in `.pylintrc` to allow more local variables in some functions (e.g., in `statistical_analysis.py`), as this improves clarity for complex analysis steps.
+
+To check code style, run:
 ```sh
-flake8 src/
+pylint src/
 ```
-
----
-For any questions, refer to the code docstrings or contact the author.

@@ -5,15 +5,25 @@ the required analyses and functionalities for the assignment.
 
 import argparse
 
-from src import eda, load_data, statistical_analysis, transform_data, visual_analysis
+from src.modules import (
+    eda,
+    load_data,
+    statistical_analysis,
+    transform_data,
+    visual_analysis,
+)
 
 
 def run_exercise_1():
     """
     Load both datasets and perform exploratory data analysis (EDA).
-    Returns:
-        df_perf (pd.DataFrame): Performance dataset.
-        df_aband (pd.DataFrame): Abandonment dataset.
+
+    Returns
+    -------
+    df_perf : pd.DataFrame
+        Performance dataset.
+    df_aband : pd.DataFrame
+        Abandonment dataset.
     """
     print("Exercise 1: Load dataset and EDA")
     df_perf = load_data.load_dataset("rendiment_estudiants.xlsx")

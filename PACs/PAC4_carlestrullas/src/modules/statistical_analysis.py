@@ -1,5 +1,7 @@
-"""
-Statistical analysis utilities.
+"""Statistical analysis utilities.
+
+Functions to compute descriptive statistics, correlations, and simple trends by
+branch, and to persist the analysis as a JSON report under `src/report/`.
 """
 
 import json
@@ -10,11 +12,18 @@ import pandas as pd
 from scipy.stats import linregress, pearsonr
 
 
-def analyze_dataset(merged_df: pd.DataFrame):
-    """
-    Perform statistical analysis and save results as a JSON report.
+def analyze_dataset(merged_df: pd.DataFrame) -> None:
+    """Perform statistical analysis and save a JSON report.
+
+    Computes global means, Pearson correlation, per-branch statistics, and
+    simple trend detection of dropout rates. The resulting analysis is saved as
+    a JSON file at `src/report/analisi_estadistic.json`.
+
     Args:
-        merged_df (pd.DataFrame): Merged dataset.
+        merged_df: Merged dataset containing performance and dropout metrics.
+
+    Returns:
+        None. Writes a JSON report to disk and prints its path.
     """
     abandon_col = "Abandonament mitjà (%)"
     perf_col = "Rendiment mitjà (%)"
@@ -87,9 +96,9 @@ def analyze_dataset(merged_df: pd.DataFrame):
         "rankings": rankings,
     }
 
-    output_path = os.path.join(
-        os.path.dirname(__file__), "report", "analisi_estadistic.json"
-    )
+    # Save report in src/report/
+    src_dir = os.path.dirname(os.path.dirname(__file__))
+    output_path = os.path.join(src_dir, "report", "analisi_estadistic.json")
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=4, ensure_ascii=False)

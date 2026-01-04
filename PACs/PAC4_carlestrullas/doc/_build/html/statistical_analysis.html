@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Statistical Analysis Module &#8212; Python  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Visual Analysis Module" href="visual_analysis.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-src.modules.statistical_analysis">
+<span id="statistical-analysis-module"></span><h1>Statistical Analysis Module<a class="headerlink" href="#module-src.modules.statistical_analysis" title="Link to this heading">¶</a></h1>
+<p>Statistical analysis utilities.</p>
+<p>Functions to compute descriptive statistics, correlations, and simple trends by
+branch, and to persist the analysis as a JSON report under <cite>src/report/</cite>.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="src.modules.statistical_analysis.analyze_dataset">
+<span class="sig-prename descclassname"><span class="pre">src.modules.statistical_analysis.</span></span><span class="sig-name descname"><span class="pre">analyze_dataset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">merged_df</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#src.modules.statistical_analysis.analyze_dataset" title="Link to this definition">¶</a></dt>
+<dd><p>Perform statistical analysis and save a JSON report.</p>
+<p>Computes global means, Pearson correlation, per-branch statistics, and
+simple trend detection of dropout rates. The resulting analysis is saved as
+a JSON file at <cite>src/report/analisi_estadistic.json</cite>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>merged_df</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code></span>) – Merged dataset containing performance and dropout metrics.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><span class="sphinx_autodoc_typehints-type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></span></p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None. Writes a JSON report to disk and prints its path.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Python</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Modules</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="main.html">Main Module</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Modules Package</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="eda.html">EDA Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="load_data.html">Load Data Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transform_data.html">Transform Data Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="visual_analysis.html">Visual Analysis Module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Statistical Analysis Module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">Modules Package</a><ul>
+      <li>Previous: <a href="visual_analysis.html" title="previous chapter">Visual Analysis Module</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/statistical_analysis.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

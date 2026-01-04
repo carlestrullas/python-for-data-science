@@ -1,19 +1,23 @@
-"""
-Data transformation and cleaning utilities.
+"""Data transformation and cleaning utilities.
+
+Helpers to harmonize column names between datasets, drop unused fields, compute
+grouped aggregates by branch and related dimensions, and merge the datasets.
 """
 
 import pandas as pd
 
 
 def harmonize_abandonment_columns(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Rename columns in the abandonment dataset to match the performance dataset.
+    """Harmonize abandonment dataset columns.
+
+    Renames specific columns in the dropout dataset so they match the naming
+    used by the performance dataset and downstream processing.
 
     Args:
-        df (pd.DataFrame): Abandonment dataset.
+        df: Abandonment dataset.
 
     Returns:
-        pd.DataFrame: DataFrame with harmonized column names.
+        A DataFrame with harmonized column names.
     """
     rename_dict = {
         "Naturalesa universitat responsable": "Tipus universitat",
@@ -25,15 +29,15 @@ def harmonize_abandonment_columns(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def drop_unnecessary_columns(df: pd.DataFrame, dataset: str) -> pd.DataFrame:
-    """
-    Drop columns not needed for analysis.
+    """Drop unneeded columns for the specified dataset type.
 
     Args:
-        df (pd.DataFrame): Input DataFrame.
-        dataset (str): Dataset type ('performance' or other).
+        df: Input DataFrame.
+        dataset: Dataset type, e.g. ``"performance"`` to also drop credit
+            columns.
 
     Returns:
-        pd.DataFrame: DataFrame with unnecessary columns dropped.
+        A DataFrame with unnecessary columns removed.
     """
     cols_to_drop = ["Universitat", "Unitat"]
     if dataset == "performance":
@@ -44,17 +48,18 @@ def drop_unnecessary_columns(df: pd.DataFrame, dataset: str) -> pd.DataFrame:
 
 
 def group_by_branch(df: pd.DataFrame, value_col: str, new_col: str) -> pd.DataFrame:
-    """
-    Group by academic year, university type, sigles, study type, branch, gender,
-    integrated, and average the value_col.
+    """Compute per-branch averages over common grouping dimensions.
+
+    Groups by academic year, university type, sigles, study type, branch,
+    gender, integration flag, and averages ``value_col``.
 
     Args:
-        df (pd.DataFrame): Input DataFrame.
-        value_col (str): Name of the column to average.
-        new_col (str): Name for the averaged column in the result.
+        df: Input DataFrame.
+        value_col: Name of the column to average.
+        new_col: Name of the averaged column in the result.
 
     Returns:
-        pd.DataFrame: Grouped DataFrame with averaged values.
+        A grouped DataFrame with averaged values and normalized column name.
     """
     group_cols = [
         "Curs Acadèmic",
@@ -71,15 +76,14 @@ def group_by_branch(df: pd.DataFrame, value_col: str, new_col: str) -> pd.DataFr
 
 
 def merge_datasets(df_perf: pd.DataFrame, df_aband: pd.DataFrame) -> pd.DataFrame:
-    """
-    Merge the two datasets on the common columns, keeping only matching rows.
+    """Merge performance and abandonment datasets on shared dimensions.
 
     Args:
-        df_perf (pd.DataFrame): Performance dataset.
-        df_aband (pd.DataFrame): Abandonment dataset.
+        df_perf: Performance dataset.
+        df_aband: Abandonment dataset.
 
     Returns:
-        pd.DataFrame: Merged DataFrame containing only matching rows.
+        A merged DataFrame containing only matching rows across datasets.
     """
     merge_cols = [
         "Curs Acadèmic",
