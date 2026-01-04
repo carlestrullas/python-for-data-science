@@ -89,7 +89,7 @@ This will install the package in your active Python environment. All modules wil
 Once installed, you can import the modules as follows:
 
 ```python
-from src.modules import load_data, statistical_analysis, transform_data, visual_analysis
+from modules.load_data import load_dataset
 ```
 
 To uninstall the package:

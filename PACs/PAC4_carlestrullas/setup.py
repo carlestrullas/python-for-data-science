@@ -20,8 +20,4 @@ setup(
         "scipy==1.11.4",
     ],
     python_requires=">=3.12",
-    include_package_data=True,
-    package_data={
-        "": ["../data/rendiment_estudiants.xlsx", "../data/taxa_abandonament.xlsx"],
-    },
 )
