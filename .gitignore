@@ -1,0 +1,10 @@
+# Ignore all VSCode settings at the workspace root
+.vscode/settings.json
+
+# Ignore all VSCode configuration folders
+.vscode/
+
+# Ignore Python cache and coverage files
+__pycache__/
+*.pyc
+.coverage

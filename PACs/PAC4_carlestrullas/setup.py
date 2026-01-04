@@ -16,7 +16,12 @@ setup(
         "pandas==1.5.3",
         "openpyxl==3.1.2",
         "numpy==1.26.0",
-        "pytest==7.4.2",
+        "matplotlib==3.8.2",
+        "scipy==1.11.4",
     ],
     python_requires=">=3.12",
+    include_package_data=True,
+    package_data={
+        "": ["../data/rendiment_estudiants.xlsx", "../data/taxa_abandonament.xlsx"],
+    },
 )

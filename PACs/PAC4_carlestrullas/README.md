@@ -28,14 +28,12 @@ This project analyzes the academic performance of university students in Catalon
 
 ## Installation
 
-
-
 Create the conda environment (requires both Make and Conda to be installed):
 
 > **Note:** Make sure you have `Make` and `Miniconda` installed on your system before running the following command.
 
 ```sh
-# Ejecuta el siguiente comando desde PAC4_carlestrullas/
+# Run the following command from PAC4_carlestrullas/
 make install
 ```
 
@@ -67,9 +65,37 @@ python -m src.main -h
 
 ## Usage as a package
 
-TODO
+You can install this project as a Python package.
 
 
+### Install as a standard Python package
+
+Before installing, make sure you have activated the Python environment where you want to install the package.
+
+```sh
+conda activate {your_conda_environment}
+```
+
+Then, from the `PAC4_carlestrullas` directory, run:
+
+```sh
+pip install .
+```
+
+This will install the package in your active Python environment. All modules will be available for import from any script or notebook, and all dependencies will be installed automatically.
+
+#### Import modules from anywhere
+
+Once installed, you can import the modules as follows:
+
+```python
+from src.modules import load_data, statistical_analysis, transform_data, visual_analysis
+```
+
+To uninstall the package:
+```sh
+pip uninstall pac4_student_performance
+```
 
 ## Documentation
 
@@ -80,16 +106,16 @@ All functions and modules in this project are documented with Google‑style doc
 ### Generate the documentation (step by step)
 
 1. **Install dependencies and activate the environment** (first time only):
-	```sh
-	# Ejecuta el siguiente comando desde PAC4_carlestrullas/
-	make install
-	```
-2. **Build HTML documentation** from the `PAC4_carlestrullas/`:
-	```sh
-	make docs
-	```
+    ```sh
+    # Run the following command from PAC4_carlestrullas/
+    make install
+    ```
+2. **Build HTML documentation** from `PAC4_carlestrullas/`:
+    ```sh
+    make docs
+    ```
 3. **Open the documentation homepage** in your browser:
-	- Path: `PAC4_carlestrullas/doc/_build/html/index.html`
+    - Path: `PAC4_carlestrullas/doc/_build/html/index.html`
 
 ## Testing
 
