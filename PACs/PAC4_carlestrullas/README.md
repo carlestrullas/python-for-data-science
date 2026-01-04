@@ -93,16 +93,17 @@ All functions and modules in this project are documented with Google‑style doc
 
 ## Testing
 
-Run all unit tests with pytest:
+Run the full unit test suite (unittest-based) from `PAC4_carlestrullas/`:
 ```sh
-pytest tests/
+python -m unittest discover tests
 ```
 
 ## Coverage
 
-To check test coverage (if coverage is installed):
+Then execute the tests with coverage tracking and print the summary:
 ```sh
-coverage run -m pytest
+# Ejecuta el siguiente comando desde PAC4_carlestrullas/
+coverage run -m unittest discover tests
 coverage report
 ```
 
@@ -114,5 +115,6 @@ All code follows the Python style guide (PEP8), except in cases where strict adh
 
 To check code style, run:
 ```sh
+# Ejecuta el siguiente comando desde PAC4_carlestrullas/
 pylint src/
 ```
